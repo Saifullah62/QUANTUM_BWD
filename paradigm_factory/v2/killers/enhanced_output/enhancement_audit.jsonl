@@ -1,0 +1,3 @@
+{"original_id": "killfix_unity_0001", "action": "add_minimal_pairs", "rule_id": "minimal_pairs_within_lemma", "reason": "strengthen_disambiguation", "output_count": 3}
+{"original_id": "killfix_snake_0001", "action": "add_minimal_pairs", "rule_id": "minimal_pairs_within_lemma", "reason": "strengthen_disambiguation", "output_count": 3}
+{"original_id": "killfix_wash_0001", "action": "add_minimal_pairs", "rule_id": "minimal_pairs_within_lemma", "reason": "strengthen_disambiguation", "output_count": 1}

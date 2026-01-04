@@ -1,0 +1,19 @@
+{
+  "timestamp": "2026-01-04T10:24:03.507381",
+  "input_file": "paradigm_factory\\v2\\evals_gated\\killers_gold_standard.jsonl",
+  "rules_version": "1.0",
+  "stats": {
+    "total": 3,
+    "kept": 0,
+    "quarantined": 0,
+    "regenerated": 0,
+    "minimal_pairs_added": 7,
+    "flagged": 0
+  },
+  "output_files": {
+    "enhanced": "paradigm_factory\\v2\\killers\\enhanced_output\\enhanced.jsonl",
+    "quarantined": "paradigm_factory\\v2\\killers\\enhanced_output\\quarantined.jsonl",
+    "flagged": "paradigm_factory\\v2\\killers\\enhanced_output\\flagged_for_review.jsonl",
+    "audit": "paradigm_factory\\v2\\killers\\enhanced_output\\enhancement_audit.jsonl"
+  }
+}

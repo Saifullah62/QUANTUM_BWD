@@ -1,0 +1,130 @@
+# Killer Rewrite Rules v1.0
+# =========================
+#
+# Deterministic augmentation rules for killer items.
+# Each rule specifies conditions and transformations.
+#
+# Rule structure:
+#   - id: unique rule identifier
+#     condition: when to apply this rule
+#     action: what transformation to perform
+#     priority: lower runs first (0-100)
+#
+# Actions:
+#   - regenerate_query: Generate new query from in-page sentence
+#   - quarantine: Block item (never regenerate silently)
+#   - add_minimal_pairs: Generate 2-3 query variants with single cue injection
+#   - flag_for_review: Mark for manual review
+
+version: "1.0"
+created: "2026-01-04"
+description: "Initial killer rewrite ruleset"
+
+# Diagnostic cue phrases by sense type
+# Used for minimal pair generation
+cue_phrases:
+  abstract_state:
+    - "of purpose"
+    - "among the team"
+    - "in the group"
+    - "collective"
+  game_engine:
+    - "developed by"
+    - "game engine"
+    - "interactive 3D"
+    - "cross-platform"
+  video_game:
+    - "Nokia phones"
+    - "player steers"
+    - "growing line"
+    - "arcade game"
+  finance:
+    - "tax treatment"
+    - "selling the stock"
+    - "buying it back"
+    - "IRS rule"
+  geography:
+    - "estuary"
+    - "east coast"
+    - "tidal flats"
+  biology:
+    - "ectothermic"
+    - "vertebrate"
+    - "limbless reptile"
+
+# Rewrite rules
+rules:
+  # Rule 1: Quarantine items with disambiguation page patterns
+  - id: quarantine_disambig
+    priority: 0
+    condition:
+      query_contains_any:
+        - "may also refer to"
+        - "may refer to"
+        - "(disambiguation)"
+        - "== See also =="
+        - "For other uses"
+    action: quarantine
+    reason: "disambig_pattern_detected"
+
+  # Rule 2: Quarantine items with list-style content
+  - id: quarantine_list_style
+    priority: 1
+    condition:
+      query_matches_pattern: "^\\s*[-*]\\s+"
+    action: quarantine
+    reason: "list_style_content"
+
+  # Rule 3: Regenerate queries with weak cues
+  - id: regen_weak_cue
+    priority: 10
+    condition:
+      cue_strength_below: 0.4
+      has_valid_sense_page: true
+    action: regenerate_query
+    source: "sense_page_sentence"
+    reason: "weak_cue_strength"
+
+  # Rule 4: Add minimal pairs for within-lemma collision
+  - id: minimal_pairs_within_lemma
+    priority: 20
+    condition:
+      reason_code: "within_lemma_collision"
+      cue_strength_above: 0.6
+    action: add_minimal_pairs
+    num_variants: 3
+    strategy: "inject_single_cue"
+    reason: "strengthen_disambiguation"
+
+  # Rule 5: Quarantine gold alignment failures
+  - id: quarantine_gold_mismatch
+    priority: 5
+    condition:
+      gold_alignment_failed: true
+    action: quarantine
+    reason: "gold_sense_mismatch"
+
+  # Rule 6: Flag surface-form traps for review
+  - id: flag_surface_trap
+    priority: 30
+    condition:
+      reason_code: "cross_domain_confusable"
+      margin_below: 0.05
+    action: flag_for_review
+    reason: "potential_surface_trap"
+
+  # Rule 7: Regenerate junk queries
+  - id: regen_junk_query
+    priority: 8
+    condition:
+      query_length_below: 20
+    action: regenerate_query
+    source: "sense_page_sentence"
+    reason: "query_too_short"
+
+# Audit trail settings
+audit:
+  log_all_actions: true
+  include_original: true
+  include_rule_id: true
+  include_timestamp: true
