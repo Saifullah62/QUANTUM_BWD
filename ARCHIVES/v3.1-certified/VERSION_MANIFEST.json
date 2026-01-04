@@ -1,0 +1,24 @@
+{
+  "version": "v3.1-certified",
+  "frozen_at": "2026-01-04T10:15:00Z",
+  "status": "IMMUTABLE - DO NOT MODIFY",
+  "archive": {
+    "filename": "semanticphase_v3.1_certified_20260104.tar.gz",
+    "sha256": "5b1d1a92e8056532408936db80dbd65b7be4918818a2f6bed4f88fba37062409"
+  },
+  "certification": {
+    "seeds_validated": [42, 123, 456],
+    "hard_slack_crossed_zero": true,
+    "canary_passed": true,
+    "all_seeds_passed": true
+  },
+  "trust_anchors": {
+    "eval_gold_hash": "e1d122539e92e5ddd845549f5a23a0835b996515d4c1b74d97ee3bd4c88247aa",
+    "integrity_ruleset": "v1.0"
+  },
+  "storage_locations": [
+    "local: ARCHIVES/v3.1-certified/",
+    "cloud: [TO BE CONFIGURED]"
+  ],
+  "next_version_rules": "Any modification creates v3.2+. Never edit this archive."
+}

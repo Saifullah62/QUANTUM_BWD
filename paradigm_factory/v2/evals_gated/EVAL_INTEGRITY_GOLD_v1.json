@@ -1,0 +1,92 @@
+{
+  "_metadata": {
+    "version": "1.0.0",
+    "created": "2026-01-04T09:45:00Z",
+    "frozen": true,
+    "purpose": "Calibration weights for eval integrity. NEVER MODIFY - create new version instead.",
+    "hash_algorithm": "sha256",
+    "content_hash": "e1d122539e92e5ddd845549f5a23a0835b996515d4c1b74d97ee3bd4c88247aa",
+    "usage": "If any model change makes these items worse, investigate before proceeding."
+  },
+  "items": [
+    {
+      "eval_id": "killfix_unity_0001",
+      "lemma": "unity",
+      "validation": {
+        "query_source": "Synthetic sentence mimicking wp:Unity_(concept) usage",
+        "why_valid": "Query commits to abstract-state sense via 'unity of purpose' - a phrase only the conceptual sense uses. No game-engine, math, or music cues present.",
+        "distractor_strategy": "within_lemma_collision + definition_style_confusable. Includes game engine (surface token overlap), math (shared 'one' concept), arts (shared 'integration' concept).",
+        "failure_meaning": "Model is not using 'of purpose' as the disambiguating anchor. Attention is landing on surface lemma instead of prepositional complement."
+      },
+      "query": {
+        "text": "In the meeting, the chair asked the team to show unity of purpose before voting on the plan.",
+        "span": {"start": 47, "end": 52, "surface": "unity"},
+        "sense_id": "wp:unity.n.unity#abstract_state",
+        "cue_strength": 0.82,
+        "cue_tier": "high_cue",
+        "diagnostic_cues": ["of purpose", "team", "voting", "meeting"]
+      },
+      "candidates": [
+        {"passage_id": "u_abs_01", "text": "Unity is the state of being one; it can refer to cohesion or agreement within a group.", "sense_id": "wp:unity.n.unity#abstract_state", "is_correct_sense": true},
+        {"passage_id": "u_abs_02", "text": "Political unity describes a situation where factions act together toward a shared objective.", "sense_id": "wp:unity.n.unity#abstract_state", "is_correct_sense": true},
+        {"passage_id": "u_eng_01", "text": "Unity is a cross-platform game engine developed by Unity Technologies for creating interactive 2D and 3D content.", "sense_id": "wp:unity.n.unity#game_engine", "is_correct_sense": false},
+        {"passage_id": "u_math_01", "text": "In mathematics, the multiplicative identity is called a unit or unity in some contexts.", "sense_id": "wp:unity.n.unity#mathematics", "is_correct_sense": false},
+        {"passage_id": "u_music_01", "text": "A musical work may be described as having unity when its themes and motifs feel integrated.", "sense_id": "wp:unity.n.unity#arts_criticism", "is_correct_sense": false}
+      ],
+      "correct_passage_ids": ["u_abs_01", "u_abs_02"]
+    },
+    {
+      "eval_id": "killfix_snake_0001",
+      "lemma": "snake",
+      "validation": {
+        "query_source": "Synthetic sentence mimicking wp:Snake_(video_game_genre) usage",
+        "why_valid": "Query commits to video game sense via 'Nokia phones', 'game', 'player steers', 'growing line', 'collect food'. No biological, tool, or literary cues.",
+        "distractor_strategy": "within_lemma_collision + domain_neighbor_confusable. Includes reptile (dominant sense), bore snake (tool homonym), novel title (proper noun collision).",
+        "failure_meaning": "Model is not anchoring on 'Nokia/phones/player/line/collect' cluster. May be over-weighting the dominant reptile sense or confusing game title with novel title."
+      },
+      "query": {
+        "text": "On early Nokia phones, the Snake game became iconic because the player steers a growing line to collect food.",
+        "span": {"start": 25, "end": 30, "surface": "Snake"},
+        "sense_id": "wp:snake.n.snake#video_game",
+        "cue_strength": 0.86,
+        "cue_tier": "high_cue",
+        "diagnostic_cues": ["Nokia", "phones", "game", "player", "steers", "growing line", "collect"]
+      },
+      "candidates": [
+        {"passage_id": "s_game_01", "text": "Snake is a video game concept where the player maneuvers a line that grows in length, avoiding collisions while collecting items.", "sense_id": "wp:snake.n.snake#video_game", "is_correct_sense": true},
+        {"passage_id": "s_game_02", "text": "A version of Snake shipped on many Nokia handsets, helping popularize the mechanic for mobile play.", "sense_id": "wp:snake.n.snake#video_game", "is_correct_sense": true},
+        {"passage_id": "s_rept_01", "text": "Snakes are elongated, limbless reptiles; many are ectothermic vertebrates covered in overlapping scales.", "sense_id": "wp:snake.n.snake#reptile", "is_correct_sense": false},
+        {"passage_id": "s_tool_01", "text": "A bore snake is a cleaning tool pulled through a firearm barrel to remove residue.", "sense_id": "wp:snake.n.snake#device", "is_correct_sense": false},
+        {"passage_id": "s_novel_01", "text": "Snake! is a novel title; in literature contexts the word refers to the work rather than an animal or game mechanic.", "sense_id": "wp:snake.n.snake#literature_title", "is_correct_sense": false}
+      ],
+      "correct_passage_ids": ["s_game_01", "s_game_02"]
+    },
+    {
+      "eval_id": "killfix_wash_0001",
+      "lemma": "wash",
+      "validation": {
+        "query_source": "Synthetic sentence mimicking wp:Wash_sale usage",
+        "why_valid": "Query commits to finance sense via 'accountant', 'stock', 'loss', 'buying it back', 'wash sale rule'. No geographic, acronym, or cleaning-verb cues.",
+        "distractor_strategy": "within_lemma_collision + acronym_collision + proper_noun_collision + dictionary_style_confusable. Includes The Wash (geography), WASH (acronym), idiom (washout), verb sense (cleaning).",
+        "failure_meaning": "Model is not using the finance-specific cue cluster. May be defaulting to more common verb sense or getting pulled by proper noun / acronym surface patterns."
+      },
+      "query": {
+        "text": "The accountant warned that selling the stock at a loss and buying it back too soon can trigger a wash sale rule.",
+        "span": {"start": 97, "end": 101, "surface": "wash"},
+        "sense_id": "wp:wash.n.wash#finance_wash_sale",
+        "cue_strength": 0.90,
+        "cue_tier": "high_cue",
+        "diagnostic_cues": ["accountant", "stock", "loss", "buying it back", "trigger", "sale rule"]
+      },
+      "candidates": [
+        {"passage_id": "w_fin_01", "text": "A wash sale occurs when a security is sold at a loss and the same or a substantially identical security is purchased within a specified window, affecting tax treatment of the loss.", "sense_id": "wp:wash.n.wash#finance_wash_sale", "is_correct_sense": true},
+        {"passage_id": "w_fin_02", "text": "Wash sale rules are intended to prevent claiming a tax loss while maintaining an effectively unchanged investment position.", "sense_id": "wp:wash.n.wash#finance_wash_sale", "is_correct_sense": true},
+        {"passage_id": "w_geo_01", "text": "The Wash is a shallow bay and estuary on the east coast of England, known for tidal flats and wildlife.", "sense_id": "wp:wash.n.wash#geography_bay", "is_correct_sense": false},
+        {"passage_id": "w_dev_01", "text": "WASH refers to water, sanitation, and hygiene programs in international development and public health.", "sense_id": "wp:wash.n.wash#acronym_watsan", "is_correct_sense": false},
+        {"passage_id": "w_dict_01", "text": "In informal usage, a wash can mean a situation with no clear winner or overall result; effectively a washout.", "sense_id": "wk:wash.n.wash#idiom_no_result", "is_correct_sense": false},
+        {"passage_id": "w_verb_01", "text": "To wash is to clean with water or another liquid, often using soap or detergent.", "sense_id": "wn:wash.v.wash.v.01", "is_correct_sense": false}
+      ],
+      "correct_passage_ids": ["w_fin_01", "w_fin_02"]
+    }
+  ]
+}
