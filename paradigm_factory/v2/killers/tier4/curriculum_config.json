@@ -1,0 +1,9 @@
+{
+  "tier4_file": "C:\\Users\\ripva\\Desktop\\QUANTUM_BWD\\paradigm_factory\\v2\\killers\\tier4\\tier4_killers.jsonl",
+  "injection_rate": 0.05,
+  "injection_strategy": "fixed_quota_per_batch",
+  "quota_per_batch": 1,
+  "shuffle_per_epoch": true,
+  "weight_multiplier": 2.0,
+  "notes": "Tier4 items should appear at controlled rate, not drowned by easy majority"
+}

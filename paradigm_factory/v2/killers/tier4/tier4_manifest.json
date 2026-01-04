@@ -1,0 +1,22 @@
+{
+  "version": "1.0",
+  "created": "2026-01-04T10:25:44.439011",
+  "config": {
+    "margin_threshold": -0.15,
+    "severity_threshold": 1.8,
+    "rank_threshold": 10,
+    "max_items": 100,
+    "target_rate": 0.05
+  },
+  "source_file": "C:\\Users\\ripva\\Desktop\\QUANTUM_BWD\\paradigm_factory\\v2\\dashboard_reports\\killers_20260104_095916.jsonl",
+  "total_killers": 20,
+  "tier4_count": 20,
+  "tier4_rate": 1.0,
+  "criteria_breakdown": {
+    "margin": 20,
+    "severity": 20,
+    "rank": 2,
+    "multiple": 20
+  },
+  "fingerprint": "tier4_v1|n=20|rate=100.0%|max_sev=1.95"
+}
