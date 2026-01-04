@@ -1,0 +1,18 @@
+{
+  "build_id": "20260104_102139",
+  "timestamp": "2026-01-04T10:21:39.707709",
+  "input_retrieval": "C:\\Users\\ripva\\Desktop\\QUANTUM_BWD\\paradigm_factory\\v2\\evals\\eval_multi_sense_retrieval.jsonl",
+  "input_coherence": "C:\\Users\\ripva\\Desktop\\QUANTUM_BWD\\paradigm_factory\\v2\\evals\\eval_multi_step_coherence.jsonl",
+  "gold_version": "v1",
+  "gold_hash": "e1d122539e92e5ddd845549f5a23a0835b996515d4c1b74d97ee3bd4c88247aa",
+  "integrity_ruleset": "v1.0",
+  "retrieval_valid": 358,
+  "retrieval_quarantined": 37,
+  "retrieval_regen": 105,
+  "coherence_valid": 200,
+  "coherence_quarantined": 0,
+  "coherence_regen": 0,
+  "retrieval_quarantine_rate": 0.074,
+  "coherence_quarantine_rate": 0.0,
+  "fingerprint": "gold=v1|rules=v1.0|hash=e1d122539e92|rq=7.4%|cq=0.0%"
+}
