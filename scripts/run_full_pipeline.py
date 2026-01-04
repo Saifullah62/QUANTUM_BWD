@@ -16,6 +16,7 @@ This script:
 
 Usage:
   python scripts/run_full_pipeline.py                    # Full eval pipeline
+  python scripts/run_full_pipeline.py --strict           # With ship-blocker gates
   python scripts/run_full_pipeline.py --with-training    # Include training
   python scripts/run_full_pipeline.py --quick            # Quick validation only
 
@@ -25,6 +26,7 @@ Exit codes:
   2 = Gating failed
   3 = Eval failed
   4 = Training failed
+  5 = Ship-blocker gates failed (--strict mode)
 """
 
 import os
@@ -53,6 +55,29 @@ ARCHIVE_FILE = ARCHIVE_DIR / "semanticphase_v3.1_certified_20260104.tar.gz"
 EVALS_DIR = PROJECT_ROOT / "paradigm_factory" / "v2" / "evals_gated"
 DASHBOARD_DIR = PROJECT_ROOT / "paradigm_factory" / "v2" / "dashboard_reports"
 
+# Ship-blocker thresholds (conservative start, ratchet up over time)
+# These are the minimum acceptable values for a "shippable" model
+SHIP_BLOCKER_THRESHOLDS = {
+    # Retrieval gates (on real_usage data only)
+    "retrieval_real_top1": 0.30,   # Min 30% Top-1 accuracy
+    "retrieval_real_top3": 0.50,   # Min 50% Top-3 accuracy
+    # Coherence gate
+    "coherence_accuracy": 0.80,    # Min 80% per-step accuracy
+}
+
+
+@dataclass
+class ShipBlockerResult:
+    """Result of ship-blocker gate checks."""
+    passed: bool
+    retrieval_top1_ok: bool
+    retrieval_top3_ok: bool
+    coherence_ok: bool
+    retrieval_top1_actual: float
+    retrieval_top3_actual: float
+    coherence_actual: float
+    failures: List[str]
+
 
 @dataclass
 class PipelineResult:
@@ -68,6 +93,7 @@ class PipelineResult:
     dashboard_path: Optional[str]
     duration_seconds: float
     errors: List[str]
+    ship_blocker_result: Optional[Dict] = None  # ShipBlockerResult as dict
 
 
 def print_banner(text: str, char: str = "="):
@@ -323,6 +349,95 @@ def stage_run_evaluations(quick: bool = False) -> Tuple[bool, Dict]:
         return False, {'error': str(e)}
 
 
+def stage_check_ship_blockers(dashboard_path: Optional[str]) -> Tuple[bool, ShipBlockerResult]:
+    """Stage 4b: Check ship-blocker gates (only in --strict mode).
+
+    This is the "sanity eval" gate that ensures the model meets minimum
+    acceptable behavior thresholds before being considered shippable.
+    """
+    print_stage("CHECK SHIP-BLOCKER GATES")
+
+    # Default failure result
+    default_result = ShipBlockerResult(
+        passed=False,
+        retrieval_top1_ok=False,
+        retrieval_top3_ok=False,
+        coherence_ok=False,
+        retrieval_top1_actual=0.0,
+        retrieval_top3_actual=0.0,
+        coherence_actual=0.0,
+        failures=["No dashboard available"]
+    )
+
+    if not dashboard_path:
+        print("[X] No dashboard to check", flush=True)
+        return False, default_result
+
+    # Load dashboard
+    try:
+        with open(dashboard_path, 'r') as f:
+            dashboard = json.load(f)
+    except Exception as e:
+        print(f"[X] Failed to load dashboard: {e}", flush=True)
+        default_result.failures = [f"Failed to load dashboard: {e}"]
+        return False, default_result
+
+    # Extract metrics
+    retrieval_top1 = dashboard.get('retrieval_real_top1', 0.0)
+    retrieval_top3 = dashboard.get('retrieval_real_top3', 0.0)
+    coherence_acc = dashboard.get('coherence_per_step_accuracy', 0.0)
+
+    # Check thresholds
+    failures = []
+
+    top1_ok = retrieval_top1 >= SHIP_BLOCKER_THRESHOLDS['retrieval_real_top1']
+    if not top1_ok:
+        failures.append(
+            f"retrieval_real_top1: {retrieval_top1:.1%} < {SHIP_BLOCKER_THRESHOLDS['retrieval_real_top1']:.0%}"
+        )
+        print(f"[X] Retrieval Top-1: {retrieval_top1:.1%} < {SHIP_BLOCKER_THRESHOLDS['retrieval_real_top1']:.0%}", flush=True)
+    else:
+        print(f"[OK] Retrieval Top-1: {retrieval_top1:.1%} >= {SHIP_BLOCKER_THRESHOLDS['retrieval_real_top1']:.0%}", flush=True)
+
+    top3_ok = retrieval_top3 >= SHIP_BLOCKER_THRESHOLDS['retrieval_real_top3']
+    if not top3_ok:
+        failures.append(
+            f"retrieval_real_top3: {retrieval_top3:.1%} < {SHIP_BLOCKER_THRESHOLDS['retrieval_real_top3']:.0%}"
+        )
+        print(f"[X] Retrieval Top-3: {retrieval_top3:.1%} < {SHIP_BLOCKER_THRESHOLDS['retrieval_real_top3']:.0%}", flush=True)
+    else:
+        print(f"[OK] Retrieval Top-3: {retrieval_top3:.1%} >= {SHIP_BLOCKER_THRESHOLDS['retrieval_real_top3']:.0%}", flush=True)
+
+    coherence_ok = coherence_acc >= SHIP_BLOCKER_THRESHOLDS['coherence_accuracy']
+    if not coherence_ok:
+        failures.append(
+            f"coherence_accuracy: {coherence_acc:.1%} < {SHIP_BLOCKER_THRESHOLDS['coherence_accuracy']:.0%}"
+        )
+        print(f"[X] Coherence: {coherence_acc:.1%} < {SHIP_BLOCKER_THRESHOLDS['coherence_accuracy']:.0%}", flush=True)
+    else:
+        print(f"[OK] Coherence: {coherence_acc:.1%} >= {SHIP_BLOCKER_THRESHOLDS['coherence_accuracy']:.0%}", flush=True)
+
+    passed = top1_ok and top3_ok and coherence_ok
+
+    result = ShipBlockerResult(
+        passed=passed,
+        retrieval_top1_ok=top1_ok,
+        retrieval_top3_ok=top3_ok,
+        coherence_ok=coherence_ok,
+        retrieval_top1_actual=retrieval_top1,
+        retrieval_top3_actual=retrieval_top3,
+        coherence_actual=coherence_acc,
+        failures=failures
+    )
+
+    if passed:
+        print(f"\n[OK] All ship-blocker gates PASSED", flush=True)
+    else:
+        print(f"\n[X] Ship-blocker gates FAILED: {len(failures)} violation(s)", flush=True)
+
+    return passed, result
+
+
 def stage_run_training(seed: int = 42) -> Tuple[bool, Dict]:
     """Stage 5: Run one-seed training (optional)."""
     print_stage(f"RUN TRAINING (seed={seed})")
@@ -378,6 +493,15 @@ def emit_final_fingerprint(result: PipelineResult):
 
     status = "[OK]" if result.success else "[X]"
 
+    # Format ship-blocker status
+    if result.ship_blocker_result:
+        sbr = result.ship_blocker_result
+        ship_status = "PASSED" if sbr.get('passed') else "FAILED"
+        ship_detail = f"top1={sbr.get('retrieval_top1_actual', 0):.1%}|top3={sbr.get('retrieval_top3_actual', 0):.1%}|coh={sbr.get('coherence_actual', 0):.1%}"
+    else:
+        ship_status = "N/A"
+        ship_detail = ""
+
     print(f"""
 {status} Pipeline Result
 
@@ -389,13 +513,15 @@ def emit_final_fingerprint(result: PipelineResult):
     Gold Hash:      {'VERIFIED' if result.gold_hash_verified else 'FAILED'}
     Integrity:      {result.integrity_fingerprint or 'N/A'}
     Eval:           {result.eval_fingerprint or 'N/A'}
+    Ship-Blockers:  {ship_status} {ship_detail}
     Training:       {result.training_fingerprint or 'N/A'}
 """)
 
     if result.errors:
         print("    Errors:")
         for err in result.errors:
-            print(f"      - {err[:80]}")
+            err_str = str(err)[:80] if not isinstance(err, str) else err[:80]
+            print(f"      - {err_str}")
 
     # Write result file
     result_file = DASHBOARD_DIR / f"pipeline_run_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json"
@@ -406,8 +532,9 @@ def emit_final_fingerprint(result: PipelineResult):
 
     print(f"\n    Result saved: {result_file.name}")
 
-    # Final fingerprint
-    final_fp = f"pipeline|gold={'ok' if result.gold_hash_verified else 'fail'}|stages={len(result.stages_completed)}/{len(result.stages_completed) + len(result.stages_failed)}"
+    # Final fingerprint with ship-blocker info
+    ship_fp = f"|ship={ship_status.lower()}" if result.ship_blocker_result else ""
+    final_fp = f"pipeline|gold={'ok' if result.gold_hash_verified else 'fail'}|stages={len(result.stages_completed)}/{len(result.stages_completed) + len(result.stages_failed)}{ship_fp}"
     print(f"\n    FINGERPRINT: {final_fp}")
 
 
@@ -434,14 +561,18 @@ Examples:
                        help="Random seed for training (default: 42)")
     parser.add_argument("--skip-gating", action="store_true",
                        help="Skip integrity gating stage")
+    parser.add_argument("--strict", action="store_true",
+                       help="Enable ship-blocker gates (hard-fail on threshold violations)")
 
     args = parser.parse_args()
 
     print_banner("QUANTUM_BWD FULL PIPELINE", "#")
-    print(f"Started: {datetime.now().isoformat()}")
-    print(f"Mode: {'quick' if args.quick else 'full'}")
+    print(f"Started: {datetime.now().isoformat()}", flush=True)
+    print(f"Mode: {'quick' if args.quick else 'full'}", flush=True)
+    if args.strict:
+        print(f"Strict mode: ENABLED (ship-blocker gates active)", flush=True)
     if args.with_training:
-        print(f"Training: enabled (seed={args.seed})")
+        print(f"Training: enabled (seed={args.seed})", flush=True)
 
     start_time = datetime.now()
 
@@ -454,6 +585,7 @@ Examples:
     eval_fp = None
     training_fp = None
     dashboard_path = None
+    ship_blocker_result = None
 
     # Stage 1: Validate environment
     # Skip slow ML imports in validate-only mode
@@ -500,6 +632,18 @@ Examples:
     elif args.validate_only:
         print("\n>>> STAGE: EVALUATIONS (skipped)", flush=True)
 
+    # Stage 4b: Check ship-blocker gates (only in --strict mode)
+    if not stages_failed and args.strict and not args.validate_only:
+        ok, blocker_result = stage_check_ship_blockers(dashboard_path)
+        ship_blocker_result = asdict(blocker_result)
+        if ok:
+            stages_completed.append("ship_blockers")
+        else:
+            stages_failed.append("ship_blockers")
+            errors.append(f"Ship-blocker gates failed: {blocker_result.failures}")
+    elif args.strict and args.validate_only:
+        print("\n>>> STAGE: SHIP-BLOCKER GATES (skipped)", flush=True)
+
     # Stage 5: Run training (optional, skip in validate-only mode)
     if not stages_failed and args.with_training and not args.validate_only:
         ok, results = stage_run_training(seed=args.seed)
@@ -528,7 +672,8 @@ Examples:
         training_fingerprint=training_fp,
         dashboard_path=dashboard_path,
         duration_seconds=duration,
-        errors=errors
+        errors=errors,
+        ship_blocker_result=ship_blocker_result
     )
 
     # Emit final fingerprint
@@ -543,8 +688,10 @@ Examples:
         sys.exit(2)
     elif "evaluations" in stages_failed:
         sys.exit(3)
+    elif "ship_blockers" in stages_failed:
+        sys.exit(5)  # Ship-blocker gate failure
     else:
-        sys.exit(4)
+        sys.exit(4)  # Training or other failure
 
 
 if __name__ == "__main__":
