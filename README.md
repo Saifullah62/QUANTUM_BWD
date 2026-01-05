@@ -1,5 +1,15 @@
 # QUANTUM_BWD
 
+> **ARCHIVE ONLY**
+>
+> This repository is frozen for historical reference. All active development has moved to:
+>
+> **https://github.com/Saifullah62/crucible**
+>
+> Do not submit PRs or issues here. The crucible repo contains the clean, production-ready harness without generated artifacts.
+
+---
+
 Quantum-inspired embedding model with semantic phase layers and the Crucible evaluation harness.
 
 ## Overview
