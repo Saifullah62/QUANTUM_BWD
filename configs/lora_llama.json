@@ -1,0 +1,35 @@
+{
+    "base_model": "llama3.1:8b",
+    "vocab_size": 128256,
+    "hidden_dim": 4096,
+    "num_layers": 32,
+    "num_heads": 32,
+    "intermediate_dim": 14336,
+    "max_seq_length": 8192,
+    "dropout": 0.0,
+
+    "use_semantic_phase": true,
+    "num_phase_components": 16,
+
+    "use_retrocausal": true,
+    "retrocausal_layers": [8, 16, 24],
+    "retrocausal_window": 512,
+
+    "use_lindblad": true,
+    "lindblad_gamma": 0.05,
+
+    "use_qualia": true,
+    "num_qualia_channels": 8,
+
+    "use_emergent": true,
+    "num_attractors": 32,
+
+    "lora_config": {
+        "r": 16,
+        "alpha": 32,
+        "dropout": 0.05,
+        "target_modules": ["q_proj", "k_proj", "v_proj", "o_proj", "gate_proj", "up_proj", "down_proj"]
+    },
+
+    "_comment": "LoRA fine-tuning config for Llama 3.1 8B on gpu-ramp"
+}

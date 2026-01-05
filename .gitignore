@@ -62,3 +62,19 @@ checkpoints/
 .env
 .env.local
 secrets.json
+
+# Large experiment outputs (too big for GitHub)
+runs/
+ablation_runs/
+proof_ablation_runs/
+paradigm_factory/v2/bundles/
+paradigm_factory/v2/bundles_v22/
+paradigm_factory/v2/bundles_v23/
+paradigm_factory/v2/processed/
+paradigm_factory/v2/raw_events/
+
+# Windows artifacts
+nul
+
+# Embedded git repos (certification archives)
+EVIDENCE/semanticphase_certified_*/

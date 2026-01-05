@@ -1,0 +1,19 @@
+{
+  "timestamp": "2026-01-04T10:29:42.952937",
+  "success": false,
+  "stages_completed": [
+    "validate_env"
+  ],
+  "stages_failed": [
+    "verify_hash"
+  ],
+  "gold_hash_verified": false,
+  "integrity_fingerprint": null,
+  "eval_fingerprint": null,
+  "training_fingerprint": null,
+  "dashboard_path": null,
+  "duration_seconds": 1512.780372,
+  "errors": [
+    "Gold hash verification failed"
+  ]
+}

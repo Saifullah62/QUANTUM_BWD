@@ -1,0 +1,300 @@
+{
+  "timestamp": "2026-01-04T11:20:35.578404",
+  "run_id": "20260104_112035",
+  "canary_pass": true,
+  "canary_score": 0.95,
+  "slack_pass": true,
+  "slack_value": 0.05,
+  "integrity_preflight": {
+    "passed": true,
+    "gold_file_valid": true,
+    "gold_hash_verified": true,
+    "code_hash_match": true,
+    "expected_hash": "e1d122539e92e5ddd845549f5a23a0835b996515d4c1b74d97ee3bd4c88247aa",
+    "actual_hash": "e1d122539e92e5ddd845549f5a23a0835b996515d4c1b74d97ee3bd4c88247aa",
+    "items_valid": 358,
+    "items_quarantined": 37,
+    "items_regenerated": 105,
+    "quarantine_rate": 0.074,
+    "gold_version": "v1",
+    "error_message": null
+  },
+  "retrieval_top1": 0.422,
+  "retrieval_top3": 0.686,
+  "retrieval_top5": 0.79,
+  "retrieval_rank_median": 2.0,
+  "retrieval_rank_p90": 12.0,
+  "retrieval_by_tier": {
+    "high_cue": {
+      "top1": 0.41598360655737704,
+      "top3": 0.6844262295081968,
+      "top5": 0.7909836065573771,
+      "count": 488
+    },
+    "medium_cue": {
+      "top1": 0.42857142857142855,
+      "top3": 0.5714285714285714,
+      "top5": 0.5714285714285714,
+      "count": 7
+    },
+    "low_cue": {
+      "top1": 1.0,
+      "top3": 1.0,
+      "top5": 1.0,
+      "count": 5
+    }
+  },
+  "retrieval_margin_mean": -0.05723177758103901,
+  "retrieval_margin_p10": -0.1498319327731092,
+  "retrieval_real_top1": 0.422,
+  "retrieval_real_top3": 0.686,
+  "retrieval_real_count": 500,
+  "retrieval_synth_top1": 0.0,
+  "retrieval_synth_top3": 0.0,
+  "retrieval_synth_count": 0,
+  "coherence_per_step_accuracy": 1.0,
+  "coherence_transition_precision": 1.0,
+  "coherence_transition_recall": 1.0,
+  "coherence_transition_f1": 1.0,
+  "coherence_final_state_accuracy": 1.0,
+  "coherence_by_shifts": {
+    "1_shift": {
+      "per_step_acc": 1.0,
+      "final_state_acc": 1.0,
+      "count": 164
+    },
+    "2_shift": {
+      "per_step_acc": 1.0,
+      "final_state_acc": 1.0,
+      "count": 36
+    },
+    "2+_shifts": {
+      "per_step_acc": 1.0,
+      "final_state_acc": 1.0,
+      "count": 36
+    }
+  },
+  "top_killers": [
+    {
+      "type": "retrieval",
+      "eval_id": "0ccde50aff3c",
+      "lemma": "unity",
+      "cue_tier": "high_cue",
+      "best_correct_rank": 5,
+      "margin": -0.9454941860465116,
+      "reason_code": "within_lemma_collision",
+      "wrong_sense_id": "wp:unity.n.unity#context",
+      "severity": 1.9454941860465116
+    },
+    {
+      "type": "retrieval",
+      "eval_id": "988591037366",
+      "lemma": "snake",
+      "cue_tier": "high_cue",
+      "best_correct_rank": 2,
+      "margin": -0.9158730158730158,
+      "reason_code": "within_lemma_collision",
+      "wrong_sense_id": "wp:snake.n.snake#snake",
+      "severity": 1.9158730158730157
+    },
+    {
+      "type": "retrieval",
+      "eval_id": "646ef381e27c",
+      "lemma": "think",
+      "cue_tier": "high_cue",
+      "best_correct_rank": 3,
+      "margin": -0.9155354449472096,
+      "reason_code": "within_lemma_collision",
+      "wrong_sense_id": "wp:think.n.think#book",
+      "severity": 1.9155354449472095
+    },
+    {
+      "type": "retrieval",
+      "eval_id": "925ae626178c",
+      "lemma": "flag",
+      "cue_tier": "high_cue",
+      "best_correct_rank": 13,
+      "margin": -0.9131944444444444,
+      "reason_code": "within_lemma_collision",
+      "wrong_sense_id": "wp:flag.n.flag#crater",
+      "severity": 1.9131944444444444
+    },
+    {
+      "type": "retrieval",
+      "eval_id": "9907c8706643",
+      "lemma": "sweat",
+      "cue_tier": "high_cue",
+      "best_correct_rank": 3,
+      "margin": -0.9116541353383458,
+      "reason_code": "within_lemma_collision",
+      "wrong_sense_id": "wp:sweat.n.sweat#hypothesis",
+      "severity": 1.9116541353383458
+    },
+    {
+      "type": "retrieval",
+      "eval_id": "2a007e707d75",
+      "lemma": "wash",
+      "cue_tier": "high_cue",
+      "best_correct_rank": 2,
+      "margin": -0.9035326086956522,
+      "reason_code": "within_lemma_collision",
+      "wrong_sense_id": "wp:wash.n.wash#distilling",
+      "severity": 1.9035326086956523
+    },
+    {
+      "type": "retrieval",
+      "eval_id": "a9e9ef701526",
+      "lemma": "nut",
+      "cue_tier": "high_cue",
+      "best_correct_rank": 2,
+      "margin": -0.900509204857031,
+      "reason_code": "within_lemma_collision",
+      "wrong_sense_id": "wp:nut.n.nut#context",
+      "severity": 1.900509204857031
+    },
+    {
+      "type": "retrieval",
+      "eval_id": "f2439d716a0a",
+      "lemma": "odd",
+      "cue_tier": "high_cue",
+      "best_correct_rank": 19,
+      "margin": -0.8976190476190476,
+      "reason_code": "within_lemma_collision",
+      "wrong_sense_id": "wp:odd.n.odd#context",
+      "severity": 1.8976190476190475
+    },
+    {
+      "type": "retrieval",
+      "eval_id": "dba7821fe7eb",
+      "lemma": "sweat",
+      "cue_tier": "high_cue",
+      "best_correct_rank": 3,
+      "margin": -0.895320197044335,
+      "reason_code": "within_lemma_collision",
+      "wrong_sense_id": "wp:sweat.n.sweat#sweat",
+      "severity": 1.895320197044335
+    },
+    {
+      "type": "retrieval",
+      "eval_id": "0b9b119534cc",
+      "lemma": "logic",
+      "cue_tier": "high_cue",
+      "best_correct_rank": 3,
+      "margin": -0.89375,
+      "reason_code": "within_lemma_collision",
+      "wrong_sense_id": "wp:logic.n.logic#logic",
+      "severity": 1.89375
+    },
+    {
+      "type": "retrieval",
+      "eval_id": "e37638f54067",
+      "lemma": "wash",
+      "cue_tier": "high_cue",
+      "best_correct_rank": 4,
+      "margin": -0.8928571428571429,
+      "reason_code": "within_lemma_collision",
+      "wrong_sense_id": "wp:wash.n.wash#context",
+      "severity": 1.8928571428571428
+    },
+    {
+      "type": "retrieval",
+      "eval_id": "81ad9de07e18",
+      "lemma": "bump",
+      "cue_tier": "high_cue",
+      "best_correct_rank": 3,
+      "margin": -0.8902325581395348,
+      "reason_code": "within_lemma_collision",
+      "wrong_sense_id": "wp:bump.n.bump#context",
+      "severity": 1.8902325581395347
+    },
+    {
+      "type": "retrieval",
+      "eval_id": "a041e0e9b856",
+      "lemma": "fly",
+      "cue_tier": "high_cue",
+      "best_correct_rank": 10,
+      "margin": -0.8897435897435897,
+      "reason_code": "within_lemma_collision",
+      "wrong_sense_id": "wp:fly.n.fly#fly",
+      "severity": 1.8897435897435897
+    },
+    {
+      "type": "retrieval",
+      "eval_id": "89122826cc0d",
+      "lemma": "real",
+      "cue_tier": "high_cue",
+      "best_correct_rank": 2,
+      "margin": -0.8850931677018634,
+      "reason_code": "within_lemma_collision",
+      "wrong_sense_id": "wp:real.n.real#context",
+      "severity": 1.8850931677018634
+    },
+    {
+      "type": "retrieval",
+      "eval_id": "130af060a67c",
+      "lemma": "flag",
+      "cue_tier": "high_cue",
+      "best_correct_rank": 6,
+      "margin": -0.8838383838383839,
+      "reason_code": "within_lemma_collision",
+      "wrong_sense_id": "wp:flag.n.flag#flag",
+      "severity": 1.8838383838383839
+    },
+    {
+      "type": "retrieval",
+      "eval_id": "3d03cf3502e8",
+      "lemma": "youth",
+      "cue_tier": "high_cue",
+      "best_correct_rank": 9,
+      "margin": -0.8754789272030651,
+      "reason_code": "within_lemma_collision",
+      "wrong_sense_id": "wp:youth.n.youth#1917_film",
+      "severity": 1.8754789272030652
+    },
+    {
+      "type": "retrieval",
+      "eval_id": "8d1eea30436c",
+      "lemma": "rhythm",
+      "cue_tier": "high_cue",
+      "best_correct_rank": 2,
+      "margin": -0.8722109533468559,
+      "reason_code": "within_lemma_collision",
+      "wrong_sense_id": "wp:rhythm.n.rhythm#rhythm",
+      "severity": 1.872210953346856
+    },
+    {
+      "type": "retrieval",
+      "eval_id": "fc036080314b",
+      "lemma": "ford",
+      "cue_tier": "high_cue",
+      "best_correct_rank": 2,
+      "margin": -0.8717171717171717,
+      "reason_code": "within_lemma_collision",
+      "wrong_sense_id": "wp:ford.n.ford#context",
+      "severity": 1.8717171717171717
+    },
+    {
+      "type": "retrieval",
+      "eval_id": "8a454f7800e3",
+      "lemma": "organ",
+      "cue_tier": "high_cue",
+      "best_correct_rank": 5,
+      "margin": -0.8708333333333333,
+      "reason_code": "within_lemma_collision",
+      "wrong_sense_id": "wp:organ.n.organ#biology",
+      "severity": 1.8708333333333333
+    },
+    {
+      "type": "retrieval",
+      "eval_id": "b2a3bd09406e",
+      "lemma": "attack",
+      "cue_tier": "high_cue",
+      "best_correct_rank": 3,
+      "margin": -0.8663101604278075,
+      "reason_code": "within_lemma_collision",
+      "wrong_sense_id": "wp:attack.n.attack#fencing",
+      "severity": 1.8663101604278074
+    }
+  ],
+  "composite_score": 76.9
+}

@@ -1,0 +1,17 @@
+{
+  "timestamp": "2026-01-04T10:48:38.217177",
+  "success": true,
+  "stages_completed": [
+    "validate_env",
+    "verify_hash",
+    "evaluations"
+  ],
+  "stages_failed": [],
+  "gold_hash_verified": true,
+  "integrity_fingerprint": null,
+  "eval_fingerprint": "unknown",
+  "training_fingerprint": null,
+  "dashboard_path": "C:\\Users\\ripva\\Desktop\\QUANTUM_BWD\\paradigm_factory\\v2\\dashboard_reports\\dashboard_20260104_112035.json",
+  "duration_seconds": 1917.394871,
+  "errors": []
+}

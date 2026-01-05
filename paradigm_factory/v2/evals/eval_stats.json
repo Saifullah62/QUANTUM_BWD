@@ -1,0 +1,17 @@
+{
+  "timestamp": "2026-01-04T09:12:52.154609",
+  "eval_0_golden_canary": {
+    "file": "paradigm_factory\\v2\\evals\\eval_0_golden_canary_FROZEN.json",
+    "num_items": 300,
+    "checksum": "ec062354fdd2337780395d5c31c9b0854488c0490748d72199e4def7ec6d5faf",
+    "frozen": true
+  },
+  "multi_sense_retrieval": {
+    "file": "paradigm_factory\\v2\\evals\\eval_multi_sense_retrieval.jsonl",
+    "num_items": 500
+  },
+  "multi_step_coherence": {
+    "file": "paradigm_factory\\v2\\evals\\eval_multi_step_coherence.jsonl",
+    "num_items": 200
+  }
+}

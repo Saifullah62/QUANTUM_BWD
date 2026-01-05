@@ -1,0 +1,3916 @@
+{
+  "version": "eval_0_frozen",
+  "created": "2026-01-04T09:12:52.058858",
+  "frozen": true,
+  "description": "Golden canary regression gate - NEVER MODIFY",
+  "purpose": "If any change makes performance on this set worse, stop and investigate",
+  "num_items": 300,
+  "tier_distribution": {
+    "high_cue": 100,
+    "medium_cue": 100,
+    "low_cue": 100
+  },
+  "items": [
+    {
+      "text": "Reception An Entertainment Weekly columnist repudiated the brand's claim that Trump Ice is \"one of the highest quality spring waters in the world with an optimum mineral content\" by pointing out its \"very low\" mineral content, plus the fact that it is bottled in plastic, as opposed to glass.",
+      "lemma": "spring",
+      "span": {
+        "start": 119,
+        "end": 125,
+        "surface": "spring"
+      },
+      "sense_id": "wp:spring.n.spring#water_source",
+      "sense_gloss": "a natural source of water flowing from the ground",
+      "cue_strength": 0.4444444444444444,
+      "cue_tier": "medium_cue"
+    },
+    {
+      "text": "\"Spring, Summer, Autumn, Winter\" and \"Plum blossom (\u6885), Orchid (\u862d), Chrysanthemum (\u83ca), Bamboo (\u7af9)\" can also be used.",
+      "lemma": "spring",
+      "span": {
+        "start": 1,
+        "end": 7,
+        "surface": "Spring"
+      },
+      "sense_id": "wp:spring.n.spring#season",
+      "sense_gloss": "the season between winter and summer when plants begin to grow",
+      "cue_strength": 0.16666666666666666,
+      "cue_tier": "low_cue"
+    },
+    {
+      "text": "Proof of claim A written statement describing the reason a debtor owes a creditor money, which typically sets forth the amount of money owed.",
+      "lemma": "set",
+      "span": {
+        "start": 105,
+        "end": 108,
+        "surface": "set"
+      },
+      "sense_id": "wp:set.n.set#legal",
+      "sense_gloss": "set in legal context",
+      "cue_strength": 1.0,
+      "cue_tier": "high_cue"
+    },
+    {
+      "text": "Set theory is the branch of mathematical logic that studies sets, which can be informally described as collections of objects.",
+      "lemma": "set",
+      "span": {
+        "start": 0,
+        "end": 3,
+        "surface": "Set"
+      },
+      "sense_id": "wp:set.n.set#context",
+      "sense_gloss": "set (context)",
+      "cue_strength": 1.0,
+      "cue_tier": "high_cue"
+    },
+    {
+      "text": "The term spring refers to develop suddenly",
+      "lemma": "spring",
+      "span": {
+        "start": 9,
+        "end": 15,
+        "surface": "spring"
+      },
+      "sense_id": "wn:spring.v.spring.v.04",
+      "sense_gloss": "develop suddenly",
+      "cue_strength": 0.95,
+      "cue_tier": "high_cue"
+    },
+    {
+      "text": "Riken produced the cultivars 'Nishina otome' (blooms in both spring and autumn, or year-round in a greenhouse), 'Nishina haruka' (larger flowers), and 'Nishina komachi' ('lantern-like' flowers that remain partially closed) in the same way.",
+      "lemma": "spring",
+      "span": {
+        "start": 61,
+        "end": 67,
+        "surface": "spring"
+      },
+      "sense_id": "wp:spring.n.spring#season",
+      "sense_gloss": "the season between winter and summer when plants begin to grow",
+      "cue_strength": 0.16666666666666666,
+      "cue_tier": "low_cue"
+    },
+    {
+      "text": "Basketball Court Lines were removed in 2020 with the construction of the new tennis pavilion.",
+      "lemma": "court",
+      "span": {
+        "start": 11,
+        "end": 16,
+        "surface": "Court"
+      },
+      "sense_id": "wp:court.n.court#sports_area",
+      "sense_gloss": "an area marked for playing tennis, basketball, or similar games",
+      "cue_strength": 0.5714285714285714,
+      "cue_tier": "medium_cue"
+    },
+    {
+      "text": "If a hot spring is connected to a large natural cistern close to such a magma body, the magma may superheat the water in the cistern, raising its temperature above the normal boiling point.",
+      "lemma": "spring",
+      "span": {
+        "start": 9,
+        "end": 15,
+        "surface": "spring"
+      },
+      "sense_id": "wp:spring.n.spring#water_source",
+      "sense_gloss": "a natural source of water flowing from the ground",
+      "cue_strength": 0.6666666666666666,
+      "cue_tier": "medium_cue"
+    },
+    {
+      "text": "A spring is a natural exit point at which groundwater emerges from an aquifer and flows across the ground surface as surface water.",
+      "lemma": "spring",
+      "span": {
+        "start": 2,
+        "end": 8,
+        "surface": "spring"
+      },
+      "sense_id": "wp:spring.n.spring#spring",
+      "sense_gloss": "spring (Spring)",
+      "cue_strength": 1.0,
+      "cue_tier": "high_cue"
+    },
+    {
+      "text": "The brand was discontinued in 2010, but \"Trump Natural Spring Water\" is still listed as exclusively available at Trump-branded hotels, restaurants and golf clubs on Trump's website.",
+      "lemma": "spring",
+      "span": {
+        "start": 55,
+        "end": 61,
+        "surface": "Spring"
+      },
+      "sense_id": "wp:spring.n.spring#water_source",
+      "sense_gloss": "a natural source of water flowing from the ground",
+      "cue_strength": 0.2222222222222222,
+      "cue_tier": "low_cue"
+    },
+    {
+      "text": "the spring was broken",
+      "lemma": "spring",
+      "span": {
+        "start": 4,
+        "end": 10,
+        "surface": "spring"
+      },
+      "sense_id": "wn:spring.n.spring.n.02",
+      "sense_gloss": "a metal elastic device that returns to its shape or position when pushed or pulled or pressed",
+      "cue_strength": 0.95,
+      "cue_tier": "high_cue"
+    },
+    {
+      "text": "Similarly, while {1} is a group generator of the set of integers Z {\\displaystyle \\mathbb {Z} } , {1} is not a monoid generator of the set of integers.",
+      "lemma": "set",
+      "span": {
+        "start": 49,
+        "end": 52,
+        "surface": "set"
+      },
+      "sense_id": "wp:set.n.set#collection",
+      "sense_gloss": "a group of things of the same kind that belong or are used together",
+      "cue_strength": 0.2857142857142857,
+      "cue_tier": "low_cue"
+    },
+    {
+      "text": "A helical torsion spring, is a metal rod or wire in the shape of a helix (coil) that is subjected to twisting about the axis of the coil by sideways forces (bending moments) applied to its ends, twisting the coil tighter.",
+      "lemma": "spring",
+      "span": {
+        "start": 18,
+        "end": 24,
+        "surface": "spring"
+      },
+      "sense_id": "wp:spring.n.spring#elastic_device",
+      "sense_gloss": "a resilient metal coil that returns to its original shape after compression",
+      "cue_strength": 0.6666666666666666,
+      "cue_tier": "medium_cue"
+    },
+    {
+      "text": "Other more specific uses: A torsion bar suspension is a thick, steel torsion-bar spring attached to the body of a vehicle at one end and to a lever arm which attaches to the axle of the wheel at the other.",
+      "lemma": "spring",
+      "span": {
+        "start": 81,
+        "end": 87,
+        "surface": "spring"
+      },
+      "sense_id": "wp:spring.n.spring#elastic_device",
+      "sense_gloss": "a resilient metal coil that returns to its original shape after compression",
+      "cue_strength": 0.2222222222222222,
+      "cue_tier": "low_cue"
+    },
+    {
+      "text": "By solar reckoning, Spring is held to begin 1 February until the first day of Summer on May Day, with the summer and winter solstices being marked as Midsummer and Midwinter respectively, instead of as the beginning of the season as is the case with astronomical reckoning.",
+      "lemma": "spring",
+      "span": {
+        "start": 20,
+        "end": 26,
+        "surface": "Spring"
+      },
+      "sense_id": "wp:spring.n.spring#season",
+      "sense_gloss": "the season between winter and summer when plants begin to grow",
+      "cue_strength": 0.16666666666666666,
+      "cue_tier": "low_cue"
+    },
+    {
+      "text": "In mathematics, a set is a collection of different things; the things are elements or members of the set and are typically mathematical objects: numbers, symbols, points in space, lines, other geometric shapes, variables, or other sets.",
+      "lemma": "set",
+      "span": {
+        "start": 18,
+        "end": 21,
+        "surface": "set"
+      },
+      "sense_id": "wp:set.n.set#collection",
+      "sense_gloss": "a group of things of the same kind that belong or are used together",
+      "cue_strength": 0.2857142857142857,
+      "cue_tier": "low_cue"
+    },
+    {
+      "text": "If G {\\displaystyle G} is a topological group then a subset S {\\displaystyle S} of G {\\displaystyle G} is called a set of topological generators if \u27e8 S \u27e9 {\\displaystyle \\langle S\\rangle } is dense in G {\\displaystyle G} , i.e.",
+      "lemma": "set",
+      "span": {
+        "start": 56,
+        "end": 59,
+        "surface": "set"
+      },
+      "sense_id": "wp:set.n.set#collection",
+      "sense_gloss": "a group of things of the same kind that belong or are used together",
+      "cue_strength": 0.2857142857142857,
+      "cue_tier": "low_cue"
+    },
+    {
+      "text": "Sentencing guidelines A set of rules and principles established by the United States Sentencing Commission that trial judges use as one factor to consider when they determine the sentence for a convicted defendant.",
+      "lemma": "set",
+      "span": {
+        "start": 24,
+        "end": 27,
+        "surface": "set"
+      },
+      "sense_id": "wp:set.n.set#legal",
+      "sense_gloss": "set in legal context",
+      "cue_strength": 1.0,
+      "cue_tier": "high_cue"
+    },
+    {
+      "text": "The film broke the record for biggest opening weekend in Russia and Thailand, and set records for biggest R-rated film and February opening weekends in several other markets.",
+      "lemma": "set",
+      "span": {
+        "start": 82,
+        "end": 85,
+        "surface": "set"
+      },
+      "sense_id": "wp:set.n.set#stage_scenery",
+      "sense_gloss": "the scenery and props used in a theatrical or film production",
+      "cue_strength": 0.5,
+      "cue_tier": "medium_cue"
+    },
+    {
+      "text": "For all practical and legal purposes, the Bar Council of India retains with it, the final power to take decisions in any and all matters related to the legal profession on the whole or with respect to any There are two requirements to practise in India.",
+      "lemma": "bar",
+      "span": {
+        "start": 42,
+        "end": 45,
+        "surface": "Bar"
+      },
+      "sense_id": "wp:bar.n.bar#legal_profession",
+      "sense_gloss": "the legal profession or body of lawyers",
+      "cue_strength": 0.5714285714285714,
+      "cue_tier": "medium_cue"
+    },
+    {
+      "text": "Postberg The area of Postberg, where the carpets of Spring flowers can be seen, is only open during the months of August and September.",
+      "lemma": "spring",
+      "span": {
+        "start": 52,
+        "end": 58,
+        "surface": "Spring"
+      },
+      "sense_id": "wp:spring.n.spring#season",
+      "sense_gloss": "the season between winter and summer when plants begin to grow",
+      "cue_strength": 0.16666666666666666,
+      "cue_tier": "low_cue"
+    },
+    {
+      "text": "&#91; 34 &#93; On a spring the bearing area refers to the amount of area on the top or bottom surface of the spring in contact with the constraining part.",
+      "lemma": "spring",
+      "span": {
+        "start": 20,
+        "end": 26,
+        "surface": "spring"
+      },
+      "sense_id": "wp:spring.n.spring#technology",
+      "sense_gloss": "spring in technology context",
+      "cue_strength": 1.0,
+      "cue_tier": "high_cue"
+    },
+    {
+      "text": "Market In 2023, Highland Spring sold 404.1 million litres of Highland Spring-branded water in the United Kingdom which equates to <2% of the rainfall on the catchment area.",
+      "lemma": "spring",
+      "span": {
+        "start": 25,
+        "end": 31,
+        "surface": "Spring"
+      },
+      "sense_id": "wp:spring.n.spring#water_source",
+      "sense_gloss": "a natural source of water flowing from the ground",
+      "cue_strength": 0.2222222222222222,
+      "cue_tier": "low_cue"
+    },
+    {
+      "text": "United Arab Emirates (2011) In the United Arab Emirates, the Arab Spring saw a sudden and intense demand for democratic reforms.",
+      "lemma": "spring",
+      "span": {
+        "start": 66,
+        "end": 72,
+        "surface": "Spring"
+      },
+      "sense_id": "wp:spring.n.spring#jump_action",
+      "sense_gloss": "to move suddenly upward or forward",
+      "cue_strength": 0.25,
+      "cue_tier": "low_cue"
+    },
+    {
+      "text": "A television show, TV program (British English: programme), or simply a TV show, is the general reference to any content produced for viewing on a television set that is transmitted via over-the-air, satellite, and cable, or distributed digitally on streaming platforms.",
+      "lemma": "set",
+      "span": {
+        "start": 158,
+        "end": 161,
+        "surface": "set"
+      },
+      "sense_id": "wp:set.n.set#television",
+      "sense_gloss": "a television receiver",
+      "cue_strength": 0.6666666666666666,
+      "cue_tier": "medium_cue"
+    },
+    {
+      "text": "As a solution, Philips introduced a television set in 1937 that relied on back projecting an image from a 4+1\u20442-inch (11 cm) tube onto a 25-inch (64 cm) screen.",
+      "lemma": "set",
+      "span": {
+        "start": 47,
+        "end": 50,
+        "surface": "set"
+      },
+      "sense_id": "wp:set.n.set#television",
+      "sense_gloss": "a television receiver",
+      "cue_strength": 0.6666666666666666,
+      "cue_tier": "medium_cue"
+    },
+    {
+      "text": "Although he wore number 76 jersey throughout his entire rookie season, Flowers decided to switch to his college number 74 during the spring of 2016 after it was left available with the departure of teammate Geoff Schwartz.",
+      "lemma": "spring",
+      "span": {
+        "start": 133,
+        "end": 139,
+        "surface": "spring"
+      },
+      "sense_id": "wp:spring.n.spring#season",
+      "sense_gloss": "the season between winter and summer when plants begin to grow",
+      "cue_strength": 0.3333333333333333,
+      "cue_tier": "low_cue"
+    },
+    {
+      "text": "In the traditional Chinese calendar, the \"spring\" season (\u6625) consists of the days between Lichun (3\u20135 February), taking Chunfen (20\u201322 March) as its midpoint, then ending at Lixia (5\u20137 May).",
+      "lemma": "spring",
+      "span": {
+        "start": 42,
+        "end": 48,
+        "surface": "spring"
+      },
+      "sense_id": "wp:spring.n.spring#season",
+      "sense_gloss": "the season between winter and summer when plants begin to grow",
+      "cue_strength": 0.16666666666666666,
+      "cue_tier": "low_cue"
+    },
+    {
+      "text": "For instance, if the elements of a set A may be indexed or labeled by means of the elements of a set J, then J is an index set.",
+      "lemma": "set",
+      "span": {
+        "start": 35,
+        "end": 38,
+        "surface": "set"
+      },
+      "sense_id": "wp:set.n.set#context",
+      "sense_gloss": "set (context)",
+      "cue_strength": 1.0,
+      "cue_tier": "high_cue"
+    },
+    {
+      "text": "^ Helical Compression Spring Terminology , archived from the original on 2010-11-01 , retrieved 2009-06-29 .",
+      "lemma": "spring",
+      "span": {
+        "start": 22,
+        "end": 28,
+        "surface": "Spring"
+      },
+      "sense_id": "wp:spring.n.spring#technology",
+      "sense_gloss": "spring in technology context",
+      "cue_strength": 1.0,
+      "cue_tier": "high_cue"
+    },
+    {
+      "text": "A real coil spring will not contract to zero length because at some point the coils touch each other.",
+      "lemma": "spring",
+      "span": {
+        "start": 12,
+        "end": 18,
+        "surface": "spring"
+      },
+      "sense_id": "wp:spring.n.spring#elastic_device",
+      "sense_gloss": "a resilient metal coil that returns to its original shape after compression",
+      "cue_strength": 0.2222222222222222,
+      "cue_tier": "low_cue"
+    },
+    {
+      "text": "The overall chemistry of hot springs varies from alkaline chloride to acid sulfate to bicarbonate to iron-rich, each of which defines an end member of a range of possible hot spring chemistries.",
+      "lemma": "spring",
+      "span": {
+        "start": 29,
+        "end": 35,
+        "surface": "spring"
+      },
+      "sense_id": "wp:spring.n.spring#water_source",
+      "sense_gloss": "a natural source of water flowing from the ground",
+      "cue_strength": 0.4444444444444444,
+      "cue_tier": "medium_cue"
+    },
+    {
+      "text": "Occasionally more junior members of the judiciary are elevated to that rank, such as Mr Justice Crane, who was formerly a Circuit Judge, and Mrs Justice Butler-Sloss (now Baroness Butler-Sloss) who was previously a registrar in the Principal Registry of the Family Division of the High Court.",
+      "lemma": "court",
+      "span": {
+        "start": 286,
+        "end": 291,
+        "surface": "Court"
+      },
+      "sense_id": "wp:court.n.court#legal",
+      "sense_gloss": "a tribunal presided over by a judge where legal cases are heard",
+      "cue_strength": 0.6666666666666666,
+      "cue_tier": "medium_cue"
+    },
+    {
+      "text": "B Bail Security (usually in the form of money) given for the release of a criminal defendant or witness from legal custody to secure their appearance on the day and time set by the court.",
+      "lemma": "set",
+      "span": {
+        "start": 170,
+        "end": 173,
+        "surface": "set"
+      },
+      "sense_id": "wp:set.n.set#legal",
+      "sense_gloss": "set in legal context",
+      "cue_strength": 1.0,
+      "cue_tier": "high_cue"
+    },
+    {
+      "text": "In 1966 the Boiling Spring Holding Corporation purchased the spring and its surrounding woodlands from the B&O Railroad and incorporated as Deer Park Spring Water, Inc., named for the nearby town of Deer Park, Maryland.",
+      "lemma": "spring",
+      "span": {
+        "start": 20,
+        "end": 26,
+        "surface": "Spring"
+      },
+      "sense_id": "wp:spring.n.spring#water_source",
+      "sense_gloss": "a natural source of water flowing from the ground",
+      "cue_strength": 0.2222222222222222,
+      "cue_tier": "low_cue"
+    },
+    {
+      "text": "Scotland Clerks of court can be found at every level of the Courts of Scotland, with a legally qualified clerk acting as legal adviser to justices of the peace in justice of the peace courts.",
+      "lemma": "court",
+      "span": {
+        "start": 19,
+        "end": 24,
+        "surface": "court"
+      },
+      "sense_id": "wp:court.n.court#legal",
+      "sense_gloss": "a tribunal presided over by a judge where legal cases are heard",
+      "cue_strength": 0.4444444444444444,
+      "cue_tier": "medium_cue"
+    },
+    {
+      "text": "A coil spring is a mechanical device that typically is used to store energy and subsequently release it, to absorb shock, or to maintain a force between contacting surfaces.",
+      "lemma": "spring",
+      "span": {
+        "start": 7,
+        "end": 13,
+        "surface": "spring"
+      },
+      "sense_id": "wp:spring.n.spring#elastic_device",
+      "sense_gloss": "a resilient metal coil that returns to its original shape after compression",
+      "cue_strength": 0.2222222222222222,
+      "cue_tier": "low_cue"
+    },
+    {
+      "text": "Deer Park is an American brand of bottled water of natural spring origin from BlueTriton Brands, produced and marketed primarily across the Mid-Atlantic region of the United States.",
+      "lemma": "spring",
+      "span": {
+        "start": 59,
+        "end": 65,
+        "surface": "spring"
+      },
+      "sense_id": "wp:spring.n.spring#water_source",
+      "sense_gloss": "a natural source of water flowing from the ground",
+      "cue_strength": 0.4444444444444444,
+      "cue_tier": "medium_cue"
+    },
+    {
+      "text": "Adams, inspired by her nagging, then invented a spring snake - a coil of wire wrapped in a cloth skin, and compressed the two-foot snake into a little jam jar so that it would jump out when the lid was removed.",
+      "lemma": "spring",
+      "span": {
+        "start": 48,
+        "end": 54,
+        "surface": "spring"
+      },
+      "sense_id": "wp:spring.n.spring#elastic_device",
+      "sense_gloss": "a resilient metal coil that returns to its original shape after compression",
+      "cue_strength": 0.4444444444444444,
+      "cue_tier": "medium_cue"
+    },
+    {
+      "text": "Confidentiality The duty of health care professionals to not inappropriately share personal information disclosed to them in the course of their professional duties, by following the regulations regarding information sharing set out by the law and the General Medical Council Continence Having full control of the bladder and/or bowel.",
+      "lemma": "set",
+      "span": {
+        "start": 225,
+        "end": 228,
+        "surface": "set"
+      },
+      "sense_id": "wp:set.n.set#medical",
+      "sense_gloss": "set in medical context",
+      "cue_strength": 1.0,
+      "cue_tier": "high_cue"
+    },
+    {
+      "text": "A coil spring may also be used as a torsion spring: in this case the spring as a whole is subjected to torsion about its helical axis.",
+      "lemma": "spring",
+      "span": {
+        "start": 7,
+        "end": 13,
+        "surface": "spring"
+      },
+      "sense_id": "wp:spring.n.spring#elastic_device",
+      "sense_gloss": "a resilient metal coil that returns to its original shape after compression",
+      "cue_strength": 0.2222222222222222,
+      "cue_tier": "low_cue"
+    },
+    {
+      "text": "The park is particularly well known for its bird life and for the spring flowers which occur in the months from August to September, especially in the Postberg flower reserve section of the park.",
+      "lemma": "spring",
+      "span": {
+        "start": 66,
+        "end": 72,
+        "surface": "spring"
+      },
+      "sense_id": "wp:spring.n.spring#season",
+      "sense_gloss": "the season between winter and summer when plants begin to grow",
+      "cue_strength": 0.16666666666666666,
+      "cue_tier": "low_cue"
+    },
+    {
+      "text": "When a conventional spring, without stiffness variability features, is compressed or stretched from its resting position, it exerts an opposing force approximately proportional to its change in length (this approximation breaks down for larger deflections).",
+      "lemma": "spring",
+      "span": {
+        "start": 20,
+        "end": 26,
+        "surface": "spring"
+      },
+      "sense_id": "wp:spring.n.spring#elastic_device",
+      "sense_gloss": "a resilient metal coil that returns to its original shape after compression",
+      "cue_strength": 0.2222222222222222,
+      "cue_tier": "low_cue"
+    },
+    {
+      "text": "The automorphism group of a vector space (or graph, or group, or ring ...) acts on the vector space (or set of vertices of the graph, or group, or ring ...).",
+      "lemma": "set",
+      "span": {
+        "start": 104,
+        "end": 107,
+        "surface": "set"
+      },
+      "sense_id": "wp:set.n.set#collection",
+      "sense_gloss": "a group of things of the same kind that belong or are used together",
+      "cue_strength": 0.8571428571428571,
+      "cue_tier": "high_cue"
+    },
+    {
+      "text": "The spring action of the pin allows it to compress as it assumes the diameter of the hole.",
+      "lemma": "spring",
+      "span": {
+        "start": 4,
+        "end": 10,
+        "surface": "spring"
+      },
+      "sense_id": "wp:spring.n.spring#jump_action",
+      "sense_gloss": "to move suddenly upward or forward",
+      "cue_strength": 0.25,
+      "cue_tier": "low_cue"
+    },
+    {
+      "text": "Will there be another wave of illness in the spring?",
+      "lemma": "spring",
+      "span": {
+        "start": 45,
+        "end": 51,
+        "surface": "spring"
+      },
+      "sense_id": "wp:spring.n.spring#multiple_meanings",
+      "sense_gloss": "spring in multiple_meanings context",
+      "cue_strength": 0.6,
+      "cue_tier": "medium_cue"
+    },
+    {
+      "text": "In 1869, Timothy Rose and Platt Buell received an American patent, number 97,705, for a coil bed spring.",
+      "lemma": "spring",
+      "span": {
+        "start": 97,
+        "end": 103,
+        "surface": "spring"
+      },
+      "sense_id": "wp:spring.n.spring#elastic_device",
+      "sense_gloss": "a resilient metal coil that returns to its original shape after compression",
+      "cue_strength": 0.2222222222222222,
+      "cue_tier": "low_cue"
+    },
+    {
+      "text": "In December 2019, Reynolds confirmed that a third Deadpool film was in development at Marvel Studios; this was reiterated in January 2021 by Kevin Feige, who also confirmed that the film would be set in the MCU.",
+      "lemma": "set",
+      "span": {
+        "start": 196,
+        "end": 199,
+        "surface": "set"
+      },
+      "sense_id": "wp:set.n.set#stage_scenery",
+      "sense_gloss": "the scenery and props used in a theatrical or film production",
+      "cue_strength": 0.5,
+      "cue_tier": "medium_cue"
+    },
+    {
+      "text": "The hemisphere begins to warm significantly, causing new plant growth to \"spring forth\", giving the season its name.",
+      "lemma": "spring",
+      "span": {
+        "start": 74,
+        "end": 80,
+        "surface": "spring"
+      },
+      "sense_id": "wp:spring.n.spring#season",
+      "sense_gloss": "the season between winter and summer when plants begin to grow",
+      "cue_strength": 0.3333333333333333,
+      "cue_tier": "low_cue"
+    },
+    {
+      "text": "A recursive definition using just set theory notions is that a (non-empty) binary tree is a tuple ( L , S , R ), where L and R are binary trees or the empty set and S is a singleton set .",
+      "lemma": "set",
+      "span": {
+        "start": 34,
+        "end": 37,
+        "surface": "set"
+      },
+      "sense_id": "wp:set.n.set#technology",
+      "sense_gloss": "set in technology context",
+      "cue_strength": 1.0,
+      "cue_tier": "high_cue"
+    },
+    {
+      "text": "16 Spring /spr\u026a\u014b/ the season of the year between winter and summer, lasting from March to June north of the equator, and from September to December south of the equator, when the weather becomes warmer, leaves and plants start to grow again and flowers appear (noun) Spring is my favorite season.",
+      "lemma": "spring",
+      "span": {
+        "start": 3,
+        "end": 9,
+        "surface": "Spring"
+      },
+      "sense_id": "wp:spring.n.spring#academic",
+      "sense_gloss": "spring in academic context",
+      "cue_strength": 1.0,
+      "cue_tier": "high_cue"
+    },
+    {
+      "text": "Coiled spring pins A coiled spring pin, also known as a spiral pin, is a self retaining engineered fastener manufactured by roll forming metal strip into a spiral cross section of 2+1\u20444 coils.",
+      "lemma": "spring",
+      "span": {
+        "start": 7,
+        "end": 13,
+        "surface": "spring"
+      },
+      "sense_id": "wp:spring.n.spring#elastic_device",
+      "sense_gloss": "a resilient metal coil that returns to its original shape after compression",
+      "cue_strength": 0.2222222222222222,
+      "cue_tier": "low_cue"
+    },
+    {
+      "text": "Spring: a point at which water issues forth",
+      "lemma": "spring",
+      "span": {
+        "start": 0,
+        "end": 6,
+        "surface": "Spring"
+      },
+      "sense_id": "wn:spring.n.spring.n.04",
+      "sense_gloss": "a point at which water issues forth",
+      "cue_strength": 0.95,
+      "cue_tier": "high_cue"
+    },
+    {
+      "text": "Poland Spring operated independently until it was purchased by the Perrier Water Company in 1980.",
+      "lemma": "spring",
+      "span": {
+        "start": 7,
+        "end": 13,
+        "surface": "Spring"
+      },
+      "sense_id": "wp:spring.n.spring#water_source",
+      "sense_gloss": "a natural source of water flowing from the ground",
+      "cue_strength": 0.2222222222222222,
+      "cue_tier": "low_cue"
+    },
+    {
+      "text": "In August 2017, a class-action lawsuit was filed in Connecticut alleging that \"Not one drop of Poland Spring Water emanates from a water source that complies with the Food and Drug Administration definition of 'spring water'.",
+      "lemma": "spring",
+      "span": {
+        "start": 102,
+        "end": 108,
+        "surface": "Spring"
+      },
+      "sense_id": "wp:spring.n.spring#water_source",
+      "sense_gloss": "a natural source of water flowing from the ground",
+      "cue_strength": 0.6666666666666666,
+      "cue_tier": "medium_cue"
+    },
+    {
+      "text": "A standard television set consists of multiple internal electronic circuits, including a tuner for receiving and decoding broadcast signals.",
+      "lemma": "set",
+      "span": {
+        "start": 22,
+        "end": 25,
+        "surface": "set"
+      },
+      "sense_id": "wp:set.n.set#television",
+      "sense_gloss": "a television receiver",
+      "cue_strength": 0.6666666666666666,
+      "cue_tier": "medium_cue"
+    },
+    {
+      "text": "Typically, a player wins a set by winning at least six games and at least two games more than the opponent.",
+      "lemma": "set",
+      "span": {
+        "start": 27,
+        "end": 30,
+        "surface": "set"
+      },
+      "sense_id": "wp:set.n.set#tennis_unit",
+      "sense_gloss": "a unit of games in tennis",
+      "cue_strength": 0.5714285714285714,
+      "cue_tier": "medium_cue"
+    },
+    {
+      "text": "Trump Ice or Trump Natural Spring Water was a bottled water brand owned by American businessman Donald Trump.",
+      "lemma": "spring",
+      "span": {
+        "start": 27,
+        "end": 33,
+        "surface": "Spring"
+      },
+      "sense_id": "wp:spring.n.spring#water_source",
+      "sense_gloss": "a natural source of water flowing from the ground",
+      "cue_strength": 0.6666666666666666,
+      "cue_tier": "medium_cue"
+    },
+    {
+      "text": "A leaf spring is a simple form of spring commonly used for suspension in wheeled vehicles.",
+      "lemma": "spring",
+      "span": {
+        "start": 7,
+        "end": 13,
+        "surface": "spring"
+      },
+      "sense_id": "wp:spring.n.spring#elastic_device",
+      "sense_gloss": "a resilient metal coil that returns to its original shape after compression",
+      "cue_strength": 0.2222222222222222,
+      "cue_tier": "low_cue"
+    },
+    {
+      "text": "When referring to a High Court judge in a legal context, the judge is identified by use of the surname (or first name and surname if appropriate), followed by the letter 'J'.",
+      "lemma": "court",
+      "span": {
+        "start": 25,
+        "end": 30,
+        "surface": "Court"
+      },
+      "sense_id": "wp:court.n.court#legal",
+      "sense_gloss": "a tribunal presided over by a judge where legal cases are heard",
+      "cue_strength": 0.6666666666666666,
+      "cue_tier": "medium_cue"
+    },
+    {
+      "text": "It is named after the natural spring in the town of Poland, Maine from which it was originally drawn.",
+      "lemma": "spring",
+      "span": {
+        "start": 30,
+        "end": 36,
+        "surface": "spring"
+      },
+      "sense_id": "wp:spring.n.spring#water_source",
+      "sense_gloss": "a natural source of water flowing from the ground",
+      "cue_strength": 0.2222222222222222,
+      "cue_tier": "low_cue"
+    },
+    {
+      "text": "The months of August and September bring about the proliferation of annual Spring flowers in the West Coast National Park.",
+      "lemma": "spring",
+      "span": {
+        "start": 75,
+        "end": 81,
+        "surface": "Spring"
+      },
+      "sense_id": "wp:spring.n.spring#season",
+      "sense_gloss": "the season between winter and summer when plants begin to grow",
+      "cue_strength": 0.16666666666666666,
+      "cue_tier": "low_cue"
+    },
+    {
+      "text": "I Income Driven Payment \u2014 Typically used for student loans, this is a repayment plan that sets monthly loan repayments at an amount intended to be affordable based on the borrower\u2019s income and family size.",
+      "lemma": "set",
+      "span": {
+        "start": 90,
+        "end": 93,
+        "surface": "set"
+      },
+      "sense_id": "wp:set.n.set#financial",
+      "sense_gloss": "set in financial context",
+      "cue_strength": 1.0,
+      "cue_tier": "high_cue"
+    },
+    {
+      "text": "Coil springs in trucks allow them to ride smoothly when unloaded and once loaded the spring compresses and becomes stiff.",
+      "lemma": "spring",
+      "span": {
+        "start": 5,
+        "end": 11,
+        "surface": "spring"
+      },
+      "sense_id": "wp:spring.n.spring#elastic_device",
+      "sense_gloss": "a resilient metal coil that returns to its original shape after compression",
+      "cue_strength": 0.2222222222222222,
+      "cue_tier": "low_cue"
+    },
+    {
+      "text": "History Following the American Civil War, the Baltimore and Ohio Railroad (B&O) created a casino near Pennsylvania where the spring water was founded and found by a man named Troy Gibson in Deer Park, Maryland.",
+      "lemma": "spring",
+      "span": {
+        "start": 125,
+        "end": 131,
+        "surface": "spring"
+      },
+      "sense_id": "wp:spring.n.spring#water_source",
+      "sense_gloss": "a natural source of water flowing from the ground",
+      "cue_strength": 0.2222222222222222,
+      "cue_tier": "low_cue"
+    },
+    {
+      "text": "In North American English, people use the mnemonic \"spring forward, fall back\" (also \"spring ahead ...\", \"spring up ...\", and \"...",
+      "lemma": "spring",
+      "span": {
+        "start": 52,
+        "end": 58,
+        "surface": "spring"
+      },
+      "sense_id": "wp:spring.n.spring#jump_action",
+      "sense_gloss": "to move suddenly upward or forward",
+      "cue_strength": 0.25,
+      "cue_tier": "low_cue"
+    },
+    {
+      "text": "The town of Fryeburg began to question the amount of water the company was selling to Poland Spring.",
+      "lemma": "spring",
+      "span": {
+        "start": 93,
+        "end": 99,
+        "surface": "Spring"
+      },
+      "sense_id": "wp:spring.n.spring#water_source",
+      "sense_gloss": "a natural source of water flowing from the ground",
+      "cue_strength": 0.2222222222222222,
+      "cue_tier": "low_cue"
+    },
+    {
+      "text": "K Karyotype A record of the complete set of your chromosomes.",
+      "lemma": "set",
+      "span": {
+        "start": 37,
+        "end": 40,
+        "surface": "set"
+      },
+      "sense_id": "wp:set.n.set#medical",
+      "sense_gloss": "set in medical context",
+      "cue_strength": 0.6,
+      "cue_tier": "medium_cue"
+    },
+    {
+      "text": "In abstract algebra, a generating set of a group is a subset of the group set such that every element of the group can be expressed as a combination (under the group operation) of finitely many elements of the subset and their inverses.",
+      "lemma": "set",
+      "span": {
+        "start": 34,
+        "end": 37,
+        "surface": "set"
+      },
+      "sense_id": "wp:set.n.set#collection",
+      "sense_gloss": "a group of things of the same kind that belong or are used together",
+      "cue_strength": 1.0,
+      "cue_tier": "high_cue"
+    },
+    {
+      "text": "In addition to spring, ecological reckoning identifies an earlier separate prevernal (early or pre-spring) season between the hibernal (winter) and vernal (spring) seasons.",
+      "lemma": "spring",
+      "span": {
+        "start": 15,
+        "end": 21,
+        "surface": "spring"
+      },
+      "sense_id": "wp:spring.n.spring#season",
+      "sense_gloss": "the season between winter and summer when plants begin to grow",
+      "cue_strength": 0.16666666666666666,
+      "cue_tier": "low_cue"
+    },
+    {
+      "text": "Emergency fund A cash reserve that's specifically set aside for unplanned expenses or financial emergencies.",
+      "lemma": "set",
+      "span": {
+        "start": 50,
+        "end": 53,
+        "surface": "set"
+      },
+      "sense_id": "wp:set.n.set#financial",
+      "sense_gloss": "set in financial context",
+      "cue_strength": 1.0,
+      "cue_tier": "high_cue"
+    },
+    {
+      "text": "The negative sign indicates that the force the spring exerts is in the opposite direction from its displacement Most real springs approximately follow Hooke's law if not stretched or compressed beyond their elastic limit.",
+      "lemma": "spring",
+      "span": {
+        "start": 47,
+        "end": 53,
+        "surface": "spring"
+      },
+      "sense_id": "wp:spring.n.spring#elastic_device",
+      "sense_gloss": "a resilient metal coil that returns to its original shape after compression",
+      "cue_strength": 0.4444444444444444,
+      "cue_tier": "medium_cue"
+    },
+    {
+      "text": "Velsicol threatened legal action against Houghton Mifflin, and The New Yorker and Audubon Magazine unless their planned Silent Spring features were canceled.",
+      "lemma": "spring",
+      "span": {
+        "start": 127,
+        "end": 133,
+        "surface": "Spring"
+      },
+      "sense_id": "wp:spring.n.spring#jump_action",
+      "sense_gloss": "to move suddenly upward or forward",
+      "cue_strength": 0.25,
+      "cue_tier": "low_cue"
+    },
+    {
+      "text": "Jumping stilts, bounce stilts or spring stilts are special stilts that allow the user to run, jump and perform various acrobatics.",
+      "lemma": "spring",
+      "span": {
+        "start": 33,
+        "end": 39,
+        "surface": "spring"
+      },
+      "sense_id": "wp:spring.n.spring#elastic_device",
+      "sense_gloss": "a resilient metal coil that returns to its original shape after compression",
+      "cue_strength": 0.2222222222222222,
+      "cue_tier": "low_cue"
+    },
+    {
+      "text": "Production Marketed as \"one of the purest natural spring waters bottled in the world\", Trump claimed in a brief interview with New York magazine that there is zero sodium in Trump Ice.",
+      "lemma": "spring",
+      "span": {
+        "start": 50,
+        "end": 56,
+        "surface": "spring"
+      },
+      "sense_id": "wp:spring.n.spring#water_source",
+      "sense_gloss": "a natural source of water flowing from the ground",
+      "cue_strength": 0.2222222222222222,
+      "cue_tier": "low_cue"
+    },
+    {
+      "text": "Exercise: Fill in the appropriate word bark, match, rock, spring, lead The tree's _____ is very rough.",
+      "lemma": "spring",
+      "span": {
+        "start": 58,
+        "end": 64,
+        "surface": "spring"
+      },
+      "sense_id": "wp:spring.n.spring#academic",
+      "sense_gloss": "spring in academic context",
+      "cue_strength": 1.0,
+      "cue_tier": "high_cue"
+    },
+    {
+      "text": "The site's consensus reads: \"It may not boast an original plot, but Set It Off is a satisfying, socially conscious heist film thanks largely to fine performances from its leads.\" Audiences surveyed by CinemaScore gave the film a grade \"A\" on scale of A to F.",
+      "lemma": "set",
+      "span": {
+        "start": 68,
+        "end": 71,
+        "surface": "Set"
+      },
+      "sense_id": "wp:set.n.set#stage_scenery",
+      "sense_gloss": "the scenery and props used in a theatrical or film production",
+      "cue_strength": 0.5,
+      "cue_tier": "medium_cue"
+    },
+    {
+      "text": "The term set refers to the process of becoming hard or solid by cooling or drying or crystallization",
+      "lemma": "set",
+      "span": {
+        "start": 9,
+        "end": 12,
+        "surface": "set"
+      },
+      "sense_id": "wn:set.n.hardening.n.02",
+      "sense_gloss": "the process of becoming hard or solid by cooling or drying or crystallization",
+      "cue_strength": 0.95,
+      "cue_tier": "high_cue"
+    },
+    {
+      "text": "In everyday use, the term most often refers to coil springs, but there are many different spring designs.",
+      "lemma": "spring",
+      "span": {
+        "start": 52,
+        "end": 58,
+        "surface": "spring"
+      },
+      "sense_id": "wp:spring.n.spring#elastic_device",
+      "sense_gloss": "a resilient metal coil that returns to its original shape after compression",
+      "cue_strength": 0.2222222222222222,
+      "cue_tier": "low_cue"
+    },
+    {
+      "text": "Except where tiebreaks apply, at least one break of serve is required to win a set (otherwise a two-game lead would never occur).",
+      "lemma": "set",
+      "span": {
+        "start": 79,
+        "end": 82,
+        "surface": "set"
+      },
+      "sense_id": "wp:set.n.set#tennis_unit",
+      "sense_gloss": "a unit of games in tennis",
+      "cue_strength": 0.5714285714285714,
+      "cue_tier": "medium_cue"
+    },
+    {
+      "text": "As of April 2014, 16 miles are complete and trailheads include the DeBary Hall Historic Site, Gemini Springs Park, Lake Monroe Park, Lake Beresford Park, Blue Spring State Park and along Grand Avenue in Glenwood, Florida.",
+      "lemma": "spring",
+      "span": {
+        "start": 101,
+        "end": 107,
+        "surface": "Spring"
+      },
+      "sense_id": "wp:spring.n.spring#season",
+      "sense_gloss": "the season between winter and summer when plants begin to grow",
+      "cue_strength": 0.16666666666666666,
+      "cue_tier": "low_cue"
+    },
+    {
+      "text": "The second-round match between Jo-Wilfried Tsonga and Milos Raonic lasted 3 hours and 57 minutes and 66 games, with the third set ending at 25\u201323.",
+      "lemma": "set",
+      "span": {
+        "start": 126,
+        "end": 129,
+        "surface": "set"
+      },
+      "sense_id": "wp:set.n.set#tennis_unit",
+      "sense_gloss": "a unit of games in tennis",
+      "cue_strength": 0.5714285714285714,
+      "cue_tier": "medium_cue"
+    },
+    {
+      "text": "Ball changes Balls wear out quickly in serious play and, therefore, in ATP and WTA tournaments, they are changed after every nine games with the first change occurring after only seven games, because the first set of balls is also used for the pre-match warm-up.",
+      "lemma": "set",
+      "span": {
+        "start": 210,
+        "end": 213,
+        "surface": "set"
+      },
+      "sense_id": "wp:set.n.set#tennis_unit",
+      "sense_gloss": "a unit of games in tennis",
+      "cue_strength": 0.5714285714285714,
+      "cue_tier": "medium_cue"
+    },
+    {
+      "text": "A coil of wire attached to the pointer twists in a magnetic field against the resistance of a torsion spring.",
+      "lemma": "spring",
+      "span": {
+        "start": 102,
+        "end": 108,
+        "surface": "spring"
+      },
+      "sense_id": "wp:spring.n.spring#elastic_device",
+      "sense_gloss": "a resilient metal coil that returns to its original shape after compression",
+      "cue_strength": 0.2222222222222222,
+      "cue_tier": "low_cue"
+    },
+    {
+      "text": "This action is free and transitive (regular), and forms the basis of a rapid proof of Cayley's theorem \u2013 that every group is isomorphic to a subgroup of the symmetric group of permutations of the set G.",
+      "lemma": "set",
+      "span": {
+        "start": 196,
+        "end": 199,
+        "surface": "set"
+      },
+      "sense_id": "wp:set.n.set#collection",
+      "sense_gloss": "a group of things of the same kind that belong or are used together",
+      "cue_strength": 0.5714285714285714,
+      "cue_tier": "medium_cue"
+    },
+    {
+      "text": "In recent decades, season creep has been observed, which means that many phenological signs of spring are occurring earlier in many regions by around two days per decade.",
+      "lemma": "spring",
+      "span": {
+        "start": 95,
+        "end": 101,
+        "surface": "spring"
+      },
+      "sense_id": "wp:spring.n.spring#season",
+      "sense_gloss": "the season between winter and summer when plants begin to grow",
+      "cue_strength": 0.16666666666666666,
+      "cue_tier": "low_cue"
+    },
+    {
+      "text": "The term spring refers to spring back; spring away from an impact",
+      "lemma": "spring",
+      "span": {
+        "start": 9,
+        "end": 15,
+        "surface": "spring"
+      },
+      "sense_id": "wn:spring.v.bounce.v.01",
+      "sense_gloss": "spring back; spring away from an impact",
+      "cue_strength": 0.95,
+      "cue_tier": "high_cue"
+    },
+    {
+      "text": "There are occasional missteps, such as an out-of-place Godfather parody, but, in general, Set It Off manages to rise above these.\" Humanities academic Kara Keeling asserts the film's significance to queer film studies within her article '\"What's Up with That?",
+      "lemma": "set",
+      "span": {
+        "start": 90,
+        "end": 93,
+        "surface": "Set"
+      },
+      "sense_id": "wp:set.n.set#stage_scenery",
+      "sense_gloss": "the scenery and props used in a theatrical or film production",
+      "cue_strength": 0.25,
+      "cue_tier": "low_cue"
+    },
+    {
+      "text": "A set may also be called a collection or family, especially when its elements are themselves sets; this may avoid the confusion between the set and its members, and may make reading easier.",
+      "lemma": "set",
+      "span": {
+        "start": 2,
+        "end": 5,
+        "surface": "set"
+      },
+      "sense_id": "wp:set.n.set#collection",
+      "sense_gloss": "a group of things of the same kind that belong or are used together",
+      "cue_strength": 0.2857142857142857,
+      "cue_tier": "low_cue"
+    },
+    {
+      "text": "Free group The most general group generated by a set S {\\displaystyle S} is the group freely generated by S {\\displaystyle S} .",
+      "lemma": "set",
+      "span": {
+        "start": 49,
+        "end": 52,
+        "surface": "set"
+      },
+      "sense_id": "wp:set.n.set#collection",
+      "sense_gloss": "a group of things of the same kind that belong or are used together",
+      "cue_strength": 0.8571428571428571,
+      "cue_tier": "high_cue"
+    },
+    {
+      "text": "Mars, commonly known as a Mars bar, is a chocolate bar produced by Mars Inc., consisting of caramel and nougat coated with milk chocolate.",
+      "lemma": "bar",
+      "span": {
+        "start": 31,
+        "end": 34,
+        "surface": "bar"
+      },
+      "sense_id": "wp:bar.n.bar#solid_block",
+      "sense_gloss": "a solid block of material, typically rectangular",
+      "cue_strength": 0.5714285714285714,
+      "cue_tier": "medium_cue"
+    },
+    {
+      "text": "A spring pin (also called tension pin or roll pin) is a mechanical fastener that secures the position of two or more parts of a machine relative to each other.",
+      "lemma": "spring",
+      "span": {
+        "start": 2,
+        "end": 8,
+        "surface": "spring"
+      },
+      "sense_id": "wp:spring.n.spring#elastic_device",
+      "sense_gloss": "a resilient metal coil that returns to its original shape after compression",
+      "cue_strength": 0.2222222222222222,
+      "cue_tier": "low_cue"
+    },
+    {
+      "text": "Unstable spring weather may occur more often when warm air begins to invade from lower latitudes, while cold air is still pushing from the Polar regions.",
+      "lemma": "spring",
+      "span": {
+        "start": 9,
+        "end": 15,
+        "surface": "spring"
+      },
+      "sense_id": "wp:spring.n.spring#season",
+      "sense_gloss": "the season between winter and summer when plants begin to grow",
+      "cue_strength": 0.16666666666666666,
+      "cue_tier": "low_cue"
+    },
+    {
+      "text": "In mathematics, an index set is a set whose members label (or index) members of another set.",
+      "lemma": "set",
+      "span": {
+        "start": 25,
+        "end": 28,
+        "surface": "set"
+      },
+      "sense_id": "wp:set.n.set#context",
+      "sense_gloss": "set (context)",
+      "cue_strength": 0.96,
+      "cue_tier": "high_cue"
+    },
+    {
+      "text": "application programming interface (API) A set of subroutine definitions, communication protocols , and tools for building software .",
+      "lemma": "set",
+      "span": {
+        "start": 42,
+        "end": 45,
+        "surface": "set"
+      },
+      "sense_id": "wp:set.n.set#technology",
+      "sense_gloss": "set in technology context",
+      "cue_strength": 1.0,
+      "cue_tier": "high_cue"
+    },
+    {
+      "text": "Specifically, a line was not considered as the set of its points, but as a locus where points may be located.",
+      "lemma": "set",
+      "span": {
+        "start": 47,
+        "end": 50,
+        "surface": "set"
+      },
+      "sense_id": "wp:set.n.set#tennis_unit",
+      "sense_gloss": "a unit of games in tennis",
+      "cue_strength": 0.5714285714285714,
+      "cue_tier": "medium_cue"
+    },
+    {
+      "text": "There is a unique set with no elements, called the empty set; a set with a single element is a singleton.",
+      "lemma": "set",
+      "span": {
+        "start": 18,
+        "end": 21,
+        "surface": "set"
+      },
+      "sense_id": "wp:set.n.set#set",
+      "sense_gloss": "set (Set)",
+      "cue_strength": 0.96,
+      "cue_tier": "high_cue"
+    },
+    {
+      "text": "The plant retains its leaves throughout the winter season, but will begin to shed them away as temperatures start to warm in late spring.",
+      "lemma": "spring",
+      "span": {
+        "start": 130,
+        "end": 136,
+        "surface": "spring"
+      },
+      "sense_id": "wp:spring.n.spring#season",
+      "sense_gloss": "the season between winter and summer when plants begin to grow",
+      "cue_strength": 0.3333333333333333,
+      "cue_tier": "low_cue"
+    },
+    {
+      "text": "Images of the Mandelbrot set exhibit an infinitely complicated boundary that reveals progressively ever-finer recursive detail at increasing magnifications; mathematically, the boundary of the Mandelbrot set is a fractal curve.",
+      "lemma": "set",
+      "span": {
+        "start": 25,
+        "end": 28,
+        "surface": "set"
+      },
+      "sense_id": "wp:set.n.set#context",
+      "sense_gloss": "set (context)",
+      "cue_strength": 1.0,
+      "cue_tier": "high_cue"
+    },
+    {
+      "text": "In April 2022, production on the Minecraft film was announced to be moving forward without Sollett and Schroeder, with Jared Hess now set to direct, Legendary Entertainment to co-produce (through its executive Mary Parent), and Jason Momoa in early talks to star.",
+      "lemma": "set",
+      "span": {
+        "start": 134,
+        "end": 137,
+        "surface": "set"
+      },
+      "sense_id": "wp:set.n.set#stage_scenery",
+      "sense_gloss": "the scenery and props used in a theatrical or film production",
+      "cue_strength": 0.5,
+      "cue_tier": "medium_cue"
+    },
+    {
+      "text": "the set of his mind was obvious",
+      "lemma": "set",
+      "span": {
+        "start": 4,
+        "end": 7,
+        "surface": "set"
+      },
+      "sense_id": "wn:set.n.bent.n.01",
+      "sense_gloss": "a relatively permanent inclination to react in a particular way",
+      "cue_strength": 0.95,
+      "cue_tier": "high_cue"
+    },
+    {
+      "text": "A coil of wire is used to heat a bimetal strip, which bends and operates a linkage that unlatches a spring-operated contact.",
+      "lemma": "spring",
+      "span": {
+        "start": 100,
+        "end": 106,
+        "surface": "spring"
+      },
+      "sense_id": "wp:spring.n.spring#elastic_device",
+      "sense_gloss": "a resilient metal coil that returns to its original shape after compression",
+      "cue_strength": 0.2222222222222222,
+      "cue_tier": "low_cue"
+    },
+    {
+      "text": "Allhallowtide The Western Christian season encompassing the triduum of All Saints' Eve (Halloween), All Saints' Day (All Hallows') and All Souls' Day are observed in the spring in the Southern Hemisphere.",
+      "lemma": "spring",
+      "span": {
+        "start": 170,
+        "end": 176,
+        "surface": "spring"
+      },
+      "sense_id": "wp:spring.n.spring#season",
+      "sense_gloss": "the season between winter and summer when plants begin to grow",
+      "cue_strength": 0.16666666666666666,
+      "cue_tier": "low_cue"
+    },
+    {
+      "text": "1962): First female to become a judge, Judge of the Supreme Court of Benin (c.",
+      "lemma": "court",
+      "span": {
+        "start": 60,
+        "end": 65,
+        "surface": "Court"
+      },
+      "sense_id": "wp:court.n.court#legal",
+      "sense_gloss": "a tribunal presided over by a judge where legal cases are heard",
+      "cue_strength": 0.4444444444444444,
+      "cue_tier": "medium_cue"
+    },
+    {
+      "text": "Best-of-five-set match Best-of-three-set match Women's singles The longest women's match (by time) took place at a tournament in Richmond, Virginia, in 1984, when Vicki Nelson took 6 hours, 31 minutes to defeat Jean Hepner 6\u20134, 7\u20136(13\u201311).",
+      "lemma": "set",
+      "span": {
+        "start": 13,
+        "end": 16,
+        "surface": "set"
+      },
+      "sense_id": "wp:set.n.set#tennis_unit",
+      "sense_gloss": "a unit of games in tennis",
+      "cue_strength": 0.8571428571428571,
+      "cue_tier": "high_cue"
+    },
+    {
+      "text": "The action of the general linear group of a vector space V on the set V \u2216 {0} of non-zero vectors is transitive, but not 2-transitive (similarly for the action of the special linear group if the dimension of v is at least 2).",
+      "lemma": "set",
+      "span": {
+        "start": 66,
+        "end": 69,
+        "surface": "set"
+      },
+      "sense_id": "wp:set.n.set#collection",
+      "sense_gloss": "a group of things of the same kind that belong or are used together",
+      "cue_strength": 0.5714285714285714,
+      "cue_tier": "medium_cue"
+    },
+    {
+      "text": "The term spring refers to produce or disclose suddenly or unexpectedly",
+      "lemma": "spring",
+      "span": {
+        "start": 9,
+        "end": 15,
+        "surface": "spring"
+      },
+      "sense_id": "wn:spring.v.spring.v.05",
+      "sense_gloss": "produce or disclose suddenly or unexpectedly",
+      "cue_strength": 0.95,
+      "cue_tier": "high_cue"
+    },
+    {
+      "text": "The Prague Spring (Czech: Pra\u017esk\u00e9 jaro; Slovak: Pra\u017esk\u00e1 jar) was a period of political liberalization and mass protest in the Czechoslovak Socialist Republic.",
+      "lemma": "spring",
+      "span": {
+        "start": 11,
+        "end": 17,
+        "surface": "Spring"
+      },
+      "sense_id": "wp:spring.n.spring#context",
+      "sense_gloss": "spring (context)",
+      "cue_strength": 1.0,
+      "cue_tier": "high_cue"
+    },
+    {
+      "text": "A box connected to a television (or VCR) SCART connector is fed with the baseband television signal from the set's tuner, and can have the television display the returned processed signal instead.",
+      "lemma": "set",
+      "span": {
+        "start": 109,
+        "end": 112,
+        "surface": "set"
+      },
+      "sense_id": "wp:set.n.set#television",
+      "sense_gloss": "a television receiver",
+      "cue_strength": 1.0,
+      "cue_tier": "high_cue"
+    },
+    {
+      "text": "33 Type /ta\u026ap/ a particular group of people or things that share similar characteristics and form a smaller division of a larger set (noun) What type of music do you like?",
+      "lemma": "set",
+      "span": {
+        "start": 129,
+        "end": 132,
+        "surface": "set"
+      },
+      "sense_id": "wp:set.n.set#academic",
+      "sense_gloss": "set in academic context",
+      "cue_strength": 1.0,
+      "cue_tier": "high_cue"
+    },
+    {
+      "text": "Set had a positive role where he accompanied Ra on his barque to repel Apep (Apophis), the serpent of Chaos.",
+      "lemma": "set",
+      "span": {
+        "start": 0,
+        "end": 3,
+        "surface": "Set"
+      },
+      "sense_id": "wp:set.n.set#set",
+      "sense_gloss": "set (Set)",
+      "cue_strength": 1.0,
+      "cue_tier": "high_cue"
+    },
+    {
+      "text": "However, while most cherry blossom trees bloom in the spring, there are also lesser-known winter cherry blossoms (fuyuzakura in Japanese) that bloom between October and December.",
+      "lemma": "spring",
+      "span": {
+        "start": 54,
+        "end": 60,
+        "surface": "spring"
+      },
+      "sense_id": "wp:spring.n.spring#season",
+      "sense_gloss": "the season between winter and summer when plants begin to grow",
+      "cue_strength": 0.5,
+      "cue_tier": "medium_cue"
+    },
+    {
+      "text": "According to Trump's 2016 Financial Disclosure Form, which was filed with the Federal Election Commission, the available cash from the Trump Natural Spring Water's bank account reached $413,339 in 2015.",
+      "lemma": "spring",
+      "span": {
+        "start": 149,
+        "end": 155,
+        "surface": "Spring"
+      },
+      "sense_id": "wp:spring.n.spring#water_source",
+      "sense_gloss": "a natural source of water flowing from the ground",
+      "cue_strength": 0.2222222222222222,
+      "cue_tier": "low_cue"
+    },
+    {
+      "text": "A few distinguished academics have also made it onto the High Court bench, including Mrs Justice Hale (now Baroness Hale of Richmond) and, more recently, Mr Justice Beatson.",
+      "lemma": "court",
+      "span": {
+        "start": 62,
+        "end": 67,
+        "surface": "Court"
+      },
+      "sense_id": "wp:court.n.court#legal",
+      "sense_gloss": "a tribunal presided over by a judge where legal cases are heard",
+      "cue_strength": 0.4444444444444444,
+      "cue_tier": "medium_cue"
+    },
+    {
+      "text": "A tiebreak, played under a separate set of rules, allows one player to win one more game and thus the set, to give a final set score of 7\u20136.",
+      "lemma": "set",
+      "span": {
+        "start": 36,
+        "end": 39,
+        "surface": "set"
+      },
+      "sense_id": "wp:set.n.set#tennis_unit",
+      "sense_gloss": "a unit of games in tennis",
+      "cue_strength": 0.5714285714285714,
+      "cue_tier": "medium_cue"
+    },
+    {
+      "text": "Volute spring A compression coil spring in the form of a cone so that under compression the coils are not forced against each other, thus permitting longer travel.",
+      "lemma": "spring",
+      "span": {
+        "start": 7,
+        "end": 13,
+        "surface": "spring"
+      },
+      "sense_id": "wp:spring.n.spring#elastic_device",
+      "sense_gloss": "a resilient metal coil that returns to its original shape after compression",
+      "cue_strength": 0.2222222222222222,
+      "cue_tier": "low_cue"
+    },
+    {
+      "text": "Etymology According to the Online Etymological Dictionary, \"spring\" in the sense of the season comes from phrases such as \"springing time\" (14th century) and \"the spring of the year\".",
+      "lemma": "spring",
+      "span": {
+        "start": 60,
+        "end": 66,
+        "surface": "spring"
+      },
+      "sense_id": "wp:spring.n.spring#season",
+      "sense_gloss": "the season between winter and summer when plants begin to grow",
+      "cue_strength": 0.16666666666666666,
+      "cue_tier": "low_cue"
+    },
+    {
+      "text": "The North Harris County Regional Water Authority provides water services to the Spring CDP, which is in Voting District No.",
+      "lemma": "spring",
+      "span": {
+        "start": 80,
+        "end": 86,
+        "surface": "Spring"
+      },
+      "sense_id": "wp:spring.n.spring#water_source",
+      "sense_gloss": "a natural source of water flowing from the ground",
+      "cue_strength": 0.4444444444444444,
+      "cue_tier": "medium_cue"
+    },
+    {
+      "text": "A torsion spring is a spring that works by twisting its end along its axis; that is, a flexible elastic object that stores mechanical energy when it is twisted.",
+      "lemma": "spring",
+      "span": {
+        "start": 10,
+        "end": 16,
+        "surface": "spring"
+      },
+      "sense_id": "wp:spring.n.spring#elastic_device",
+      "sense_gloss": "a resilient metal coil that returns to its original shape after compression",
+      "cue_strength": 0.2222222222222222,
+      "cue_tier": "low_cue"
+    },
+    {
+      "text": "Crofton wrote on page 34 of his book, in the chapter about \"Easy Chairs, Spring-stuffing\": In manufacturing spring-stuffed seats, it is necessary to web and bottom on the under side and action of the springs.",
+      "lemma": "spring",
+      "span": {
+        "start": 73,
+        "end": 79,
+        "surface": "Spring"
+      },
+      "sense_id": "wp:spring.n.spring#jump_action",
+      "sense_gloss": "to move suddenly upward or forward",
+      "cue_strength": 0.25,
+      "cue_tier": "low_cue"
+    },
+    {
+      "text": "This leads to a runaway condition in which a sizable amount of water and steam are forcibly ejected from the hot spring as the cistern is emptied.",
+      "lemma": "spring",
+      "span": {
+        "start": 113,
+        "end": 119,
+        "surface": "spring"
+      },
+      "sense_id": "wp:spring.n.spring#water_source",
+      "sense_gloss": "a natural source of water flowing from the ground",
+      "cue_strength": 0.4444444444444444,
+      "cue_tier": "medium_cue"
+    },
+    {
+      "text": "Answer [prep_collapse_expand open_text=\"View more\" close_text=\"Show less\"] bark match rock spring match rock bark lead lead spring [/prep_collapse_expand] Above, PREP has shared with you the concept and a list of common English Polysemy.",
+      "lemma": "spring",
+      "span": {
+        "start": 91,
+        "end": 97,
+        "surface": "spring"
+      },
+      "sense_id": "wp:spring.n.spring#academic",
+      "sense_gloss": "spring in academic context",
+      "cue_strength": 1.0,
+      "cue_tier": "high_cue"
+    },
+    {
+      "text": "This allows some of the water in the cistern to flash into steam, which forces more water out of the hot spring.",
+      "lemma": "spring",
+      "span": {
+        "start": 105,
+        "end": 111,
+        "surface": "spring"
+      },
+      "sense_id": "wp:spring.n.spring#water_source",
+      "sense_gloss": "a natural source of water flowing from the ground",
+      "cue_strength": 0.6666666666666666,
+      "cue_tier": "medium_cue"
+    },
+    {
+      "text": "Although the group of all permutations of a set depends formally on the set, the concept of group action allows one to consider a single group for studying the permutations of all sets with the same cardinality.",
+      "lemma": "set",
+      "span": {
+        "start": 44,
+        "end": 47,
+        "surface": "set"
+      },
+      "sense_id": "wp:set.n.set#collection",
+      "sense_gloss": "a group of things of the same kind that belong or are used together",
+      "cue_strength": 0.8571428571428571,
+      "cue_tier": "high_cue"
+    },
+    {
+      "text": "Mainspring A spiral ribbon-shaped spring used as a power store of clockwork mechanisms: watches, clocks, music boxes, windup toys, and mechanically powered flashlights Negator spring A thin metal band slightly concave in cross-section.",
+      "lemma": "spring",
+      "span": {
+        "start": 4,
+        "end": 10,
+        "surface": "spring"
+      },
+      "sense_id": "wp:spring.n.spring#elastic_device",
+      "sense_gloss": "a resilient metal coil that returns to its original shape after compression",
+      "cue_strength": 0.2222222222222222,
+      "cue_tier": "low_cue"
+    },
+    {
+      "text": "The term spring refers to develop into a distinctive entity",
+      "lemma": "spring",
+      "span": {
+        "start": 9,
+        "end": 15,
+        "surface": "spring"
+      },
+      "sense_id": "wn:spring.v.form.v.03",
+      "sense_gloss": "develop into a distinctive entity",
+      "cue_strength": 0.95,
+      "cue_tier": "high_cue"
+    },
+    {
+      "text": "a piece of curved or bent metal that can be pressed into a smaller space but then returns to its usual shape (noun) The mattress has a broken spring.",
+      "lemma": "spring",
+      "span": {
+        "start": 142,
+        "end": 148,
+        "surface": "spring"
+      },
+      "sense_id": "wp:spring.n.spring#academic",
+      "sense_gloss": "spring in academic context",
+      "cue_strength": 1.0,
+      "cue_tier": "high_cue"
+    },
+    {
+      "text": "42 Letter /\u02c8l\u025bt\u0259r/ (noun) any of the set of symbols used to write a language, representing a sound in the language A is the first letter of the alphabet.",
+      "lemma": "set",
+      "span": {
+        "start": 37,
+        "end": 40,
+        "surface": "set"
+      },
+      "sense_id": "wp:set.n.set#academic",
+      "sense_gloss": "set in academic context",
+      "cue_strength": 1.0,
+      "cue_tier": "high_cue"
+    },
+    {
+      "text": "Television set may also refer to: A television studio Set (film and TV scenery) The TV Set, a 2006 film See also Television (disambiguation)",
+      "lemma": "set",
+      "span": {
+        "start": 11,
+        "end": 14,
+        "surface": "set"
+      },
+      "sense_id": "wp:set.n.set#television",
+      "sense_gloss": "a television receiver",
+      "cue_strength": 1.0,
+      "cue_tier": "high_cue"
+    },
+    {
+      "text": "Scorsese paid tribute again in 1985, featuring a pub called \"The Terminal Bar\" in his film After Hours; The Emerald Pub in SoHo stood in for the defunct Terminal Bar.",
+      "lemma": "bar",
+      "span": {
+        "start": 74,
+        "end": 77,
+        "surface": "Bar"
+      },
+      "sense_id": "wp:bar.n.bar#drinking_establishment",
+      "sense_gloss": "an establishment where alcoholic drinks are served",
+      "cue_strength": 0.5714285714285714,
+      "cue_tier": "medium_cue"
+    },
+    {
+      "text": "In January 2019, Highland Spring became the first UK water brand to launch a 100% recycled PET plastic bottle.",
+      "lemma": "spring",
+      "span": {
+        "start": 26,
+        "end": 32,
+        "surface": "Spring"
+      },
+      "sense_id": "wp:spring.n.spring#water_source",
+      "sense_gloss": "a natural source of water flowing from the ground",
+      "cue_strength": 0.2222222222222222,
+      "cue_tier": "low_cue"
+    },
+    {
+      "text": "Toe \u2013 Torque \u2013 Torsion beam suspension \u2013 Torsion spring \u2013 Toughness \u2013 Track gauge \u2013 Spacing of the rails on a railway track Transmission \u2013 Truck \u2013 Truck (railway) \u2013 Chassis for wheels and suspension under railway vehicles, bogie outside U.S.",
+      "lemma": "spring",
+      "span": {
+        "start": 49,
+        "end": 55,
+        "surface": "spring"
+      },
+      "sense_id": "wp:spring.n.spring#technology",
+      "sense_gloss": "spring in technology context",
+      "cue_strength": 1.0,
+      "cue_tier": "high_cue"
+    },
+    {
+      "text": "See also Generating set for related meanings in other structures Presentation of a group Primitive element (finite field) Cayley graph Notes References Lang, Serge (2002), Algebra, Graduate Texts in Mathematics, vol.",
+      "lemma": "set",
+      "span": {
+        "start": 20,
+        "end": 23,
+        "surface": "set"
+      },
+      "sense_id": "wp:set.n.set#collection",
+      "sense_gloss": "a group of things of the same kind that belong or are used together",
+      "cue_strength": 0.2857142857142857,
+      "cue_tier": "low_cue"
+    },
+    {
+      "text": "Just anything away from the tennis court.\" As for Mahut, his doubles match with partner Arnaud Cl\u00e9ment against Colin Fleming and Ken Skupski started late in the evening on 24 June (also on Court 18); the match was suspended after Mahut and Cl\u00e9ment had lost the first set.",
+      "lemma": "set",
+      "span": {
+        "start": 267,
+        "end": 270,
+        "surface": "set"
+      },
+      "sense_id": "wp:set.n.set#tennis_unit",
+      "sense_gloss": "a unit of games in tennis",
+      "cue_strength": 0.8571428571428571,
+      "cue_tier": "high_cue"
+    },
+    {
+      "text": "Spring rate Spring rate is the measurement of how much load (in pounds) a coil spring can hold until it compresses 1 inch (2.54 cm).",
+      "lemma": "spring",
+      "span": {
+        "start": 0,
+        "end": 6,
+        "surface": "Spring"
+      },
+      "sense_id": "wp:spring.n.spring#elastic_device",
+      "sense_gloss": "a resilient metal coil that returns to its original shape after compression",
+      "cue_strength": 0.2222222222222222,
+      "cue_tier": "low_cue"
+    },
+    {
+      "text": "Wild cherry trees usually do not bloom in cold seasons because they cannot produce offspring if they bloom before spring, when pollinating insects become active.",
+      "lemma": "spring",
+      "span": {
+        "start": 86,
+        "end": 92,
+        "surface": "spring"
+      },
+      "sense_id": "wp:spring.n.spring#season",
+      "sense_gloss": "the season between winter and summer when plants begin to grow",
+      "cue_strength": 0.3333333333333333,
+      "cue_tier": "low_cue"
+    },
+    {
+      "text": "During the spring flower season large fields of blooming White rain daisies (Dimorphotheca pluvialis), Gousblom (Arctotis hirsuta), Magriet (Ursinia anthemoides), Livingstone daisies (Dorotheanthus bellidiformis), and Wild sorrel (Oxalis pes-caprae) can be seen along with other species of flowering plants.",
+      "lemma": "spring",
+      "span": {
+        "start": 11,
+        "end": 17,
+        "surface": "spring"
+      },
+      "sense_id": "wp:spring.n.spring#season",
+      "sense_gloss": "the season between winter and summer when plants begin to grow",
+      "cue_strength": 0.16666666666666666,
+      "cue_tier": "low_cue"
+    },
+    {
+      "text": "the smart set goes there",
+      "lemma": "set",
+      "span": {
+        "start": 10,
+        "end": 13,
+        "surface": "set"
+      },
+      "sense_id": "wn:set.n.set.n.05",
+      "sense_gloss": "an unofficial association of people or groups",
+      "cue_strength": 0.95,
+      "cue_tier": "high_cue"
+    },
+    {
+      "text": "In the states of South Australia and Western Australia, as well as the Australian Capital Territory, the professions of barrister and solicitor are fused, but an independent bar nonetheless exists, regulated by the Legal Practice Board of the state or territory.",
+      "lemma": "bar",
+      "span": {
+        "start": 120,
+        "end": 123,
+        "surface": "bar"
+      },
+      "sense_id": "wp:bar.n.bar#legal_profession",
+      "sense_gloss": "the legal profession or body of lawyers",
+      "cue_strength": 0.5714285714285714,
+      "cue_tier": "medium_cue"
+    },
+    {
+      "text": "Screening A test or set of tests to check for a condition in a person who shows no symptoms, but who may be at risk (perhaps because of their age or sexual behaviour, for example).",
+      "lemma": "set",
+      "span": {
+        "start": 20,
+        "end": 23,
+        "surface": "set"
+      },
+      "sense_id": "wp:set.n.set#medical",
+      "sense_gloss": "set in medical context",
+      "cue_strength": 1.0,
+      "cue_tier": "high_cue"
+    },
+    {
+      "text": "Arc springs (bow springs) are a special form of coil spring which was originally developed for use in the dual-mass flywheel of internal combustion engine drive trains.",
+      "lemma": "spring",
+      "span": {
+        "start": 4,
+        "end": 10,
+        "surface": "spring"
+      },
+      "sense_id": "wp:spring.n.spring#elastic_device",
+      "sense_gloss": "a resilient metal coil that returns to its original shape after compression",
+      "cue_strength": 0.2222222222222222,
+      "cue_tier": "low_cue"
+    },
+    {
+      "text": "A pro set is first to 8 (or 10) games by a margin of two games, instead of first to 6 games.",
+      "lemma": "set",
+      "span": {
+        "start": 6,
+        "end": 9,
+        "surface": "set"
+      },
+      "sense_id": "wp:set.n.set#tennis_unit",
+      "sense_gloss": "a unit of games in tennis",
+      "cue_strength": 0.8571428571428571,
+      "cue_tier": "high_cue"
+    },
+    {
+      "text": "Spring: the elasticity of something that can be stretched and returns to its original length",
+      "lemma": "spring",
+      "span": {
+        "start": 0,
+        "end": 6,
+        "surface": "Spring"
+      },
+      "sense_id": "wn:spring.n.give.n.01",
+      "sense_gloss": "the elasticity of something that can be stretched and returns to its original length",
+      "cue_strength": 0.95,
+      "cue_tier": "high_cue"
+    },
+    {
+      "text": "A spring is a device consisting of an elastic but largely rigid material (typically metal) bent or molded into a form (especially a coil) that can return into shape after being compressed, extended or twisted.",
+      "lemma": "spring",
+      "span": {
+        "start": 2,
+        "end": 8,
+        "surface": "spring"
+      },
+      "sense_id": "wp:spring.n.spring#elastic_device",
+      "sense_gloss": "a resilient metal coil that returns to its original shape after compression",
+      "cue_strength": 0.4444444444444444,
+      "cue_tier": "medium_cue"
+    },
+    {
+      "text": "Financial Planner \u2014 An investment professional who helps clients set and achieve financial goals, through investments, tax planning, asset allocation, risk management, retirement planning and other forms of financial management.",
+      "lemma": "set",
+      "span": {
+        "start": 65,
+        "end": 68,
+        "surface": "set"
+      },
+      "sense_id": "wp:set.n.set#financial",
+      "sense_gloss": "set in financial context",
+      "cue_strength": 1.0,
+      "cue_tier": "high_cue"
+    },
+    {
+      "text": "But the attempt was still unsuccessful because the metal coil spring bed Garfield was lying on confused the detector.",
+      "lemma": "spring",
+      "span": {
+        "start": 62,
+        "end": 68,
+        "surface": "spring"
+      },
+      "sense_id": "wp:spring.n.spring#elastic_device",
+      "sense_gloss": "a resilient metal coil that returns to its original shape after compression",
+      "cue_strength": 0.4444444444444444,
+      "cue_tier": "medium_cue"
+    },
+    {
+      "text": "Groundwater is heated by these shallow magma bodies and rises to the surface to emerge at a hot spring.",
+      "lemma": "spring",
+      "span": {
+        "start": 96,
+        "end": 102,
+        "surface": "spring"
+      },
+      "sense_id": "wp:spring.n.spring#water_source",
+      "sense_gloss": "a natural source of water flowing from the ground",
+      "cue_strength": 0.2222222222222222,
+      "cue_tier": "low_cue"
+    },
+    {
+      "text": "Akin to common law, which springs from tradition and judicial decisions.",
+      "lemma": "spring",
+      "span": {
+        "start": 26,
+        "end": 32,
+        "surface": "spring"
+      },
+      "sense_id": "wp:spring.n.spring#legal",
+      "sense_gloss": "spring in legal context",
+      "cue_strength": 1.0,
+      "cue_tier": "high_cue"
+    },
+    {
+      "text": "Flowers In the demonstration of NMJL, the two groups of flowers are \"Spring (\u6625), Summer (\u590f), Autumn (\u79cb), Winter (\u51ac)\" and \"Fortunate (\u798f), Luxurious (\u797f), Longevity (\u58fd), Noble (\u8cb4)\".",
+      "lemma": "spring",
+      "span": {
+        "start": 69,
+        "end": 75,
+        "surface": "Spring"
+      },
+      "sense_id": "wp:spring.n.spring#season",
+      "sense_gloss": "the season between winter and summer when plants begin to grow",
+      "cue_strength": 0.3333333333333333,
+      "cue_tier": "low_cue"
+    },
+    {
+      "text": "Use The soap comes packaged in paper similar to bar body soap and is most often found in the laundry section of a supermarket or grocery store.",
+      "lemma": "bar",
+      "span": {
+        "start": 48,
+        "end": 51,
+        "surface": "bar"
+      },
+      "sense_id": "wp:bar.n.bar#solid_block",
+      "sense_gloss": "a solid block of material, typically rectangular",
+      "cue_strength": 0.5714285714285714,
+      "cue_tier": "medium_cue"
+    },
+    {
+      "text": "The first fully transistorized, portable solid-state television set was the 8-inch (20 cm) Sony TV8-301, developed in 1959 and released in 1960.",
+      "lemma": "set",
+      "span": {
+        "start": 64,
+        "end": 67,
+        "surface": "set"
+      },
+      "sense_id": "wp:set.n.set#television",
+      "sense_gloss": "a television receiver",
+      "cue_strength": 0.3333333333333333,
+      "cue_tier": "low_cue"
+    },
+    {
+      "text": "Game points, set points, and match points are not part of official scoring and are not announced by the chair umpire in tournament play.",
+      "lemma": "set",
+      "span": {
+        "start": 13,
+        "end": 16,
+        "surface": "set"
+      },
+      "sense_id": "wp:set.n.set#tennis_unit",
+      "sense_gloss": "a unit of games in tennis",
+      "cue_strength": 1.0,
+      "cue_tier": "high_cue"
+    },
+    {
+      "text": "The B&O Railroad quickly recognized the value of the spring and began bottling the water in 1873.",
+      "lemma": "spring",
+      "span": {
+        "start": 53,
+        "end": 59,
+        "surface": "spring"
+      },
+      "sense_id": "wp:spring.n.spring#water_source",
+      "sense_gloss": "a natural source of water flowing from the ground",
+      "cue_strength": 0.2222222222222222,
+      "cue_tier": "low_cue"
+    },
+    {
+      "text": "Afterwards, in 1980, Benoit Mandelbrot obtained high-quality visualizations of the set while working at IBM's Thomas J.",
+      "lemma": "set",
+      "span": {
+        "start": 83,
+        "end": 86,
+        "surface": "set"
+      },
+      "sense_id": "wp:set.n.set#context",
+      "sense_gloss": "set (context)",
+      "cue_strength": 1.0,
+      "cue_tier": "high_cue"
+    },
+    {
+      "text": "See also Hungarian Revolution of 1956 Croatian Spring Velvet Revolution April 9 tragedy Lennon Wall References Bibliography Aspaturian, Vernon; Valenta, Jiri; Burke, David P.",
+      "lemma": "spring",
+      "span": {
+        "start": 47,
+        "end": 53,
+        "surface": "Spring"
+      },
+      "sense_id": "wp:spring.n.spring#season",
+      "sense_gloss": "the season between winter and summer when plants begin to grow",
+      "cue_strength": 0.16666666666666666,
+      "cue_tier": "low_cue"
+    },
+    {
+      "text": "She began her legal career as a law clerk for Judge Diana Gribbon Motz of the United States Court of Appeals for the Fourth Circuit, from 1997 to 1998.",
+      "lemma": "court",
+      "span": {
+        "start": 92,
+        "end": 97,
+        "surface": "Court"
+      },
+      "sense_id": "wp:court.n.court#legal",
+      "sense_gloss": "a tribunal presided over by a judge where legal cases are heard",
+      "cue_strength": 0.4444444444444444,
+      "cue_tier": "medium_cue"
+    },
+    {
+      "text": "The term spring refers to move forward by leaps and bounds",
+      "lemma": "spring",
+      "span": {
+        "start": 9,
+        "end": 15,
+        "surface": "spring"
+      },
+      "sense_id": "wn:spring.v.jump.v.01",
+      "sense_gloss": "move forward by leaps and bounds",
+      "cue_strength": 0.95,
+      "cue_tier": "high_cue"
+    },
+    {
+      "text": "Coil spring \u2013 also known as a helical spring , is a mechanical device which is typically used to store energy and subsequently release it, to absorb shock, or to maintain a force between contacting surfaces.",
+      "lemma": "spring",
+      "span": {
+        "start": 5,
+        "end": 11,
+        "surface": "spring"
+      },
+      "sense_id": "wp:spring.n.spring#technology",
+      "sense_gloss": "spring in technology context",
+      "cue_strength": 1.0,
+      "cue_tier": "high_cue"
+    },
+    {
+      "text": "(7) Then, to ensure that viewers who did not wish to buy a new digital television set could continue to receive conventional television broadcasts, it dictated that the new ATV standard must be capable of being \"simulcast\" on different channels.",
+      "lemma": "set",
+      "span": {
+        "start": 82,
+        "end": 85,
+        "surface": "set"
+      },
+      "sense_id": "wp:set.n.set#television",
+      "sense_gloss": "a television receiver",
+      "cue_strength": 0.6666666666666666,
+      "cue_tier": "medium_cue"
+    },
+    {
+      "text": "Stage play adaptation Stage theater director and producer Je\u2019Caryous Johnson, a well known renowned playwright in urban stage play productions, adapted Set It Off as an Off-Broadway play titled SET IT OFF: Live on Stage, with the blessing of creator and writer of the movie, Takashi Bufford.",
+      "lemma": "set",
+      "span": {
+        "start": 152,
+        "end": 155,
+        "surface": "Set"
+      },
+      "sense_id": "wp:set.n.set#stage_scenery",
+      "sense_gloss": "the scenery and props used in a theatrical or film production",
+      "cue_strength": 1.0,
+      "cue_tier": "high_cue"
+    },
+    {
+      "text": "Bushnell's patent has been cited as an innerspring but it was an under bed spring\u2014which in the mid-1800s was also called a mattress or base layer of a bed.",
+      "lemma": "spring",
+      "span": {
+        "start": 44,
+        "end": 50,
+        "surface": "spring"
+      },
+      "sense_id": "wp:spring.n.spring#elastic_device",
+      "sense_gloss": "a resilient metal coil that returns to its original shape after compression",
+      "cue_strength": 0.2222222222222222,
+      "cue_tier": "low_cue"
+    },
+    {
+      "text": "The ubiquitous television set became the display device for the first recorded media for consumer use in the 1970s, such as Betamax, VHS; these were later succeeded by DVD.",
+      "lemma": "set",
+      "span": {
+        "start": 26,
+        "end": 29,
+        "surface": "set"
+      },
+      "sense_id": "wp:set.n.set#television",
+      "sense_gloss": "a television receiver",
+      "cue_strength": 0.3333333333333333,
+      "cue_tier": "low_cue"
+    },
+    {
+      "text": "In the United Kingdom, the term \"the bar\" refers only to the professional organization for barristers (referred to in Scotland as advocates); the other type of UK lawyer, solicitors, have their own body, the Law Society.",
+      "lemma": "bar",
+      "span": {
+        "start": 37,
+        "end": 40,
+        "surface": "bar"
+      },
+      "sense_id": "wp:bar.n.bar#legal_profession",
+      "sense_gloss": "the legal profession or body of lawyers",
+      "cue_strength": 0.5714285714285714,
+      "cue_tier": "medium_cue"
+    },
+    {
+      "text": "The Spring container provides a consistent mechanism to configure applications and integrates with almost all Java environments, from small-scale applications to large enterprise applications.",
+      "lemma": "spring",
+      "span": {
+        "start": 4,
+        "end": 10,
+        "surface": "Spring"
+      },
+      "sense_id": "wp:spring.n.spring#elastic_device",
+      "sense_gloss": "a resilient metal coil that returns to its original shape after compression",
+      "cue_strength": 0.2222222222222222,
+      "cue_tier": "low_cue"
+    },
+    {
+      "text": "they played two sets of tennis after dinner",
+      "lemma": "set",
+      "span": {
+        "start": 16,
+        "end": 19,
+        "surface": "set"
+      },
+      "sense_id": "wn:set.n.set.n.08",
+      "sense_gloss": "a unit of play in tennis or squash",
+      "cue_strength": 0.95,
+      "cue_tier": "high_cue"
+    },
+    {
+      "text": "The Prague Spring also influenced a renewal of the Prague artistic and cultural scene as well as a liberalization of society which deeply marked the following years.",
+      "lemma": "spring",
+      "span": {
+        "start": 11,
+        "end": 17,
+        "surface": "Spring"
+      },
+      "sense_id": "wp:spring.n.spring#season",
+      "sense_gloss": "the season between winter and summer when plants begin to grow",
+      "cue_strength": 0.16666666666666666,
+      "cue_tier": "low_cue"
+    },
+    {
+      "text": "Scoring Game, set, match Game A game consists of a sequence of points played with the same player serving.",
+      "lemma": "set",
+      "span": {
+        "start": 14,
+        "end": 17,
+        "surface": "set"
+      },
+      "sense_id": "wp:set.n.set#tennis_unit",
+      "sense_gloss": "a unit of games in tennis",
+      "cue_strength": 0.5714285714285714,
+      "cue_tier": "medium_cue"
+    },
+    {
+      "text": "Deer Park Water Company was then purchased by The Clorox Company, and continued to sell the spring water under the Deer Park name along most of the East Coast.",
+      "lemma": "spring",
+      "span": {
+        "start": 92,
+        "end": 98,
+        "surface": "spring"
+      },
+      "sense_id": "wp:spring.n.spring#water_source",
+      "sense_gloss": "a natural source of water flowing from the ground",
+      "cue_strength": 0.4444444444444444,
+      "cue_tier": "medium_cue"
+    },
+    {
+      "text": "\"You Spring From Morning To Night\" , April 1949, Popular Science article on the basics of steel coil springs manufacturing.",
+      "lemma": "spring",
+      "span": {
+        "start": 5,
+        "end": 11,
+        "surface": "Spring"
+      },
+      "sense_id": "wp:spring.n.spring#elastic_device",
+      "sense_gloss": "a resilient metal coil that returns to its original shape after compression",
+      "cue_strength": 0.2222222222222222,
+      "cue_tier": "low_cue"
+    },
+    {
+      "text": "She said later, \"I thought it would set us back 50 years if I didn't win that match.",
+      "lemma": "set",
+      "span": {
+        "start": 36,
+        "end": 39,
+        "surface": "set"
+      },
+      "sense_id": "wp:set.n.set#tennis_unit",
+      "sense_gloss": "a unit of games in tennis",
+      "cue_strength": 0.5714285714285714,
+      "cue_tier": "medium_cue"
+    },
+    {
+      "text": "Automatic or direct debit A bill-paying method you set up with the merchant or service provider.",
+      "lemma": "set",
+      "span": {
+        "start": 51,
+        "end": 54,
+        "surface": "set"
+      },
+      "sense_id": "wp:set.n.set#financial",
+      "sense_gloss": "set in financial context",
+      "cue_strength": 1.0,
+      "cue_tier": "high_cue"
+    },
+    {
+      "text": "Spring: a light, self-propelled movement upwards or forwards",
+      "lemma": "spring",
+      "span": {
+        "start": 0,
+        "end": 6,
+        "surface": "Spring"
+      },
+      "sense_id": "wn:spring.n.leap.n.01",
+      "sense_gloss": "a light, self-propelled movement upwards or forwards",
+      "cue_strength": 0.95,
+      "cue_tier": "high_cue"
+    },
+    {
+      "text": "These things are called elements or members of the set and are typically mathematical objects of any kind such as numbers, symbols, points in space, lines, other geometrical shapes, variables, functions, or even other sets.",
+      "lemma": "set",
+      "span": {
+        "start": 51,
+        "end": 54,
+        "surface": "set"
+      },
+      "sense_id": "wp:set.n.set#tennis_unit",
+      "sense_gloss": "a unit of games in tennis",
+      "cue_strength": 0.2857142857142857,
+      "cue_tier": "low_cue"
+    },
+    {
+      "text": "the emerging buds were a sure sign of spring",
+      "lemma": "spring",
+      "span": {
+        "start": 38,
+        "end": 44,
+        "surface": "spring"
+      },
+      "sense_id": "wn:spring.n.spring.n.01",
+      "sense_gloss": "the season of growth",
+      "cue_strength": 0.95,
+      "cue_tier": "high_cue"
+    },
+    {
+      "text": "Coil spring suspension is also used in high performance cars so that the car can absorb bumps and have low body roll.",
+      "lemma": "spring",
+      "span": {
+        "start": 5,
+        "end": 11,
+        "surface": "spring"
+      },
+      "sense_id": "wp:spring.n.spring#elastic_device",
+      "sense_gloss": "a resilient metal coil that returns to its original shape after compression",
+      "cue_strength": 0.4444444444444444,
+      "cue_tier": "medium_cue"
+    },
+    {
+      "text": "Progressive rate coil springs A coil spring with a variable rate, usually achieved by having unequal distance between turns so that as the spring is compressed one or more coils rests against its neighbour.",
+      "lemma": "spring",
+      "span": {
+        "start": 22,
+        "end": 28,
+        "surface": "spring"
+      },
+      "sense_id": "wp:spring.n.spring#elastic_device",
+      "sense_gloss": "a resilient metal coil that returns to its original shape after compression",
+      "cue_strength": 0.6666666666666666,
+      "cue_tier": "medium_cue"
+    },
+    {
+      "text": "As per convention, the name suggested by the incumbent chief justice is almost always the next senior-most judge in the Supreme Court.",
+      "lemma": "court",
+      "span": {
+        "start": 128,
+        "end": 133,
+        "surface": "Court"
+      },
+      "sense_id": "wp:court.n.court#legal",
+      "sense_gloss": "a tribunal presided over by a judge where legal cases are heard",
+      "cue_strength": 0.4444444444444444,
+      "cue_tier": "medium_cue"
+    },
+    {
+      "text": "Passover The Passover begins on the 15th day of the month of Nisan, which typically falls in March or April of the Gregorian calendar on the night of a full moon after the northern spring equinox.",
+      "lemma": "spring",
+      "span": {
+        "start": 181,
+        "end": 187,
+        "surface": "spring"
+      },
+      "sense_id": "wp:spring.n.spring#season",
+      "sense_gloss": "the season between winter and summer when plants begin to grow",
+      "cue_strength": 0.3333333333333333,
+      "cue_tier": "low_cue"
+    },
+    {
+      "text": "the set of prime numbers is infinite",
+      "lemma": "set",
+      "span": {
+        "start": 4,
+        "end": 7,
+        "surface": "set"
+      },
+      "sense_id": "wn:set.n.set.n.02",
+      "sense_gloss": "(mathematics) an abstract collection of numbers or symbols",
+      "cue_strength": 0.95,
+      "cue_tier": "high_cue"
+    },
+    {
+      "text": "At the spring equinox, also called the vernal equinox, days and nights are approximately twelve hours long, with daytime length increasing and nighttime length decreasing as the season progresses until the summer solstice.",
+      "lemma": "spring",
+      "span": {
+        "start": 7,
+        "end": 13,
+        "surface": "spring"
+      },
+      "sense_id": "wp:spring.n.spring#season",
+      "sense_gloss": "the season between winter and summer when plants begin to grow",
+      "cue_strength": 0.16666666666666666,
+      "cue_tier": "low_cue"
+    },
+    {
+      "text": "Disorderly, contemptuous or insolent behaviour toward the judge or magistrates while holding the court, tending to interrupt the due course of a trial or other judicial proceeding, may be prosecuted as \"direct\" contempt.",
+      "lemma": "court",
+      "span": {
+        "start": 97,
+        "end": 102,
+        "surface": "court"
+      },
+      "sense_id": "wp:court.n.court#legal",
+      "sense_gloss": "a tribunal presided over by a judge where legal cases are heard",
+      "cue_strength": 0.4444444444444444,
+      "cue_tier": "medium_cue"
+    },
+    {
+      "text": "Perrier Group of America Inc., the bottled water company which is a subsidiary of Nestle S.A., the giant Swiss food producer, bought Deer Park Spring Water, Inc in 1993.",
+      "lemma": "spring",
+      "span": {
+        "start": 143,
+        "end": 149,
+        "surface": "Spring"
+      },
+      "sense_id": "wp:spring.n.spring#water_source",
+      "sense_gloss": "a natural source of water flowing from the ground",
+      "cue_strength": 0.4444444444444444,
+      "cue_tier": "medium_cue"
+    },
+    {
+      "text": "The symmetric group Sn and its subgroups act on the set {1, ..., n} by permuting its elements The symmetry group of a polyhedron acts on the set of vertices of that polyhedron.",
+      "lemma": "set",
+      "span": {
+        "start": 52,
+        "end": 55,
+        "surface": "set"
+      },
+      "sense_id": "wp:set.n.set#collection",
+      "sense_gloss": "a group of things of the same kind that belong or are used together",
+      "cue_strength": 0.5714285714285714,
+      "cue_tier": "medium_cue"
+    },
+    {
+      "text": "High Court judges use the title in office of Mr Justice for men or, normally, Mrs Justice for women, even if unmarried.",
+      "lemma": "court",
+      "span": {
+        "start": 5,
+        "end": 10,
+        "surface": "Court"
+      },
+      "sense_id": "wp:court.n.court#legal",
+      "sense_gloss": "a tribunal presided over by a judge where legal cases are heard",
+      "cue_strength": 0.4444444444444444,
+      "cue_tier": "medium_cue"
+    },
+    {
+      "text": "A presentation of a group is defined as a set of generators and a collection of relations between them, so any of the examples listed on that page contain examples of generating sets.",
+      "lemma": "set",
+      "span": {
+        "start": 42,
+        "end": 45,
+        "surface": "set"
+      },
+      "sense_id": "wp:set.n.set#collection",
+      "sense_gloss": "a group of things of the same kind that belong or are used together",
+      "cue_strength": 0.5714285714285714,
+      "cue_tier": "medium_cue"
+    },
+    {
+      "text": "The ubiquitous television set became the display device for recorded media in the 1970s, such as Betamax and VHS, which enabled viewers to record TV shows and watch prerecorded movies.",
+      "lemma": "set",
+      "span": {
+        "start": 26,
+        "end": 29,
+        "surface": "set"
+      },
+      "sense_id": "wp:set.n.set#television",
+      "sense_gloss": "a television receiver",
+      "cue_strength": 0.6666666666666666,
+      "cue_tier": "medium_cue"
+    },
+    {
+      "text": "His book also describes spring upholstered sofas, beds, mattresses, pillows, and carriage and coach seats also made of circular coil spring of lighter gauges of wire.",
+      "lemma": "spring",
+      "span": {
+        "start": 24,
+        "end": 30,
+        "surface": "spring"
+      },
+      "sense_id": "wp:spring.n.spring#elastic_device",
+      "sense_gloss": "a resilient metal coil that returns to its original shape after compression",
+      "cue_strength": 0.2222222222222222,
+      "cue_tier": "low_cue"
+    },
+    {
+      "text": "The Sentencing Reform Act of 1984 abolished parole in favor of a determinate sentencing system in which the sentence is set by sentencing guidelines.",
+      "lemma": "set",
+      "span": {
+        "start": 120,
+        "end": 123,
+        "surface": "set"
+      },
+      "sense_id": "wp:set.n.set#legal",
+      "sense_gloss": "set in legal context",
+      "cue_strength": 1.0,
+      "cue_tier": "high_cue"
+    },
+    {
+      "text": "A smart television sometimes referred to as a \"connected TV\" or \"hybrid TV\", is a television set or set-top box with integrated Internet and Web 2.0 features and is an example of technological convergence between computers, television sets, and set-top boxes.",
+      "lemma": "set",
+      "span": {
+        "start": 93,
+        "end": 96,
+        "surface": "set"
+      },
+      "sense_id": "wp:set.n.set#television",
+      "sense_gloss": "a television receiver",
+      "cue_strength": 1.0,
+      "cue_tier": "high_cue"
+    },
+    {
+      "text": "Pretrial conference A meeting of the judge and lawyers or parties prior to a trial, to discuss which matters should be presented, review proposed evidence and witnesses, and set a trial schedule.",
+      "lemma": "set",
+      "span": {
+        "start": 174,
+        "end": 177,
+        "surface": "set"
+      },
+      "sense_id": "wp:set.n.set#legal",
+      "sense_gloss": "set in legal context",
+      "cue_strength": 1.0,
+      "cue_tier": "high_cue"
+    },
+    {
+      "text": "a spring with water temperatures above 50 \u00b0C (122 \u00b0F) The related term \"warm spring\" is defined as a spring with water temperature less than a hot spring by many sources, although Pentecost et al.",
+      "lemma": "spring",
+      "span": {
+        "start": 2,
+        "end": 8,
+        "surface": "spring"
+      },
+      "sense_id": "wp:spring.n.spring#water_source",
+      "sense_gloss": "a natural source of water flowing from the ground",
+      "cue_strength": 0.6666666666666666,
+      "cue_tier": "medium_cue"
+    },
+    {
+      "text": "The third and fourth sets had no breaks of serve and were both decided by tiebreaks, with Mahut winning the third set tiebreak 9\u20137, and Isner winning the fourth set tiebreak 7\u20133, leaving the score at two sets each.",
+      "lemma": "set",
+      "span": {
+        "start": 21,
+        "end": 24,
+        "surface": "set"
+      },
+      "sense_id": "wp:set.n.set#tennis_unit",
+      "sense_gloss": "a unit of games in tennis",
+      "cue_strength": 0.5714285714285714,
+      "cue_tier": "medium_cue"
+    },
+    {
+      "text": "Zero-length springs Zero-length spring is a term for a specially designed coil spring that would exert zero force if it had zero length.",
+      "lemma": "spring",
+      "span": {
+        "start": 12,
+        "end": 18,
+        "surface": "spring"
+      },
+      "sense_id": "wp:spring.n.spring#elastic_device",
+      "sense_gloss": "a resilient metal coil that returns to its original shape after compression",
+      "cue_strength": 0.2222222222222222,
+      "cue_tier": "low_cue"
+    },
+    {
+      "text": "It is then fed onto a lathe that has a metal rod with the desired coil spring size.",
+      "lemma": "spring",
+      "span": {
+        "start": 71,
+        "end": 77,
+        "surface": "spring"
+      },
+      "sense_id": "wp:spring.n.spring#elastic_device",
+      "sense_gloss": "a resilient metal coil that returns to its original shape after compression",
+      "cue_strength": 0.4444444444444444,
+      "cue_tier": "medium_cue"
+    },
+    {
+      "text": "See also Admission to practice law Admission to the bar in the United States Bar association Bench (law) Call to the bar Courtroom References External links Importance of Bar & Bench relationship, available at learningthelaw.in",
+      "lemma": "bar",
+      "span": {
+        "start": 52,
+        "end": 55,
+        "surface": "bar"
+      },
+      "sense_id": "wp:bar.n.bar#legal_profession",
+      "sense_gloss": "the legal profession or body of lawyers",
+      "cue_strength": 0.5714285714285714,
+      "cue_tier": "medium_cue"
+    },
+    {
+      "text": "The Royal Court of Saudi Arabia acts as a liaison between the King of Saudi Arabia and government agencies, and is the King's chief executive office.",
+      "lemma": "court",
+      "span": {
+        "start": 10,
+        "end": 15,
+        "surface": "Court"
+      },
+      "sense_id": "wp:court.n.court#royal",
+      "sense_gloss": "the residence and retinue of a sovereign",
+      "cue_strength": 0.5714285714285714,
+      "cue_tier": "medium_cue"
+    },
+    {
+      "text": "The spring equinox is in March in the Northern Hemisphere and in September in the Southern Hemisphere, while the summer solstice is in June in the Northern Hemisphere and in December in the Southern Hemisphere.",
+      "lemma": "spring",
+      "span": {
+        "start": 4,
+        "end": 10,
+        "surface": "spring"
+      },
+      "sense_id": "wp:spring.n.spring#season",
+      "sense_gloss": "the season between winter and summer when plants begin to grow",
+      "cue_strength": 0.16666666666666666,
+      "cue_tier": "low_cue"
+    },
+    {
+      "text": "Herbaceous peonies are also sold as cut flowers on a large scale, although they generally are only available in late spring and early summer.",
+      "lemma": "spring",
+      "span": {
+        "start": 117,
+        "end": 123,
+        "surface": "spring"
+      },
+      "sense_id": "wp:spring.n.spring#season",
+      "sense_gloss": "the season between winter and summer when plants begin to grow",
+      "cue_strength": 0.16666666666666666,
+      "cue_tier": "low_cue"
+    },
+    {
+      "text": "North American usage In North American television, a series is a connected set of television program episodes that run under the same title, possibly spanning many seasons.",
+      "lemma": "set",
+      "span": {
+        "start": 75,
+        "end": 78,
+        "surface": "set"
+      },
+      "sense_id": "wp:set.n.set#television",
+      "sense_gloss": "a television receiver",
+      "cue_strength": 0.6666666666666666,
+      "cue_tier": "medium_cue"
+    },
+    {
+      "text": "big data A term used to refer to data sets that are too large or complex for traditional data-processing application software to adequately deal with.",
+      "lemma": "set",
+      "span": {
+        "start": 38,
+        "end": 41,
+        "surface": "set"
+      },
+      "sense_id": "wp:set.n.set#technology",
+      "sense_gloss": "set in technology context",
+      "cue_strength": 1.0,
+      "cue_tier": "high_cue"
+    },
+    {
+      "text": "If S {\\displaystyle S} is the empty set, then \u27e8 S \u27e9 {\\displaystyle \\langle S\\rangle } is the trivial group { e } {\\displaystyle \\{e\\}} , since we consider the empty product to be the identity.",
+      "lemma": "set",
+      "span": {
+        "start": 36,
+        "end": 39,
+        "surface": "set"
+      },
+      "sense_id": "wp:set.n.set#collection",
+      "sense_gloss": "a group of things of the same kind that belong or are used together",
+      "cue_strength": 0.2857142857142857,
+      "cue_tier": "low_cue"
+    },
+    {
+      "text": "Types Classification Springs can be classified depending on how the load force is applied to them: Tension/extension spring The spring is designed to operate with a tension load, so the spring stretches as the load is applied to it.",
+      "lemma": "spring",
+      "span": {
+        "start": 21,
+        "end": 27,
+        "surface": "Spring"
+      },
+      "sense_id": "wp:spring.n.spring#elastic_device",
+      "sense_gloss": "a resilient metal coil that returns to its original shape after compression",
+      "cue_strength": 0.2222222222222222,
+      "cue_tier": "low_cue"
+    },
+    {
+      "text": "The standard implementation of DST is to set clocks forward by one hour in spring or late winter, and to set clocks back by one hour to standard time in the autumn (or fall in North American English, hence the mnemonic: \"spring forward and fall back\").",
+      "lemma": "spring",
+      "span": {
+        "start": 75,
+        "end": 81,
+        "surface": "spring"
+      },
+      "sense_id": "wp:spring.n.spring#jump_action",
+      "sense_gloss": "to move suddenly upward or forward",
+      "cue_strength": 0.5,
+      "cue_tier": "medium_cue"
+    },
+    {
+      "text": "A further rule change during 2022 trialed a 10-point tie break at 6\u20136 in the final set of all Grand Slam matches, meaning that under current rules, the Isner\u2013Mahut match will remain the longest match in tennis history in terms of number of games played.",
+      "lemma": "set",
+      "span": {
+        "start": 83,
+        "end": 86,
+        "surface": "set"
+      },
+      "sense_id": "wp:set.n.set#tennis_unit",
+      "sense_gloss": "a unit of games in tennis",
+      "cue_strength": 1.0,
+      "cue_tier": "high_cue"
+    },
+    {
+      "text": "43 Season /\u02c8si\u02d0z\u0259n/ one of the four periods of the year; spring, summer, autumn, or winter (noun) Winter is my favorite season.",
+      "lemma": "spring",
+      "span": {
+        "start": 57,
+        "end": 63,
+        "surface": "spring"
+      },
+      "sense_id": "wp:spring.n.spring#academic",
+      "sense_gloss": "spring in academic context",
+      "cue_strength": 1.0,
+      "cue_tier": "high_cue"
+    },
+    {
+      "text": "An example of a non-volcanic warm spring is Warm Springs, Georgia (frequented for its therapeutic effects by paraplegic U.S.",
+      "lemma": "spring",
+      "span": {
+        "start": 34,
+        "end": 40,
+        "surface": "spring"
+      },
+      "sense_id": "wp:spring.n.spring#season",
+      "sense_gloss": "the season between winter and summer when plants begin to grow",
+      "cue_strength": 0.3333333333333333,
+      "cue_tier": "low_cue"
+    },
+    {
+      "text": "14 by Mozart Spring Symphony, a symphony by Benjamin Britten Symphony No.",
+      "lemma": "spring",
+      "span": {
+        "start": 13,
+        "end": 19,
+        "surface": "Spring"
+      },
+      "sense_id": "wp:spring.n.spring#season",
+      "sense_gloss": "a season of the year\nSpring (device), a mechanical device that stores energy\nSpring (hydrology), a natural source of water\nSpring (mathematics), a geometric surface in the shape of a helically coiled ",
+      "cue_strength": 0.72,
+      "cue_tier": "high_cue"
+    },
+    {
+      "text": "In 2017, the Greek Basket League club, AEK Athens, revealed their plans to acquire the Main Court facility, in order to transform it into their home indoor basketball hall, with a spectator capacity for basketball games, of 9,500-10,000 seats.",
+      "lemma": "court",
+      "span": {
+        "start": 92,
+        "end": 97,
+        "surface": "Court"
+      },
+      "sense_id": "wp:court.n.court#sports_area",
+      "sense_gloss": "an area marked for playing tennis, basketball, or similar games",
+      "cue_strength": 0.5714285714285714,
+      "cue_tier": "medium_cue"
+    },
+    {
+      "text": "Court discovered tennis at the age of eight, playing on her own by hitting a tennis ball against a wall with an old fence paling.",
+      "lemma": "court",
+      "span": {
+        "start": 0,
+        "end": 5,
+        "surface": "Court"
+      },
+      "sense_id": "wp:court.n.court#sports_area",
+      "sense_gloss": "an area marked for playing tennis, basketball, or similar games",
+      "cue_strength": 0.5714285714285714,
+      "cue_tier": "medium_cue"
+    },
+    {
+      "text": "Set (; Egyptological: Sutekh - swt\u1e96 ~ st\u1e96 or: Seth ) \u2ca4\u2c8f\u2ca7 (Coptic) is a god of deserts, storms, disorder, violence, and foreigners in ancient Egyptian religion.",
+      "lemma": "set",
+      "span": {
+        "start": 0,
+        "end": 3,
+        "surface": "Set"
+      },
+      "sense_id": "wp:set.n.set#set",
+      "sense_gloss": "set (Set)",
+      "cue_strength": 1.0,
+      "cue_tier": "high_cue"
+    },
+    {
+      "text": "Arthur Ganong was the first to make any sort of a wrapped chocolate bar; Ganong began selling the first chocolate bars in 1910.",
+      "lemma": "bar",
+      "span": {
+        "start": 68,
+        "end": 71,
+        "surface": "bar"
+      },
+      "sense_id": "wp:bar.n.bar#solid_block",
+      "sense_gloss": "a solid block of material, typically rectangular",
+      "cue_strength": 0.5714285714285714,
+      "cue_tier": "medium_cue"
+    },
+    {
+      "text": "Accuracy and precision \u2013 In measurement of a set, accuracy is closeness of the measurements to a specific value, while precision is the closeness of the measurements to each other.",
+      "lemma": "set",
+      "span": {
+        "start": 45,
+        "end": 48,
+        "surface": "set"
+      },
+      "sense_id": "wp:set.n.set#technology",
+      "sense_gloss": "set in technology context",
+      "cue_strength": 1.0,
+      "cue_tier": "high_cue"
+    },
+    {
+      "text": "The stilts are often referred to generically as bocks or powerbocks; as power stilts, jumping stilts, bounce stilts or spring stilts; or by their brand name.",
+      "lemma": "spring",
+      "span": {
+        "start": 119,
+        "end": 125,
+        "surface": "spring"
+      },
+      "sense_id": "wp:spring.n.spring#elastic_device",
+      "sense_gloss": "a resilient metal coil that returns to its original shape after compression",
+      "cue_strength": 0.2222222222222222,
+      "cue_tier": "low_cue"
+    },
+    {
+      "text": "They have compound, deeply lobed leaves and large, often fragrant flowers, in colors ranging from purple and pink to red, white or yellow, in late spring and early summer.",
+      "lemma": "spring",
+      "span": {
+        "start": 147,
+        "end": 153,
+        "surface": "spring"
+      },
+      "sense_id": "wp:spring.n.spring#season",
+      "sense_gloss": "the season between winter and summer when plants begin to grow",
+      "cue_strength": 0.16666666666666666,
+      "cue_tier": "low_cue"
+    },
+    {
+      "text": "A majority of the scenes set in the fictional town of Chuglass, Idaho were filmed in Huntly, with additional production taking place at Helensville, Auckland Film Studios, and Settlers Country Manor.",
+      "lemma": "set",
+      "span": {
+        "start": 25,
+        "end": 28,
+        "surface": "set"
+      },
+      "sense_id": "wp:set.n.set#stage_scenery",
+      "sense_gloss": "the scenery and props used in a theatrical or film production",
+      "cue_strength": 0.5,
+      "cue_tier": "medium_cue"
+    },
+    {
+      "text": "Set-top boxes are used in cable television, satellite television, terrestrial television and Internet Protocol television systems, as well as other uses such as digital media players (\"streaming boxes\").",
+      "lemma": "set",
+      "span": {
+        "start": 0,
+        "end": 3,
+        "surface": "Set"
+      },
+      "sense_id": "wp:set.n.set#television",
+      "sense_gloss": "a television receiver",
+      "cue_strength": 1.0,
+      "cue_tier": "high_cue"
+    },
+    {
+      "text": "Production The title is a play on words used to represent the season of spring and action the gnomes must take to wake up and get to work.",
+      "lemma": "spring",
+      "span": {
+        "start": 72,
+        "end": 78,
+        "surface": "spring"
+      },
+      "sense_id": "wp:spring.n.spring#season",
+      "sense_gloss": "the season between winter and summer when plants begin to grow",
+      "cue_strength": 0.16666666666666666,
+      "cue_tier": "low_cue"
+    },
+    {
+      "text": "In 1923, Menzier proposed that a warm spring be defined as a thermal spring where the water is below that of the human body, but above that of the mean air temperature around the spring, though this definition is contested.",
+      "lemma": "spring",
+      "span": {
+        "start": 38,
+        "end": 44,
+        "surface": "spring"
+      },
+      "sense_id": "wp:spring.n.spring#water_source",
+      "sense_gloss": "a natural source of water flowing from the ground",
+      "cue_strength": 0.4444444444444444,
+      "cue_tier": "medium_cue"
+    },
+    {
+      "text": "In March 2021, Nestle completed a $4.3 billion deal selling its North American bottled water brands, including Poland Spring, to two private-equity firms.",
+      "lemma": "spring",
+      "span": {
+        "start": 118,
+        "end": 124,
+        "surface": "Spring"
+      },
+      "sense_id": "wp:spring.n.spring#water_source",
+      "sense_gloss": "a natural source of water flowing from the ground",
+      "cue_strength": 0.2222222222222222,
+      "cue_tier": "low_cue"
+    },
+    {
+      "text": "In discerning whether a given set of meanings represent polysemy or homonymy, it is often necessary to look at the history of the word to see whether the two meanings are historically related.",
+      "lemma": "set",
+      "span": {
+        "start": 30,
+        "end": 33,
+        "surface": "set"
+      },
+      "sense_id": "wp:set.n.set#academic",
+      "sense_gloss": "set in academic context",
+      "cue_strength": 1.0,
+      "cue_tier": "high_cue"
+    },
+    {
+      "text": "The chief justice of India is the highest-ranking officer of the Indian judiciary and the chief judge of the Supreme Court of India.",
+      "lemma": "court",
+      "span": {
+        "start": 117,
+        "end": 122,
+        "surface": "Court"
+      },
+      "sense_id": "wp:court.n.court#legal",
+      "sense_gloss": "a tribunal presided over by a judge where legal cases are heard",
+      "cue_strength": 0.4444444444444444,
+      "cue_tier": "medium_cue"
+    },
+    {
+      "text": "While it is true that every quotient of a finitely generated group is finitely generated (the images of the generators in the quotient give a finite generating set), a subgroup of a finitely generated group need not be finitely generated.",
+      "lemma": "set",
+      "span": {
+        "start": 160,
+        "end": 163,
+        "surface": "set"
+      },
+      "sense_id": "wp:set.n.set#collection",
+      "sense_gloss": "a group of things of the same kind that belong or are used together",
+      "cue_strength": 0.5714285714285714,
+      "cue_tier": "medium_cue"
+    },
+    {
+      "text": "Default \u2014 Failure to repay a debt as set in the terms of a credit or loan agreement.",
+      "lemma": "set",
+      "span": {
+        "start": 37,
+        "end": 40,
+        "surface": "set"
+      },
+      "sense_id": "wp:set.n.set#financial",
+      "sense_gloss": "set in financial context",
+      "cue_strength": 0.96,
+      "cue_tier": "high_cue"
+    },
+    {
+      "text": "In 2004, the town's water stopped temporarily because of a pump failure, but Poland Spring's operations were able to continue.",
+      "lemma": "spring",
+      "span": {
+        "start": 84,
+        "end": 90,
+        "surface": "Spring"
+      },
+      "sense_id": "wp:spring.n.spring#water_source",
+      "sense_gloss": "a natural source of water flowing from the ground",
+      "cue_strength": 0.2222222222222222,
+      "cue_tier": "low_cue"
+    },
+    {
+      "text": "For example, if the player who is serving has a score of 40\u2013love, the player has a triple game point (triple set point, etc.) as the player has three consecutive chances to win the game.",
+      "lemma": "set",
+      "span": {
+        "start": 109,
+        "end": 112,
+        "surface": "set"
+      },
+      "sense_id": "wp:set.n.set#tennis_unit",
+      "sense_gloss": "a unit of games in tennis",
+      "cue_strength": 0.5714285714285714,
+      "cue_tier": "medium_cue"
+    },
+    {
+      "text": "Spring Boot is a convention-over-configuration extension for the Spring Java platform intended to help minimize configuration concerns while creating Spring-based applications.",
+      "lemma": "spring",
+      "span": {
+        "start": 0,
+        "end": 6,
+        "surface": "Spring"
+      },
+      "sense_id": "wp:spring.n.spring#context",
+      "sense_gloss": "spring (context)",
+      "cue_strength": 1.0,
+      "cue_tier": "high_cue"
+    },
+    {
+      "text": "Also in February, Feige stated that casting for the film was underway, and added that he was set to meet with directors about the film following the release of Avengers: Age of Ultron (2015) at the end of April.",
+      "lemma": "set",
+      "span": {
+        "start": 93,
+        "end": 96,
+        "surface": "set"
+      },
+      "sense_id": "wp:set.n.set#stage_scenery",
+      "sense_gloss": "the scenery and props used in a theatrical or film production",
+      "cue_strength": 0.5,
+      "cue_tier": "medium_cue"
+    },
+    {
+      "text": "Spring stilts using steel coil springs, an antecedent of the pogo stick, were attempted in the 19th century.",
+      "lemma": "spring",
+      "span": {
+        "start": 0,
+        "end": 6,
+        "surface": "Spring"
+      },
+      "sense_id": "wp:spring.n.spring#elastic_device",
+      "sense_gloss": "a resilient metal coil that returns to its original shape after compression",
+      "cue_strength": 0.2222222222222222,
+      "cue_tier": "low_cue"
+    },
+    {
+      "text": "Non-alcoholic mixed drinks date back to when cocktails emerged, appearing as \"temperance drinks\" in the first American cocktail books, including Jerry Thomas's Bar-Tenders Guide (1862).",
+      "lemma": "bar",
+      "span": {
+        "start": 160,
+        "end": 163,
+        "surface": "Bar"
+      },
+      "sense_id": "wp:bar.n.bar#drinking_establishment",
+      "sense_gloss": "an establishment where alcoholic drinks are served",
+      "cue_strength": 0.5714285714285714,
+      "cue_tier": "medium_cue"
+    },
+    {
+      "text": "Sets A television set, also called a television receiver, television, TV set, TV, or \"telly\", is a device that combines a tuner, display, amplifier, and speakers for the purpose of viewing television and hearing its audio components.",
+      "lemma": "set",
+      "span": {
+        "start": 0,
+        "end": 3,
+        "surface": "Set"
+      },
+      "sense_id": "wp:set.n.set#television",
+      "sense_gloss": "a television receiver",
+      "cue_strength": 1.0,
+      "cue_tier": "high_cue"
+    },
+    {
+      "text": "Bangladesh In Bangladesh, the law relating to barristers is the Bangladesh Legal Practitioners and Bar Council Order as administered and enforced by the Bangladesh Bar Council.",
+      "lemma": "bar",
+      "span": {
+        "start": 46,
+        "end": 49,
+        "surface": "bar"
+      },
+      "sense_id": "wp:bar.n.bar#legal_profession",
+      "sense_gloss": "the legal profession or body of lawyers",
+      "cue_strength": 0.5714285714285714,
+      "cue_tier": "medium_cue"
+    },
+    {
+      "text": "benchmark The act of running a computer program , a set of programs, or other operations, in order to assess the relative performance of an object, normally by running a number of standard tests and trials against it.",
+      "lemma": "set",
+      "span": {
+        "start": 52,
+        "end": 55,
+        "surface": "set"
+      },
+      "sense_id": "wp:set.n.set#technology",
+      "sense_gloss": "set in technology context",
+      "cue_strength": 1.0,
+      "cue_tier": "high_cue"
+    },
+    {
+      "text": "Although objects of any kind can be collected into a set, set theory \u2013 as a branch of mathematics \u2013 is mostly concerned with those that are relevant to mathematics as a whole.",
+      "lemma": "set",
+      "span": {
+        "start": 53,
+        "end": 56,
+        "surface": "set"
+      },
+      "sense_id": "wp:set.n.set#context",
+      "sense_gloss": "set (context)",
+      "cue_strength": 1.0,
+      "cue_tier": "high_cue"
+    },
+    {
+      "text": "the sets were meticulously authentic",
+      "lemma": "set",
+      "span": {
+        "start": 4,
+        "end": 7,
+        "surface": "set"
+      },
+      "sense_id": "wn:set.n.stage_set.n.01",
+      "sense_gloss": "representation consisting of the scenery and other properties used to identify the location of a dra...",
+      "cue_strength": 0.95,
+      "cue_tier": "high_cue"
+    },
+    {
+      "text": "Credit limit A limit set by the credit card company on how much you can charge on the card it issued to you.",
+      "lemma": "set",
+      "span": {
+        "start": 21,
+        "end": 24,
+        "surface": "set"
+      },
+      "sense_id": "wp:set.n.set#financial",
+      "sense_gloss": "set in financial context",
+      "cue_strength": 1.0,
+      "cue_tier": "high_cue"
+    },
+    {
+      "text": "he did four sets of the incline bench press",
+      "lemma": "set",
+      "span": {
+        "start": 12,
+        "end": 15,
+        "surface": "set"
+      },
+      "sense_id": "wn:set.n.set.n.03",
+      "sense_gloss": "several exercises intended to be done in series",
+      "cue_strength": 0.95,
+      "cue_tier": "high_cue"
+    },
+    {
+      "text": "(BBC, UK News Magazine) Status of Spring \u2013 Maps of Spring Leaf and Bloom Indices for the United States Tunno, Bianca Barr.",
+      "lemma": "spring",
+      "span": {
+        "start": 34,
+        "end": 40,
+        "surface": "Spring"
+      },
+      "sense_id": "wp:spring.n.spring#season",
+      "sense_gloss": "the season between winter and summer when plants begin to grow",
+      "cue_strength": 0.16666666666666666,
+      "cue_tier": "low_cue"
+    },
+    {
+      "text": "YouTuber Valkyrae was originally set to appear in the film, but was removed after she openly accused Momoa of mistreating the cast and production crew.",
+      "lemma": "set",
+      "span": {
+        "start": 33,
+        "end": 36,
+        "surface": "set"
+      },
+      "sense_id": "wp:set.n.set#stage_scenery",
+      "sense_gloss": "the scenery and props used in a theatrical or film production",
+      "cue_strength": 0.5,
+      "cue_tier": "medium_cue"
+    },
+    {
+      "text": "A hot spring, thermal spring, hydrothermal spring, or geothermal spring is a spring produced by the emergence of geothermally heated groundwater onto the surface of the Earth.",
+      "lemma": "spring",
+      "span": {
+        "start": 6,
+        "end": 12,
+        "surface": "spring"
+      },
+      "sense_id": "wp:spring.n.spring#water_source",
+      "sense_gloss": "a natural source of water flowing from the ground",
+      "cue_strength": 0.4444444444444444,
+      "cue_tier": "medium_cue"
+    },
+    {
+      "text": "The definitions of generating set of a group using finite sums, given above, must be slightly modified when one deals with semigroups or monoids.",
+      "lemma": "set",
+      "span": {
+        "start": 30,
+        "end": 33,
+        "surface": "set"
+      },
+      "sense_id": "wp:set.n.set#collection",
+      "sense_gloss": "a group of things of the same kind that belong or are used together",
+      "cue_strength": 0.2857142857142857,
+      "cue_tier": "low_cue"
+    },
+    {
+      "text": "he gave a final set to his hat",
+      "lemma": "set",
+      "span": {
+        "start": 16,
+        "end": 19,
+        "surface": "set"
+      },
+      "sense_id": "wn:set.n.set.n.07",
+      "sense_gloss": "the act of putting something in position",
+      "cue_strength": 0.95,
+      "cue_tier": "high_cue"
+    },
+    {
+      "text": "Spring: a natural flow of ground water",
+      "lemma": "spring",
+      "span": {
+        "start": 0,
+        "end": 6,
+        "surface": "Spring"
+      },
+      "sense_id": "wn:spring.n.spring.n.03",
+      "sense_gloss": "a natural flow of ground water",
+      "cue_strength": 0.95,
+      "cue_tier": "high_cue"
+    },
+    {
+      "text": "The sway bar (anti-roll bar) used in many vehicle suspension systems also uses the torsion spring principle.",
+      "lemma": "spring",
+      "span": {
+        "start": 91,
+        "end": 97,
+        "surface": "spring"
+      },
+      "sense_id": "wp:spring.n.spring#elastic_device",
+      "sense_gloss": "a resilient metal coil that returns to its original shape after compression",
+      "cue_strength": 0.2222222222222222,
+      "cue_tier": "low_cue"
+    },
+    {
+      "text": "Gear ratio \u2013 the ratio of the pitch circles of mating gears which defines the speed ratio and the mechanical advantage of the gear set.",
+      "lemma": "set",
+      "span": {
+        "start": 131,
+        "end": 134,
+        "surface": "set"
+      },
+      "sense_id": "wp:set.n.set#technology",
+      "sense_gloss": "set in technology context",
+      "cue_strength": 1.0,
+      "cue_tier": "high_cue"
+    },
+    {
+      "text": "A strong base that uses legs and core improves the chances the jump shooter will have of making a shot from distance\u2014using legs and core to spring up will get the player enough power to get the ball in the basket.",
+      "lemma": "spring",
+      "span": {
+        "start": 140,
+        "end": 146,
+        "surface": "spring"
+      },
+      "sense_id": "wp:spring.n.spring#jump_action",
+      "sense_gloss": "to move suddenly upward or forward",
+      "cue_strength": 0.25,
+      "cue_tier": "low_cue"
+    },
+    {
+      "text": "Springs have long been important for humans as a source of fresh water, especially in arid regions which have relatively little annual rainfall.",
+      "lemma": "spring",
+      "span": {
+        "start": 0,
+        "end": 6,
+        "surface": "Spring"
+      },
+      "sense_id": "wp:spring.n.spring#spring",
+      "sense_gloss": "spring (Spring)",
+      "cue_strength": 1.0,
+      "cue_tier": "high_cue"
+    },
+    {
+      "text": "Set A set consists of a sequence of games played with service alternating between games, ending when the count of games won meets certain criteria.",
+      "lemma": "set",
+      "span": {
+        "start": 0,
+        "end": 3,
+        "surface": "Set"
+      },
+      "sense_id": "wp:set.n.set#tennis_unit",
+      "sense_gloss": "a unit of games in tennis",
+      "cue_strength": 0.8571428571428571,
+      "cue_tier": "high_cue"
+    },
+    {
+      "text": "The Main Court, in particular, is extremely large by the standards of major tennis competitions, with the seats being relatively far removed from the tennis court.",
+      "lemma": "court",
+      "span": {
+        "start": 9,
+        "end": 14,
+        "surface": "Court"
+      },
+      "sense_id": "wp:court.n.court#sports_area",
+      "sense_gloss": "an area marked for playing tennis, basketball, or similar games",
+      "cue_strength": 0.5714285714285714,
+      "cue_tier": "medium_cue"
+    },
+    {
+      "text": "Engineering ethics \u2013 a field that examines and sets the obligations by engineers to society , to their clients, and to the profession.",
+      "lemma": "set",
+      "span": {
+        "start": 47,
+        "end": 50,
+        "surface": "set"
+      },
+      "sense_id": "wp:set.n.set#technology",
+      "sense_gloss": "set in technology context",
+      "cue_strength": 1.0,
+      "cue_tier": "high_cue"
+    },
+    {
+      "text": "Regulation Barristers are regulated by the Bar for the jurisdiction where they practice, and in some countries, by the Inn of Court to which they belong.",
+      "lemma": "bar",
+      "span": {
+        "start": 11,
+        "end": 14,
+        "surface": "Bar"
+      },
+      "sense_id": "wp:bar.n.bar#legal_profession",
+      "sense_gloss": "the legal profession or body of lawyers",
+      "cue_strength": 0.5714285714285714,
+      "cue_tier": "medium_cue"
+    },
+    {
+      "text": "Known locally as the \"Boiling Spring\", the source of the spring water derived its name from the action of the water bubbling up through white sand on its way to the surface.",
+      "lemma": "spring",
+      "span": {
+        "start": 30,
+        "end": 36,
+        "surface": "Spring"
+      },
+      "sense_id": "wp:spring.n.spring#water_source",
+      "sense_gloss": "a natural source of water flowing from the ground",
+      "cue_strength": 0.8888888888888888,
+      "cue_tier": "high_cue"
+    },
+    {
+      "text": "Spring Boot is an open-source Java framework used for programming standalone, production-grade Spring-based applications with a bundle of libraries that make project startup and management easier.",
+      "lemma": "spring",
+      "span": {
+        "start": 0,
+        "end": 6,
+        "surface": "Spring"
+      },
+      "sense_id": "wp:spring.n.spring#context",
+      "sense_gloss": "spring (context)",
+      "cue_strength": 1.0,
+      "cue_tier": "high_cue"
+    },
+    {
+      "text": "Anna Marie Manasco (born 1980) is an American lawyer from Alabama who is serving as a United States district judge of the United States District Court for the Northern District of Alabama.",
+      "lemma": "court",
+      "span": {
+        "start": 145,
+        "end": 150,
+        "surface": "Court"
+      },
+      "sense_id": "wp:court.n.court#legal",
+      "sense_gloss": "a tribunal presided over by a judge where legal cases are heard",
+      "cue_strength": 0.4444444444444444,
+      "cue_tier": "medium_cue"
+    },
+    {
+      "text": "These are herbaceous, have leaves like tree peonies, with many large flowers from late spring to early autumn, and good peony wilt resistance.",
+      "lemma": "spring",
+      "span": {
+        "start": 87,
+        "end": 93,
+        "surface": "spring"
+      },
+      "sense_id": "wp:spring.n.spring#season",
+      "sense_gloss": "the season between winter and summer when plants begin to grow",
+      "cue_strength": 0.16666666666666666,
+      "cue_tier": "low_cue"
+    },
+    {
+      "text": "Examples The trivial action of any group G on any set X is defined by g\u22c5x = x for all g in G and all x in X; that is, every group element induces the identity permutation on X.",
+      "lemma": "set",
+      "span": {
+        "start": 50,
+        "end": 53,
+        "surface": "set"
+      },
+      "sense_id": "wp:set.n.set#collection",
+      "sense_gloss": "a group of things of the same kind that belong or are used together",
+      "cue_strength": 0.5714285714285714,
+      "cue_tier": "medium_cue"
+    },
+    {
+      "text": "Federal judicial service On March 26, 2015, President Barack Obama nominated Xinis to serve as a United States district judge of the United States District Court for the District of Maryland, to the seat vacated by Judge Deborah K.",
+      "lemma": "court",
+      "span": {
+        "start": 156,
+        "end": 161,
+        "surface": "Court"
+      },
+      "sense_id": "wp:court.n.court#legal",
+      "sense_gloss": "a tribunal presided over by a judge where legal cases are heard",
+      "cue_strength": 0.4444444444444444,
+      "cue_tier": "medium_cue"
+    },
+    {
+      "text": "(H can be taken to be the stabilizer group of any element of the original G-set.) With this notion of morphism, the collection of all G-sets forms a category; this category is a Grothendieck topos (in fact, assuming a classical metalogic, this topos will even be Boolean).",
+      "lemma": "set",
+      "span": {
+        "start": 76,
+        "end": 79,
+        "surface": "set"
+      },
+      "sense_id": "wp:set.n.set#collection",
+      "sense_gloss": "a group of things of the same kind that belong or are used together",
+      "cue_strength": 0.5714285714285714,
+      "cue_tier": "medium_cue"
+    },
+    {
+      "text": "The issuer promises to pay you a specified rate of interest during the life of the bond and to repay the principal \u2014 also known as the bond\u2019s face value or par value \u2014 when the bond \"matures,\" or comes due after a set period.",
+      "lemma": "set",
+      "span": {
+        "start": 214,
+        "end": 217,
+        "surface": "set"
+      },
+      "sense_id": "wp:set.n.set#financial",
+      "sense_gloss": "set in financial context",
+      "cue_strength": 1.0,
+      "cue_tier": "high_cue"
+    },
+    {
+      "text": "He played doubles tennis on the court with American tennis player Pete Sampras in 1990.",
+      "lemma": "court",
+      "span": {
+        "start": 32,
+        "end": 37,
+        "surface": "court"
+      },
+      "sense_id": "wp:court.n.court#sports_area",
+      "sense_gloss": "an area marked for playing tennis, basketball, or similar games",
+      "cue_strength": 0.5714285714285714,
+      "cue_tier": "medium_cue"
+    },
+    {
+      "text": "A television set or television receiver (more commonly called TV, TV set, television, telly, or tele) is an electronic device for viewing and hearing television broadcasts.",
+      "lemma": "set",
+      "span": {
+        "start": 13,
+        "end": 16,
+        "surface": "set"
+      },
+      "sense_id": "wp:set.n.set#television",
+      "sense_gloss": "a television receiver",
+      "cue_strength": 1.0,
+      "cue_tier": "high_cue"
+    },
+    {
+      "text": "Water sales All Poland Spring products are sold in plastic bottles, for both safety and economic reasons.",
+      "lemma": "spring",
+      "span": {
+        "start": 23,
+        "end": 29,
+        "surface": "Spring"
+      },
+      "sense_id": "wp:spring.n.spring#water_source",
+      "sense_gloss": "a natural source of water flowing from the ground",
+      "cue_strength": 0.2222222222222222,
+      "cue_tier": "low_cue"
+    },
+    {
+      "text": "The Prague Spring reforms were an attempt by Dub\u010dek to grant additional rights to the citizens of Czechoslovakia in an act of partial decentralization of the economy and democratization.",
+      "lemma": "spring",
+      "span": {
+        "start": 11,
+        "end": 17,
+        "surface": "Spring"
+      },
+      "sense_id": "wp:spring.n.spring#context",
+      "sense_gloss": "spring (context)",
+      "cue_strength": 1.0,
+      "cue_tier": "high_cue"
+    },
+    {
+      "text": "Gary Gray's film Set It Off is one of the most poignantly impassioned,\" and that \"[i]f this messy roller coaster of a film often seems to be going in several directions at once, it never for a second loses empathy\" for the female robbers.",
+      "lemma": "set",
+      "span": {
+        "start": 17,
+        "end": 20,
+        "surface": "Set"
+      },
+      "sense_id": "wp:set.n.set#stage_scenery",
+      "sense_gloss": "the scenery and props used in a theatrical or film production",
+      "cue_strength": 0.5,
+      "cue_tier": "medium_cue"
+    },
+    {
+      "text": "Bar (counter) The counter at which drinks are served by a bartender is called \"the bar\".",
+      "lemma": "bar",
+      "span": {
+        "start": 0,
+        "end": 3,
+        "surface": "Bar"
+      },
+      "sense_id": "wp:bar.n.bar#drinking_establishment",
+      "sense_gloss": "an establishment where alcoholic drinks are served",
+      "cue_strength": 0.5714285714285714,
+      "cue_tier": "medium_cue"
+    },
+    {
+      "text": "At least one Supreme Court justice has made calls for jury trials to replace bench trials on contempt cases.",
+      "lemma": "court",
+      "span": {
+        "start": 21,
+        "end": 26,
+        "surface": "Court"
+      },
+      "sense_id": "wp:court.n.court#legal",
+      "sense_gloss": "a tribunal presided over by a judge where legal cases are heard",
+      "cue_strength": 0.4444444444444444,
+      "cue_tier": "medium_cue"
+    },
+    {
+      "text": "We set internationally recognised standards and produce clinical guidelines for treatment and care.",
+      "lemma": "set",
+      "span": {
+        "start": 3,
+        "end": 6,
+        "surface": "set"
+      },
+      "sense_id": "wp:set.n.set#medical",
+      "sense_gloss": "set in medical context",
+      "cue_strength": 0.96,
+      "cue_tier": "high_cue"
+    },
+    {
+      "text": "Obama celebrated his 50th birthday with a game of basketball on the court organized by his friends and his aide Reggie Love.",
+      "lemma": "court",
+      "span": {
+        "start": 68,
+        "end": 73,
+        "surface": "court"
+      },
+      "sense_id": "wp:court.n.court#sports_area",
+      "sense_gloss": "an area marked for playing tennis, basketball, or similar games",
+      "cue_strength": 0.5714285714285714,
+      "cue_tier": "medium_cue"
+    },
+    {
+      "text": "The set back box may offer channel lists, pay per view, video on demand, and casting from a smart phone or tablet.",
+      "lemma": "set",
+      "span": {
+        "start": 4,
+        "end": 7,
+        "surface": "set"
+      },
+      "sense_id": "wp:set.n.set#television",
+      "sense_gloss": "a television receiver",
+      "cue_strength": 0.3333333333333333,
+      "cue_tier": "low_cue"
+    },
+    {
+      "text": "An element x {\\displaystyle x} of the group G {\\displaystyle G} is a non-generator if every set S {\\displaystyle S} containing x {\\displaystyle x} that generates G {\\displaystyle G} , still generates G {\\displaystyle G} when x {\\displaystyle x} is removed from S {\\displaystyle S} .",
+      "lemma": "set",
+      "span": {
+        "start": 92,
+        "end": 95,
+        "surface": "set"
+      },
+      "sense_id": "wp:set.n.set#collection",
+      "sense_gloss": "a group of things of the same kind that belong or are used together",
+      "cue_strength": 0.2857142857142857,
+      "cue_tier": "low_cue"
+    },
+    {
+      "text": "Individuals who seek to become lawyers / avocats must earn a bachelor's degree in civil law, pass the provincial bar examination, and successfully complete legal articles stage to be admitted to practise.",
+      "lemma": "bar",
+      "span": {
+        "start": 113,
+        "end": 116,
+        "surface": "bar"
+      },
+      "sense_id": "wp:bar.n.bar#legal_profession",
+      "sense_gloss": "the legal profession or body of lawyers",
+      "cue_strength": 0.5714285714285714,
+      "cue_tier": "medium_cue"
+    },
+    {
+      "text": "In some towns, such as Fryeburg, Maine, Poland Spring actually buys the water (110 million gallons of water from Fryeburg a year) from another company, the Fryeburg Water Co., and ships it to the Poland Spring bottling plant in Poland Spring.",
+      "lemma": "spring",
+      "span": {
+        "start": 47,
+        "end": 53,
+        "surface": "Spring"
+      },
+      "sense_id": "wp:spring.n.spring#water_source",
+      "sense_gloss": "a natural source of water flowing from the ground",
+      "cue_strength": 0.6666666666666666,
+      "cue_tier": "medium_cue"
+    },
+    {
+      "text": "The Hobbiton Movie Set is a significant location used for The Lord of the Rings film trilogy and The Hobbit film trilogy, serving as a stand-in for the town of Hobbiton in the Shire in both trilogies.",
+      "lemma": "set",
+      "span": {
+        "start": 19,
+        "end": 22,
+        "surface": "Set"
+      },
+      "sense_id": "wp:set.n.set#stage_scenery",
+      "sense_gloss": "the scenery and props used in a theatrical or film production",
+      "cue_strength": 0.75,
+      "cue_tier": "high_cue"
+    },
+    {
+      "text": "Springs are made from a variety of elastic materials, the most common being spring steel.",
+      "lemma": "spring",
+      "span": {
+        "start": 0,
+        "end": 6,
+        "surface": "Spring"
+      },
+      "sense_id": "wp:spring.n.spring#elastic_device",
+      "sense_gloss": "a resilient metal coil that returns to its original shape after compression",
+      "cue_strength": 0.2222222222222222,
+      "cue_tier": "low_cue"
+    },
+    {
+      "text": "Any American lawyer who has passed a bar examination and has been admitted to practise law in a particular US jurisdiction may prosecute or defend.",
+      "lemma": "bar",
+      "span": {
+        "start": 37,
+        "end": 40,
+        "surface": "bar"
+      },
+      "sense_id": "wp:bar.n.bar#legal_profession",
+      "sense_gloss": "the legal profession or body of lawyers",
+      "cue_strength": 0.5714285714285714,
+      "cue_tier": "medium_cue"
+    },
+    {
+      "text": "In a case like this, all the elements in a generating set are nevertheless \"non-generating elements\", as are in fact all the elements of the whole group \u2212 see Frattini subgroup below.",
+      "lemma": "set",
+      "span": {
+        "start": 54,
+        "end": 57,
+        "surface": "set"
+      },
+      "sense_id": "wp:set.n.set#collection",
+      "sense_gloss": "a group of things of the same kind that belong or are used together",
+      "cue_strength": 0.2857142857142857,
+      "cue_tier": "low_cue"
+    },
+    {
+      "text": "De Bakker also had a lengthy first-round match against Santiago Giraldo, winning by a score of 16\u201314 in the fifth set, but unlike Isner, he had a day off before his second-round match.",
+      "lemma": "set",
+      "span": {
+        "start": 114,
+        "end": 117,
+        "surface": "set"
+      },
+      "sense_id": "wp:set.n.set#tennis_unit",
+      "sense_gloss": "a unit of games in tennis",
+      "cue_strength": 0.8571428571428571,
+      "cue_tier": "high_cue"
+    },
+    {
+      "text": "Kinematic determinacy \u2013 Kinematics \u2013 L [ edit ] Laser \u2013 Leaf spring \u2013 Lever \u2013 a simple machine consisting of a beam or rigid rod pivoted at a fixed hinge , or fulcrum .",
+      "lemma": "spring",
+      "span": {
+        "start": 61,
+        "end": 67,
+        "surface": "spring"
+      },
+      "sense_id": "wp:spring.n.spring#technology",
+      "sense_gloss": "spring in technology context",
+      "cue_strength": 1.0,
+      "cue_tier": "high_cue"
+    },
+    {
+      "text": "A satellite receiver then decodes the desired television program for viewing on a television set.",
+      "lemma": "set",
+      "span": {
+        "start": 93,
+        "end": 96,
+        "surface": "set"
+      },
+      "sense_id": "wp:set.n.set#television",
+      "sense_gloss": "a television receiver",
+      "cue_strength": 0.6666666666666666,
+      "cue_tier": "medium_cue"
+    },
+    {
+      "text": "While the Deer Park Hotel and its spa were built to attract passengers to ride the railroad to this vacation spot, the spring water near the site also became a major attraction.",
+      "lemma": "spring",
+      "span": {
+        "start": 119,
+        "end": 125,
+        "surface": "spring"
+      },
+      "sense_id": "wp:spring.n.spring#water_source",
+      "sense_gloss": "a natural source of water flowing from the ground",
+      "cue_strength": 0.2222222222222222,
+      "cue_tier": "low_cue"
+    },
+    {
+      "text": "The suit also states that hydro-geologists hired by Nestl\u00e9 found that another current source for Poland Spring water near the original site stands over a former trash and refuse dump and below an illegal disposal site where human sewage was sprayed as fertilizer for many years.",
+      "lemma": "spring",
+      "span": {
+        "start": 104,
+        "end": 110,
+        "surface": "Spring"
+      },
+      "sense_id": "wp:spring.n.spring#water_source",
+      "sense_gloss": "a natural source of water flowing from the ground",
+      "cue_strength": 0.4444444444444444,
+      "cue_tier": "medium_cue"
+    },
+    {
+      "text": "In Chinese art and culture, the flowers that represent the four seasons consist of: (\u6625\u862d) Ch\u016bnl\u00e1n \u2013 Spring \u2013 orchid (\u590f\u8377) Xiah\u00e9 \u2013 Summer \u2013 lotus (\u79cb\u83ca) Qi\u016bj\u00fa \u2013 Autumn \u2013 chrysanthemum and (\u51ac\u6885) D\u014dngm\u00e9i \u2013 Winter \u2013 plum blossom They contain three of the elements of the Four Gentlemen.",
+      "lemma": "spring",
+      "span": {
+        "start": 99,
+        "end": 105,
+        "surface": "Spring"
+      },
+      "sense_id": "wp:spring.n.spring#season",
+      "sense_gloss": "the season between winter and summer when plants begin to grow",
+      "cue_strength": 0.3333333333333333,
+      "cue_tier": "low_cue"
+    },
+    {
+      "text": "The dihedral group of an n-gon (which has order 2n) is generated by the set {r, s}, where r represents rotation by 2\u03c0/n and s is any reflection across a line of symmetry.",
+      "lemma": "set",
+      "span": {
+        "start": 72,
+        "end": 75,
+        "surface": "set"
+      },
+      "sense_id": "wp:set.n.set#collection",
+      "sense_gloss": "a group of things of the same kind that belong or are used together",
+      "cue_strength": 0.2857142857142857,
+      "cue_tier": "low_cue"
+    },
+    {
+      "text": "The spring season in India is culturally in the months of March and April, with an average temperature of approx 32 \u00b0C.",
+      "lemma": "spring",
+      "span": {
+        "start": 4,
+        "end": 10,
+        "surface": "spring"
+      },
+      "sense_id": "wp:spring.n.spring#season",
+      "sense_gloss": "the season between winter and summer when plants begin to grow",
+      "cue_strength": 0.5,
+      "cue_tier": "medium_cue"
+    },
+    {
+      "text": "5 by Beethoven In Spring, a symphony by John Knowles Paine Spring Quartet, String Quartet No.",
+      "lemma": "spring",
+      "span": {
+        "start": 18,
+        "end": 24,
+        "surface": "Spring"
+      },
+      "sense_id": "wp:spring.n.spring#season",
+      "sense_gloss": "a season of the year\nSpring (device), a mechanical device that stores energy\nSpring (hydrology), a natural source of water\nSpring (mathematics), a geometric surface in the shape of a helically coiled ",
+      "cue_strength": 0.96,
+      "cue_tier": "high_cue"
+    },
+    {
+      "text": "George Thrupp illustrated a coil spring used in a carriage presented to the French Academy in 1703.",
+      "lemma": "spring",
+      "span": {
+        "start": 33,
+        "end": 39,
+        "surface": "spring"
+      },
+      "sense_id": "wp:spring.n.spring#elastic_device",
+      "sense_gloss": "a resilient metal coil that returns to its original shape after compression",
+      "cue_strength": 0.2222222222222222,
+      "cue_tier": "low_cue"
+    },
+    {
+      "text": "Sources of heat Water issuing from a hot spring is heated geothermally, that is, with heat produced from the Earth's mantle.",
+      "lemma": "spring",
+      "span": {
+        "start": 41,
+        "end": 47,
+        "surface": "spring"
+      },
+      "sense_id": "wp:spring.n.spring#water_source",
+      "sense_gloss": "a natural source of water flowing from the ground",
+      "cue_strength": 0.4444444444444444,
+      "cue_tier": "medium_cue"
+    },
+    {
+      "text": "In June 2003, Poland Spring was sued for false advertising in a class action lawsuit charging that their water is not spring water but is in fact heavily treated common ground water.",
+      "lemma": "spring",
+      "span": {
+        "start": 21,
+        "end": 27,
+        "surface": "Spring"
+      },
+      "sense_id": "wp:spring.n.spring#water_source",
+      "sense_gloss": "a natural source of water flowing from the ground",
+      "cue_strength": 0.6666666666666666,
+      "cue_tier": "medium_cue"
+    },
+    {
+      "text": "Standard Payment \u2013 The equal installments of monthly payments required to pay off a loan over the set term at the current interest rate.",
+      "lemma": "set",
+      "span": {
+        "start": 98,
+        "end": 101,
+        "surface": "set"
+      },
+      "sense_id": "wp:set.n.set#financial",
+      "sense_gloss": "set in financial context",
+      "cue_strength": 1.0,
+      "cue_tier": "high_cue"
+    },
+    {
+      "text": "SPRING was a freeware geographic information system (GIS) and remote sensing image processing system.",
+      "lemma": "spring",
+      "span": {
+        "start": 0,
+        "end": 6,
+        "surface": "SPRING"
+      },
+      "sense_id": "wp:spring.n.spring#context",
+      "sense_gloss": "spring (context)",
+      "cue_strength": 1.0,
+      "cue_tier": "high_cue"
+    },
+    {
+      "text": "SPRING was developed since 1992 by the National Institute for Space Research (INPE) in Brazil.",
+      "lemma": "spring",
+      "span": {
+        "start": 0,
+        "end": 6,
+        "surface": "SPRING"
+      },
+      "sense_id": "wp:spring.n.spring#context",
+      "sense_gloss": "spring (context)",
+      "cue_strength": 1.0,
+      "cue_tier": "high_cue"
+    },
+    {
+      "text": "For a midnight change in spring, a digital display of local time would appear to jump from 23:59:59.9 to 01:00:00.0.",
+      "lemma": "spring",
+      "span": {
+        "start": 25,
+        "end": 31,
+        "surface": "spring"
+      },
+      "sense_id": "wp:spring.n.spring#jump_action",
+      "sense_gloss": "to move suddenly upward or forward",
+      "cue_strength": 0.25,
+      "cue_tier": "low_cue"
+    },
+    {
+      "text": "When a loan is set into default status, the creditor may demand the remainder of the loan\u2019s balance be paid in full.",
+      "lemma": "set",
+      "span": {
+        "start": 15,
+        "end": 18,
+        "surface": "set"
+      },
+      "sense_id": "wp:set.n.set#financial",
+      "sense_gloss": "set in financial context",
+      "cue_strength": 1.0,
+      "cue_tier": "high_cue"
+    },
+    {
+      "text": "A spring (made by winding a wire around a cylinder) is of two types: Tension or extension springs are designed to become longer under load.",
+      "lemma": "spring",
+      "span": {
+        "start": 2,
+        "end": 8,
+        "surface": "spring"
+      },
+      "sense_id": "wp:spring.n.spring#elastic_device",
+      "sense_gloss": "a resilient metal coil that returns to its original shape after compression",
+      "cue_strength": 0.2222222222222222,
+      "cue_tier": "low_cue"
+    },
+    {
+      "text": "In general terms, it is a set of clearly defined methods of communication among various components.",
+      "lemma": "set",
+      "span": {
+        "start": 26,
+        "end": 29,
+        "surface": "set"
+      },
+      "sense_id": "wp:set.n.set#technology",
+      "sense_gloss": "set in technology context",
+      "cue_strength": 1.0,
+      "cue_tier": "high_cue"
+    },
+    {
+      "text": "{\\displaystyle S.} More formally, it is a group homomorphism from G {\\displaystyle G} to the automorphism group of S {\\displaystyle S} (the set of all bijections on S {\\displaystyle S} along with group operation being function composition).",
+      "lemma": "set",
+      "span": {
+        "start": 140,
+        "end": 143,
+        "surface": "set"
+      },
+      "sense_id": "wp:set.n.set#collection",
+      "sense_gloss": "a group of things of the same kind that belong or are used together",
+      "cue_strength": 0.8571428571428571,
+      "cue_tier": "high_cue"
+    },
+    {
+      "text": "The famous Poland Spring in Poland Spring, Maine, which defendant's labels claim is a source of Poland Spring Water, ran dry nearly 50 years ago.\" A Poland Spring spokeswoman responded that \"Poland Spring is 100 percent spring water.",
+      "lemma": "spring",
+      "span": {
+        "start": 18,
+        "end": 24,
+        "surface": "Spring"
+      },
+      "sense_id": "wp:spring.n.spring#water_source",
+      "sense_gloss": "a natural source of water flowing from the ground",
+      "cue_strength": 0.6666666666666666,
+      "cue_tier": "medium_cue"
+    },
+    {
+      "text": "A coil spring suspension can be stiff to soft depending on the vehicle it is used on.",
+      "lemma": "spring",
+      "span": {
+        "start": 7,
+        "end": 13,
+        "surface": "spring"
+      },
+      "sense_id": "wp:spring.n.spring#elastic_device",
+      "sense_gloss": "a resilient metal coil that returns to its original shape after compression",
+      "cue_strength": 0.4444444444444444,
+      "cue_tier": "medium_cue"
+    },
+    {
+      "text": "It was used for outside broadcasting by the BBC, for the first time, on Armistice Day 1937, when the general public could watch on a television set as the King laid a wreath at the Cenotaph.",
+      "lemma": "set",
+      "span": {
+        "start": 144,
+        "end": 147,
+        "surface": "set"
+      },
+      "sense_id": "wp:set.n.set#television",
+      "sense_gloss": "a television receiver",
+      "cue_strength": 0.6666666666666666,
+      "cue_tier": "medium_cue"
+    },
+    {
+      "text": "Spring: Antoine Fr\u00e9d\u00e9ric Spring (1814\u20131872)",
+      "lemma": "spring",
+      "span": {
+        "start": 0,
+        "end": 6,
+        "surface": "Spring"
+      },
+      "sense_id": "wp:spring.n.5fb7e31c",
+      "sense_gloss": "Antoine Fr\u00e9d\u00e9ric Spring (1814\u20131872)",
+      "cue_strength": 0.85,
+      "cue_tier": "high_cue"
+    },
+    {
+      "text": "Modern computers have the ability to follow generalized sets of operations, called programs .",
+      "lemma": "set",
+      "span": {
+        "start": 56,
+        "end": 59,
+        "surface": "set"
+      },
+      "sense_id": "wp:set.n.set#technology",
+      "sense_gloss": "set in technology context",
+      "cue_strength": 1.0,
+      "cue_tier": "high_cue"
+    }
+  ],
+  "checksum": "ec062354fdd2337780395d5c31c9b0854488c0490748d72199e4def7ec6d5faf"
+}

@@ -1,0 +1,64 @@
+======================================================================
+AUTOPILOT DASHBOARD - Run: 20260104_092533
+Timestamp: 2026-01-04T09:25:33.729427
+======================================================================
+
+[SECTION A: GATES]
+----------------------------------------
+  Canary:  PASS (score: 0.950)
+  Slack:   PASS (value: 0.0500)
+
+[SECTION B: RETRIEVAL]
+----------------------------------------
+  Top-1 Hit Rate:     42.2%
+  Top-3 Hit Rate:     68.6%
+  Top-5 Hit Rate:     79.0%
+  Best-Rank Median:   2.0
+  Best-Rank P90:      12.0
+  Margin Mean:        -0.0572
+  Margin P10:         -0.1498
+
+  By Cue Tier:
+    high_cue: Top-1=41.6%, Top-3=68.4% (n=488)
+    medium_cue: Top-1=42.9%, Top-3=57.1% (n=7)
+    low_cue: Top-1=100.0%, Top-3=100.0% (n=5)
+
+[SECTION C: COHERENCE]
+----------------------------------------
+  Per-Step Accuracy:      100.0%
+  Transition Precision:   100.0%
+  Transition Recall:      100.0%
+  Transition F1:          100.0%
+  Final State Accuracy:   100.0%
+
+  By Sense Shifts:
+    1_shift: Step=100.0%, Final=100.0% (n=164)
+    2_shift: Step=100.0%, Final=100.0% (n=36)
+    2+_shifts: Step=100.0%, Final=100.0% (n=36)
+
+[SECTION D: TOP KILLERS]
+----------------------------------------
+   1. [retrieval] unity | tier=high_cue | rank=5 | reason=within_lemma_collision
+   2. [retrieval] snake | tier=high_cue | rank=2 | reason=within_lemma_collision
+   3. [retrieval] think | tier=high_cue | rank=3 | reason=within_lemma_collision
+   4. [retrieval] flag | tier=high_cue | rank=13 | reason=within_lemma_collision
+   5. [retrieval] sweat | tier=high_cue | rank=3 | reason=within_lemma_collision
+   6. [retrieval] wash | tier=high_cue | rank=2 | reason=within_lemma_collision
+   7. [retrieval] nut | tier=high_cue | rank=2 | reason=within_lemma_collision
+   8. [retrieval] odd | tier=high_cue | rank=19 | reason=within_lemma_collision
+   9. [retrieval] sweat | tier=high_cue | rank=3 | reason=within_lemma_collision
+  10. [retrieval] logic | tier=high_cue | rank=3 | reason=within_lemma_collision
+  11. [retrieval] wash | tier=high_cue | rank=4 | reason=within_lemma_collision
+  12. [retrieval] bump | tier=high_cue | rank=3 | reason=within_lemma_collision
+  13. [retrieval] fly | tier=high_cue | rank=10 | reason=within_lemma_collision
+  14. [retrieval] real | tier=high_cue | rank=2 | reason=within_lemma_collision
+  15. [retrieval] flag | tier=high_cue | rank=6 | reason=within_lemma_collision
+  16. [retrieval] youth | tier=high_cue | rank=9 | reason=within_lemma_collision
+  17. [retrieval] rhythm | tier=high_cue | rank=2 | reason=within_lemma_collision
+  18. [retrieval] ford | tier=high_cue | rank=2 | reason=within_lemma_collision
+  19. [retrieval] organ | tier=high_cue | rank=5 | reason=within_lemma_collision
+  20. [retrieval] attack | tier=high_cue | rank=3 | reason=within_lemma_collision
+
+======================================================================
+COMPOSITE SCORE: 76.9/100
+======================================================================

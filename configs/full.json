@@ -1,0 +1,27 @@
+{
+    "vocab_size": 32000,
+    "hidden_dim": 2048,
+    "num_layers": 24,
+    "num_heads": 16,
+    "intermediate_dim": 8192,
+    "max_seq_length": 4096,
+    "dropout": 0.1,
+
+    "use_semantic_phase": true,
+    "num_phase_components": 16,
+
+    "use_retrocausal": true,
+    "retrocausal_layers": [6, 12, 18],
+    "retrocausal_window": 256,
+
+    "use_lindblad": true,
+    "lindblad_gamma": 0.05,
+
+    "use_qualia": true,
+    "num_qualia_channels": 8,
+
+    "use_emergent": true,
+    "num_attractors": 32,
+
+    "_comment": "Full model for gpu-ramp (48GB). ~2B parameters."
+}

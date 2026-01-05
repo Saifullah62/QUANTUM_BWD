@@ -1,0 +1,816 @@
+{
+  "eval_header": {
+    "_header": true,
+    "source_bundles": "paradigm_factory\\v2\\bundles_v23\\contrastive_bundles.jsonl",
+    "source_sha256": "1c343a2d2e440837c304059e966cad391e96c81d34e6bfbd2c4d2874300d84b0",
+    "eval_seed": 42,
+    "eval_count": 3786,
+    "tier_counts": {
+      "tier2_robust": 1666,
+      "tier3_adversarial": 454,
+      "tier1_easy": 1666
+    },
+    "content_hash": "90a139b1537c80f2"
+  },
+  "eval_path": "/root/QUANTUM_BWD/evals/eval_v23_contrastive_5k.jsonl",
+  "device": "cuda",
+  "capsules": [
+    {
+      "condition": "vet15",
+      "seed": 123,
+      "capsule_dir": "/root/QUANTUM_BWD/results/vet_sweep/vet15/seed_123",
+      "overall": {
+        "n": 3786,
+        "correct": 1063,
+        "accuracy": 0.2807712625462229,
+        "mean_margin": -0.0016085171882147772,
+        "mean_rank": 2.7485472794506074,
+        "median_margin": -0.0011077523231506348,
+        "pass_rate": 0.2807712625462229,
+        "q10_margin": -0.005438089370727539,
+        "q90_margin": 0.0015564560890197754
+      },
+      "by_tier": {
+        "tier2_robust": {
+          "n": 1666,
+          "correct": 455,
+          "accuracy": 0.27310924369747897,
+          "mean_margin": -0.001656329288345282,
+          "mean_rank": 2.8373349339735894,
+          "median_margin": -0.0011809468269348145,
+          "pass_rate": 0.27310924369747897,
+          "q10_margin": -0.0055612921714782715,
+          "q90_margin": 0.0015718936920166016
+        },
+        "tier3_adversarial": {
+          "n": 454,
+          "correct": 147,
+          "accuracy": 0.3237885462555066,
+          "mean_margin": -0.0011648670954851326,
+          "mean_rank": 2.502202643171806,
+          "median_margin": -0.0009093284606933594,
+          "pass_rate": 0.3237885462555066,
+          "q10_margin": -0.004960823059082031,
+          "q90_margin": 0.001760709285736083
+        },
+        "tier1_easy": {
+          "n": 1666,
+          "correct": 461,
+          "accuracy": 0.2767106842737095,
+          "mean_margin": -0.0016816037328017145,
+          "mean_rank": 2.726890756302521,
+          "median_margin": -0.0010947883129119873,
+          "pass_rate": 0.2767106842737095,
+          "q10_margin": -0.0053986310958862305,
+          "q90_margin": 0.0014647841453552246
+        }
+      }
+    },
+    {
+      "condition": "vet15",
+      "seed": 42,
+      "capsule_dir": "/root/QUANTUM_BWD/results/vet_sweep/vet15/seed_42",
+      "overall": {
+        "n": 3786,
+        "correct": 1058,
+        "accuracy": 0.27945060750132067,
+        "mean_margin": -0.0018184687558520237,
+        "mean_rank": 2.8100898045430536,
+        "median_margin": -0.0012914538383483887,
+        "pass_rate": 0.27945060750132067,
+        "q10_margin": -0.005980491638183594,
+        "q90_margin": 0.0015669763088226318
+      },
+      "by_tier": {
+        "tier2_robust": {
+          "n": 1666,
+          "correct": 452,
+          "accuracy": 0.27130852340936373,
+          "mean_margin": -0.001934563448162926,
+          "mean_rank": 2.906962785114046,
+          "median_margin": -0.0013819634914398193,
+          "pass_rate": 0.27130852340936373,
+          "q10_margin": -0.006188482046127319,
+          "q90_margin": 0.0015894174575805664
+        },
+        "tier3_adversarial": {
+          "n": 454,
+          "correct": 147,
+          "accuracy": 0.3237885462555066,
+          "mean_margin": -0.0012280917377723995,
+          "mean_rank": 2.541850220264317,
+          "median_margin": -0.0010018348693847656,
+          "pass_rate": 0.3237885462555066,
+          "q10_margin": -0.005332958698272704,
+          "q90_margin": 0.002171057462692259
+        },
+        "tier1_easy": {
+          "n": 1666,
+          "correct": 459,
+          "accuracy": 0.2755102040816326,
+          "mean_margin": -0.0018632571164871894,
+          "mean_rank": 2.786314525810324,
+          "median_margin": -0.0012597441673278809,
+          "pass_rate": 0.2755102040816326,
+          "q10_margin": -0.005943089723587036,
+          "q90_margin": 0.001455932855606079
+        }
+      }
+    },
+    {
+      "condition": "vet15",
+      "seed": 456,
+      "capsule_dir": "/root/QUANTUM_BWD/results/vet_sweep/vet15/seed_456",
+      "overall": {
+        "n": 3786,
+        "correct": 1053,
+        "accuracy": 0.27812995245641836,
+        "mean_margin": -0.004138714663892968,
+        "mean_rank": 2.76148969889065,
+        "median_margin": -0.003097742795944214,
+        "pass_rate": 0.27812995245641836,
+        "q10_margin": -0.01424899697303772,
+        "q90_margin": 0.004267841577529907
+      },
+      "by_tier": {
+        "tier2_robust": {
+          "n": 1666,
+          "correct": 454,
+          "accuracy": 0.2725090036014406,
+          "mean_margin": -0.004214066023729286,
+          "mean_rank": 2.831932773109244,
+          "median_margin": -0.0033056139945983887,
+          "pass_rate": 0.2725090036014406,
+          "q10_margin": -0.014315932989120483,
+          "q90_margin": 0.004594713449478149
+        },
+        "tier3_adversarial": {
+          "n": 454,
+          "correct": 149,
+          "accuracy": 0.32819383259911894,
+          "mean_margin": -0.002822463995559625,
+          "mean_rank": 2.497797356828194,
+          "median_margin": -0.0020463168621063232,
+          "pass_rate": 0.32819383259911894,
+          "q10_margin": -0.01378200650215149,
+          "q90_margin": 0.004920023679733274
+        },
+        "tier1_easy": {
+          "n": 1666,
+          "correct": 450,
+          "accuracy": 0.27010804321728693,
+          "mean_margin": -0.004422053462173901,
+          "mean_rank": 2.762905162064826,
+          "median_margin": -0.0031069815158843994,
+          "pass_rate": 0.27010804321728693,
+          "q10_margin": -0.014412790536880493,
+          "q90_margin": 0.0036751925945281982
+        }
+      }
+    },
+    {
+      "condition": "vet25",
+      "seed": 123,
+      "capsule_dir": "/root/QUANTUM_BWD/results/vet_sweep/vet25/seed_123",
+      "overall": {
+        "n": 3786,
+        "correct": 1054,
+        "accuracy": 0.27839408346539884,
+        "mean_margin": -0.0011907150773100292,
+        "mean_rank": 2.7596407818277866,
+        "median_margin": -0.0008370876312255859,
+        "pass_rate": 0.27839408346539884,
+        "q10_margin": -0.00400090217590332,
+        "q90_margin": 0.0010641813278198242
+      },
+      "by_tier": {
+        "tier2_robust": {
+          "n": 1666,
+          "correct": 443,
+          "accuracy": 0.265906362545018,
+          "mean_margin": -0.0012300489257936146,
+          "mean_rank": 2.8451380552220886,
+          "median_margin": -0.0008851885795593262,
+          "pass_rate": 0.265906362545018,
+          "q10_margin": -0.004142671823501587,
+          "q90_margin": 0.0010715126991271973
+        },
+        "tier3_adversarial": {
+          "n": 454,
+          "correct": 156,
+          "accuracy": 0.3436123348017621,
+          "mean_margin": -0.0008452278664458691,
+          "mean_rank": 2.5220264317180616,
+          "median_margin": -0.0006391406059265137,
+          "pass_rate": 0.3436123348017621,
+          "q10_margin": -0.003778862953186035,
+          "q90_margin": 0.0012780308723449707
+        },
+        "tier1_easy": {
+          "n": 1666,
+          "correct": 455,
+          "accuracy": 0.27310924369747897,
+          "mean_margin": -0.0012455296044160766,
+          "mean_rank": 2.7388955582232892,
+          "median_margin": -0.0008369088172912598,
+          "pass_rate": 0.27310924369747897,
+          "q10_margin": -0.003878951072692871,
+          "q90_margin": 0.000951230525970459
+        }
+      }
+    },
+    {
+      "condition": "vet25",
+      "seed": 42,
+      "capsule_dir": "/root/QUANTUM_BWD/results/vet_sweep/vet25/seed_42",
+      "overall": {
+        "n": 3786,
+        "correct": 1049,
+        "accuracy": 0.2770734284204966,
+        "mean_margin": -0.001927800094772758,
+        "mean_rank": 2.7921288959323824,
+        "median_margin": -0.0013267099857330322,
+        "pass_rate": 0.2770734284204966,
+        "q10_margin": -0.0062309205532073975,
+        "q90_margin": 0.0016337037086486816
+      },
+      "by_tier": {
+        "tier2_robust": {
+          "n": 1666,
+          "correct": 460,
+          "accuracy": 0.27611044417767105,
+          "mean_margin": -0.001975112137388067,
+          "mean_rank": 2.877551020408163,
+          "median_margin": -0.0014536082744598389,
+          "pass_rate": 0.27611044417767105,
+          "q10_margin": -0.0064328014850616455,
+          "q90_margin": 0.001666039228439331
+        },
+        "tier3_adversarial": {
+          "n": 454,
+          "correct": 144,
+          "accuracy": 0.31718061674008813,
+          "mean_margin": -0.0013643369275567814,
+          "mean_rank": 2.5682819383259914,
+          "median_margin": -0.0011316239833831787,
+          "pass_rate": 0.31718061674008813,
+          "q10_margin": -0.005618435144424438,
+          "q90_margin": 0.0022747993469238266
+        },
+        "tier1_easy": {
+          "n": 1666,
+          "correct": 445,
+          "accuracy": 0.26710684273709484,
+          "mean_margin": -0.002034036838421587,
+          "mean_rank": 2.7677070828331334,
+          "median_margin": -0.0012862682342529297,
+          "pass_rate": 0.26710684273709484,
+          "q10_margin": -0.006218522787094116,
+          "q90_margin": 0.0015352070331573486
+        }
+      }
+    },
+    {
+      "condition": "vet25",
+      "seed": 456,
+      "capsule_dir": "/root/QUANTUM_BWD/results/vet_sweep/vet25/seed_456",
+      "overall": {
+        "n": 3786,
+        "correct": 1041,
+        "accuracy": 0.27496038034865294,
+        "mean_margin": -0.0059221907859747834,
+        "mean_rank": 2.775488642366614,
+        "median_margin": -0.004216313362121582,
+        "pass_rate": 0.27496038034865294,
+        "q10_margin": -0.020163685083389282,
+        "q90_margin": 0.005606919527053833
+      },
+      "by_tier": {
+        "tier2_robust": {
+          "n": 1666,
+          "correct": 447,
+          "accuracy": 0.26830732292917164,
+          "mean_margin": -0.006148889714500913,
+          "mean_rank": 2.8667466986794716,
+          "median_margin": -0.004512190818786621,
+          "pass_rate": 0.26830732292917164,
+          "q10_margin": -0.02106437087059021,
+          "q90_margin": 0.005851536989212036
+        },
+        "tier3_adversarial": {
+          "n": 454,
+          "correct": 143,
+          "accuracy": 0.31497797356828194,
+          "mean_margin": -0.0041321564613459915,
+          "mean_rank": 2.513215859030837,
+          "median_margin": -0.003283202648162842,
+          "pass_rate": 0.31497797356828194,
+          "q10_margin": -0.01884423494338989,
+          "q90_margin": 0.0069449901580810516
+        },
+        "tier1_easy": {
+          "n": 1666,
+          "correct": 451,
+          "accuracy": 0.2707082833133253,
+          "mean_margin": -0.006183292327665625,
+          "mean_rank": 2.755702280912365,
+          "median_margin": -0.004170626401901245,
+          "pass_rate": 0.2707082833133253,
+          "q10_margin": -0.019040405750274658,
+          "q90_margin": 0.004949659109115601
+        }
+      }
+    },
+    {
+      "condition": "vet35",
+      "seed": 123,
+      "capsule_dir": "/root/QUANTUM_BWD/results/vet_sweep/vet35/seed_123",
+      "overall": {
+        "n": 3786,
+        "correct": 1084,
+        "accuracy": 0.28631801373481247,
+        "mean_margin": -0.001323129550779678,
+        "mean_rank": 2.7480190174326466,
+        "median_margin": -0.0009045600891113281,
+        "pass_rate": 0.28631801373481247,
+        "q10_margin": -0.004460811614990234,
+        "q90_margin": 0.001208186149597168
+      },
+      "by_tier": {
+        "tier2_robust": {
+          "n": 1666,
+          "correct": 465,
+          "accuracy": 0.27911164465786314,
+          "mean_margin": -0.0013695294115723682,
+          "mean_rank": 2.824129651860744,
+          "median_margin": -0.0009530782699584961,
+          "pass_rate": 0.27911164465786314,
+          "q10_margin": -0.004636615514755249,
+          "q90_margin": 0.0011952221393585205
+        },
+        "tier3_adversarial": {
+          "n": 454,
+          "correct": 149,
+          "accuracy": 0.32819383259911894,
+          "mean_margin": -0.0009608640282164587,
+          "mean_rank": 2.495594713656388,
+          "median_margin": -0.0007116198539733887,
+          "pass_rate": 0.32819383259911894,
+          "q10_margin": -0.00433623194694519,
+          "q90_margin": 0.0014458537101745593
+        },
+        "tier1_easy": {
+          "n": 1666,
+          "correct": 470,
+          "accuracy": 0.28211284513805523,
+          "mean_margin": -0.0013754503065798462,
+          "mean_rank": 2.7406962785114044,
+          "median_margin": -0.0009165406227111816,
+          "pass_rate": 0.28211284513805523,
+          "q10_margin": -0.004251599311828613,
+          "q90_margin": 0.0011311173439025879
+        }
+      }
+    },
+    {
+      "condition": "vet35",
+      "seed": 42,
+      "capsule_dir": "/root/QUANTUM_BWD/results/vet_sweep/vet35/seed_42",
+      "overall": {
+        "n": 3786,
+        "correct": 1039,
+        "accuracy": 0.27443211833069203,
+        "mean_margin": -0.0019440584187777157,
+        "mean_rank": 2.791864764923402,
+        "median_margin": -0.0013453364372253418,
+        "pass_rate": 0.27443211833069203,
+        "q10_margin": -0.0063667893409729,
+        "q90_margin": 0.0016586780548095703
+      },
+      "by_tier": {
+        "tier2_robust": {
+          "n": 1666,
+          "correct": 452,
+          "accuracy": 0.27130852340936373,
+          "mean_margin": -0.0019885850410644606,
+          "mean_rank": 2.8667466986794716,
+          "median_margin": -0.0014359354972839355,
+          "pass_rate": 0.27130852340936373,
+          "q10_margin": -0.006707817316055298,
+          "q90_margin": 0.0017302930355072021
+        },
+        "tier3_adversarial": {
+          "n": 454,
+          "correct": 144,
+          "accuracy": 0.31718061674008813,
+          "mean_margin": -0.001451775891140169,
+          "mean_rank": 2.5726872246696035,
+          "median_margin": -0.0010022521018981934,
+          "pass_rate": 0.31718061674008813,
+          "q10_margin": -0.006244206428527832,
+          "q90_margin": 0.0022263288497924804
+        },
+        "tier1_easy": {
+          "n": 1666,
+          "correct": 443,
+          "accuracy": 0.265906362545018,
+          "mean_margin": -0.0020336832175878775,
+          "mean_rank": 2.7767106842737093,
+          "median_margin": -0.001347571611404419,
+          "pass_rate": 0.265906362545018,
+          "q10_margin": -0.006067484617233276,
+          "q90_margin": 0.001472383737564087
+        }
+      }
+    },
+    {
+      "condition": "vet35",
+      "seed": 456,
+      "capsule_dir": "/root/QUANTUM_BWD/results/vet_sweep/vet35/seed_456",
+      "overall": {
+        "n": 3786,
+        "correct": 1055,
+        "accuracy": 0.2786582144743793,
+        "mean_margin": -0.002413734030106429,
+        "mean_rank": 2.7659799260433173,
+        "median_margin": -0.0016932487487792969,
+        "pass_rate": 0.2786582144743793,
+        "q10_margin": -0.008117139339447021,
+        "q90_margin": 0.0022702813148498535
+      },
+      "by_tier": {
+        "tier2_robust": {
+          "n": 1666,
+          "correct": 465,
+          "accuracy": 0.27911164465786314,
+          "mean_margin": -0.0024863607456990363,
+          "mean_rank": 2.833733493397359,
+          "median_margin": -0.0017663836479187012,
+          "pass_rate": 0.27911164465786314,
+          "q10_margin": -0.008289039134979248,
+          "q90_margin": 0.002445608377456665
+        },
+        "tier3_adversarial": {
+          "n": 454,
+          "correct": 143,
+          "accuracy": 0.31497797356828194,
+          "mean_margin": -0.0017181434032675453,
+          "mean_rank": 2.5176211453744495,
+          "median_margin": -0.0012341141700744629,
+          "pass_rate": 0.31497797356828194,
+          "q10_margin": -0.008106160163879394,
+          "q90_margin": 0.002965003252029418
+        },
+        "tier1_easy": {
+          "n": 1666,
+          "correct": 447,
+          "accuracy": 0.26830732292917164,
+          "mean_margin": -0.0025306620231481873,
+          "mean_rank": 2.765906362545018,
+          "median_margin": -0.0017703771591186523,
+          "pass_rate": 0.26830732292917164,
+          "q10_margin": -0.007842093706130981,
+          "q90_margin": 0.0019444823265075684
+        }
+      }
+    },
+    {
+      "condition": "vet45",
+      "seed": 123,
+      "capsule_dir": "/root/QUANTUM_BWD/results/vet_sweep/vet45/seed_123",
+      "overall": {
+        "n": 3786,
+        "correct": 1065,
+        "accuracy": 0.28129952456418383,
+        "mean_margin": -0.0015394337518594282,
+        "mean_rank": 2.7448494453248813,
+        "median_margin": -0.001096099615097046,
+        "pass_rate": 0.28129952456418383,
+        "q10_margin": -0.005185931921005249,
+        "q90_margin": 0.0014637410640716553
+      },
+      "by_tier": {
+        "tier2_robust": {
+          "n": 1666,
+          "correct": 451,
+          "accuracy": 0.2707082833133253,
+          "mean_margin": -0.0015990647519765352,
+          "mean_rank": 2.8445378151260505,
+          "median_margin": -0.0011701583862304688,
+          "pass_rate": 0.2707082833133253,
+          "q10_margin": -0.005322396755218506,
+          "q90_margin": 0.0015116333961486816
+        },
+        "tier3_adversarial": {
+          "n": 454,
+          "correct": 143,
+          "accuracy": 0.31497797356828194,
+          "mean_margin": -0.0010872007991773968,
+          "mean_rank": 2.484581497797357,
+          "median_margin": -0.0008171200752258301,
+          "pass_rate": 0.31497797356828194,
+          "q10_margin": -0.0045772969722747804,
+          "q90_margin": 0.0016725897789001464
+        },
+        "tier1_easy": {
+          "n": 1666,
+          "correct": 471,
+          "accuracy": 0.28271308523409366,
+          "mean_margin": -0.0016030403030734388,
+          "mean_rank": 2.7160864345738296,
+          "median_margin": -0.001067817211151123,
+          "pass_rate": 0.28271308523409366,
+          "q10_margin": -0.005199223756790161,
+          "q90_margin": 0.0013615787029266357
+        }
+      }
+    },
+    {
+      "condition": "vet45",
+      "seed": 42,
+      "capsule_dir": "/root/QUANTUM_BWD/results/vet_sweep/vet45/seed_42",
+      "overall": {
+        "n": 3786,
+        "correct": 1035,
+        "accuracy": 0.2733755942947702,
+        "mean_margin": -0.0013096201092366875,
+        "mean_rank": 2.8127311146328577,
+        "median_margin": -0.0008725523948669434,
+        "pass_rate": 0.2733755942947702,
+        "q10_margin": -0.004296749830245972,
+        "q90_margin": 0.001155257225036621
+      },
+      "by_tier": {
+        "tier2_robust": {
+          "n": 1666,
+          "correct": 452,
+          "accuracy": 0.27130852340936373,
+          "mean_margin": -0.0013199639635211994,
+          "mean_rank": 2.8895558223289317,
+          "median_margin": -0.0009287893772125244,
+          "pass_rate": 0.27130852340936373,
+          "q10_margin": -0.004377186298370361,
+          "q90_margin": 0.001302093267440796
+        },
+        "tier3_adversarial": {
+          "n": 454,
+          "correct": 137,
+          "accuracy": 0.30176211453744495,
+          "mean_margin": -0.001002055695403515,
+          "mean_rank": 2.640969162995595,
+          "median_margin": -0.0007850527763366699,
+          "pass_rate": 0.30176211453744495,
+          "q10_margin": -0.004123568534851074,
+          "q90_margin": 0.0011746823787689206
+        },
+        "tier1_easy": {
+          "n": 1666,
+          "correct": 446,
+          "accuracy": 0.26770708283313327,
+          "mean_margin": -0.0013830903269091144,
+          "mean_rank": 2.7827130852340938,
+          "median_margin": -0.0008116066455841064,
+          "pass_rate": 0.26770708283313327,
+          "q10_margin": -0.00403982400894165,
+          "q90_margin": 0.0010138154029846191
+        }
+      }
+    },
+    {
+      "condition": "vet45",
+      "seed": 456,
+      "capsule_dir": "/root/QUANTUM_BWD/results/vet_sweep/vet45/seed_456",
+      "overall": {
+        "n": 3786,
+        "correct": 1089,
+        "accuracy": 0.2876386687797147,
+        "mean_margin": -0.005079198847104177,
+        "mean_rank": 2.7496038034865293,
+        "median_margin": -0.0037121474742889404,
+        "pass_rate": 0.2876386687797147,
+        "q10_margin": -0.017840564250946045,
+        "q90_margin": 0.005122929811477661
+      },
+      "by_tier": {
+        "tier2_robust": {
+          "n": 1666,
+          "correct": 469,
+          "accuracy": 0.2815126050420168,
+          "mean_margin": -0.005119036333042891,
+          "mean_rank": 2.81812725090036,
+          "median_margin": -0.003957569599151611,
+          "pass_rate": 0.2815126050420168,
+          "q10_margin": -0.018146783113479614,
+          "q90_margin": 0.005162537097930908
+        },
+        "tier3_adversarial": {
+          "n": 454,
+          "correct": 144,
+          "accuracy": 0.31718061674008813,
+          "mean_margin": -0.003935440652696047,
+          "mean_rank": 2.537444933920705,
+          "median_margin": -0.003180772066116333,
+          "pass_rate": 0.31718061674008813,
+          "q10_margin": -0.017375522851943968,
+          "q90_margin": 0.006682461500167846
+        },
+        "tier1_easy": {
+          "n": 1666,
+          "correct": 476,
+          "accuracy": 0.2857142857142857,
+          "mean_margin": -0.005351045767084605,
+          "mean_rank": 2.7388955582232892,
+          "median_margin": -0.003591179847717285,
+          "pass_rate": 0.2857142857142857,
+          "q10_margin": -0.01782393455505371,
+          "q90_margin": 0.004697471857070923
+        }
+      }
+    },
+    {
+      "condition": "vet60",
+      "seed": 123,
+      "capsule_dir": "/root/QUANTUM_BWD/results/vet_sweep/vet60/seed_123",
+      "overall": {
+        "n": 3786,
+        "correct": 1059,
+        "accuracy": 0.2797147385103011,
+        "mean_margin": -0.0012914390395195221,
+        "mean_rank": 2.765715795034337,
+        "median_margin": -0.0009072721004486084,
+        "pass_rate": 0.2797147385103011,
+        "q10_margin": -0.0042514801025390625,
+        "q90_margin": 0.001186668872833252
+      },
+      "by_tier": {
+        "tier2_robust": {
+          "n": 1666,
+          "correct": 438,
+          "accuracy": 0.26290516206482595,
+          "mean_margin": -0.0013468114196323977,
+          "mean_rank": 2.8523409363745498,
+          "median_margin": -0.0009848177433013916,
+          "pass_rate": 0.26290516206482595,
+          "q10_margin": -0.004296809434890747,
+          "q90_margin": 0.001209855079650879
+        },
+        "tier3_adversarial": {
+          "n": 454,
+          "correct": 150,
+          "accuracy": 0.3303964757709251,
+          "mean_margin": -0.0009336961260976246,
+          "mean_rank": 2.495594713656388,
+          "median_margin": -0.0007061362266540527,
+          "pass_rate": 0.3303964757709251,
+          "q10_margin": -0.0039318323135375975,
+          "q90_margin": 0.0014226496219635
+        },
+        "tier1_easy": {
+          "n": 1666,
+          "correct": 471,
+          "accuracy": 0.28271308523409366,
+          "mean_margin": -0.0013335548242887243,
+          "mean_rank": 2.752701080432173,
+          "median_margin": -0.00088462233543396,
+          "pass_rate": 0.28271308523409366,
+          "q10_margin": -0.00425150990486145,
+          "q90_margin": 0.001088470220565796
+        }
+      }
+    },
+    {
+      "condition": "vet60",
+      "seed": 42,
+      "capsule_dir": "/root/QUANTUM_BWD/results/vet_sweep/vet60/seed_42",
+      "overall": {
+        "n": 3786,
+        "correct": 1048,
+        "accuracy": 0.2768092974115161,
+        "mean_margin": -0.0020632683380658956,
+        "mean_rank": 2.7876386687797146,
+        "median_margin": -0.0014284253120422363,
+        "pass_rate": 0.2768092974115161,
+        "q10_margin": -0.006798297166824341,
+        "q90_margin": 0.001798093318939209
+      },
+      "by_tier": {
+        "tier2_robust": {
+          "n": 1666,
+          "correct": 446,
+          "accuracy": 0.26770708283313327,
+          "mean_margin": -0.002147157653039243,
+          "mean_rank": 2.8943577430972387,
+          "median_margin": -0.0016044676303863525,
+          "pass_rate": 0.26770708283313327,
+          "q10_margin": -0.007146060466766357,
+          "q90_margin": 0.0018732845783233643
+        },
+        "tier3_adversarial": {
+          "n": 454,
+          "correct": 137,
+          "accuracy": 0.30176211453744495,
+          "mean_margin": -0.0015387418249105042,
+          "mean_rank": 2.5594713656387666,
+          "median_margin": -0.0012020766735076904,
+          "pass_rate": 0.30176211453744495,
+          "q10_margin": -0.006451451778411865,
+          "q90_margin": 0.002108305692672729
+        },
+        "tier1_easy": {
+          "n": 1666,
+          "correct": 465,
+          "accuracy": 0.27911164465786314,
+          "mean_margin": -0.0021223172205550615,
+          "mean_rank": 2.743097238895558,
+          "median_margin": -0.0013289153575897217,
+          "pass_rate": 0.27911164465786314,
+          "q10_margin": -0.006597697734832764,
+          "q90_margin": 0.001657634973526001
+        }
+      }
+    },
+    {
+      "condition": "vet60",
+      "seed": 456,
+      "capsule_dir": "/root/QUANTUM_BWD/results/vet_sweep/vet60/seed_456",
+      "overall": {
+        "n": 3786,
+        "correct": 1050,
+        "accuracy": 0.277337559429477,
+        "mean_margin": -0.004008100105855935,
+        "mean_rank": 2.7554146856840993,
+        "median_margin": -0.0028006434440612793,
+        "pass_rate": 0.277337559429477,
+        "q10_margin": -0.013617336750030518,
+        "q90_margin": 0.0038238465785980225
+      },
+      "by_tier": {
+        "tier2_robust": {
+          "n": 1666,
+          "correct": 455,
+          "accuracy": 0.27310924369747897,
+          "mean_margin": -0.004131847283705657,
+          "mean_rank": 2.8307322929171668,
+          "median_margin": -0.003096550703048706,
+          "pass_rate": 0.27310924369747897,
+          "q10_margin": -0.014271169900894165,
+          "q90_margin": 0.003984600305557251
+        },
+        "tier3_adversarial": {
+          "n": 454,
+          "correct": 144,
+          "accuracy": 0.31718061674008813,
+          "mean_margin": -0.00294293049673677,
+          "mean_rank": 2.5616740088105727,
+          "median_margin": -0.002425163984298706,
+          "pass_rate": 0.31718061674008813,
+          "q10_margin": -0.012332099676132201,
+          "q90_margin": 0.004123127460479736
+        },
+        "tier1_easy": {
+          "n": 1666,
+          "correct": 451,
+          "accuracy": 0.2707082833133253,
+          "mean_margin": -0.004174621236853812,
+          "mean_rank": 2.732893157262905,
+          "median_margin": -0.0026546716690063477,
+          "pass_rate": 0.2707082833133253,
+          "q10_margin": -0.013344794511795044,
+          "q90_margin": 0.0035431087017059326
+        }
+      }
+    }
+  ],
+  "summary": {
+    "vet15": {
+      "mean_accuracy": 0.27945060750132067,
+      "std_accuracy": 0.0010783103287476644,
+      "mean_margin": -0.0025219002026532563,
+      "n_seeds": 3
+    },
+    "vet25": {
+      "mean_accuracy": 0.2768092974115161,
+      "std_accuracy": 0.0014141907381765273,
+      "mean_margin": -0.0030135686526858566,
+      "n_seeds": 3
+    },
+    "vet35": {
+      "mean_accuracy": 0.2798027821799613,
+      "std_accuracy": 0.004919427731889063,
+      "mean_margin": -0.0018936406665546076,
+      "n_seeds": 3
+    },
+    "vet45": {
+      "mean_accuracy": 0.2807712625462229,
+      "std_accuracy": 0.00583484470004609,
+      "mean_margin": -0.0026427509027334307,
+      "n_seeds": 3
+    },
+    "vet60": {
+      "mean_accuracy": 0.2779538651170981,
+      "std_accuracy": 0.0012636643858432181,
+      "mean_margin": -0.0024542691611471176,
+      "n_seeds": 3
+    }
+  }
+}

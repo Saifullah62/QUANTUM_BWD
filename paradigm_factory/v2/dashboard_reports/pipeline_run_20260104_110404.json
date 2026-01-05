@@ -1,0 +1,17 @@
+{
+  "timestamp": "2026-01-04T11:04:04.379783",
+  "success": true,
+  "stages_completed": [
+    "validate_env",
+    "verify_hash"
+  ],
+  "stages_failed": [],
+  "gold_hash_verified": true,
+  "integrity_fingerprint": null,
+  "eval_fingerprint": null,
+  "training_fingerprint": null,
+  "dashboard_path": null,
+  "duration_seconds": 0.081188,
+  "errors": [],
+  "ship_blocker_result": null
+}

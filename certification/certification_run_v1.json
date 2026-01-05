@@ -1,0 +1,92 @@
+{
+  "certification_version": "1.0",
+  "created_at": "2026-01-02",
+  "description": "SemanticPhase Certification Run - Baseline benchmark for polysemy disambiguation",
+
+  "dataset_spec": {
+    "source": "paradigm_factory batched generation",
+    "word_count": 275,
+    "bundles_per_word": 60,
+    "total_bundles_target": 16500,
+    "split_method": "by_word",
+    "split_ratios": {
+      "train": 0.70,
+      "val": 0.15,
+      "eval": 0.15
+    },
+    "split_seed": 42,
+    "qa_pipeline": {
+      "leakage_check": true,
+      "hard_negative_audit": true,
+      "min_items_per_bundle": 3,
+      "max_leakage_items": 1
+    }
+  },
+
+  "training_spec": {
+    "model": "QLLM with SemanticPhase layer",
+    "seeds": [42, 123, 456],
+    "epochs": 5,
+    "batch_size": 8,
+    "learning_rate": 1e-4,
+    "margin": 0.05,
+    "ce_weight": 0.3,
+    "ce_ramp": {
+      "warmup_steps": 300,
+      "ramp_steps": 700
+    },
+    "loss": {
+      "contrastive": "non_negative_hinge",
+      "pos_floor": 0.90,
+      "neg_ceiling_formula": "1.0 - margin"
+    },
+    "pooling": "first_token"
+  },
+
+  "success_criteria": {
+    "primary": {
+      "name": "slack_positive_rate",
+      "description": "Slack > 0 for 30%+ of late steps (last 50%)",
+      "threshold": 0.30,
+      "aggregation": "at_least_2_of_3_seeds"
+    },
+    "secondary": [
+      {
+        "name": "best_msr",
+        "description": "Best Margin Satisfaction Rate achieved",
+        "threshold": 0.80
+      },
+      {
+        "name": "difficulty_ordering",
+        "description": "Easy MSR > Medium MSR > Hard MSR in late steps",
+        "threshold": "ordering_preserved"
+      }
+    ]
+  },
+
+  "eval_spec": {
+    "eval_pack": "paradigm_factory/output/eval_pack_v1.json",
+    "probe_counts": {
+      "wsd": 19,
+      "ambiguity": 9,
+      "generalization": 10,
+      "minimal_pairs": 10
+    },
+    "failure_mode_tracking": true
+  },
+
+  "baseline_results": {
+    "status": "pending",
+    "note": "Run certification after dress rehearsal completes"
+  },
+
+  "change_policy": {
+    "description": "Any changes to bundle generator, sampler, loss, or schedule must beat this benchmark to merge",
+    "comparison_metrics": [
+      "slack_positive_rate",
+      "best_msr",
+      "eval_pack_accuracy"
+    ],
+    "statistical_test": "paired t-test across 3 seeds, p < 0.05"
+  }
+}

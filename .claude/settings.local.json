@@ -1,0 +1,30 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(curl:*)",
+      "Bash(dir /s /b \"C:\\\\Users\\\\ripva\\\\.cache\\\\lm-studio\")",
+      "Bash(findstr:*)",
+      "Bash(ssh:*)",
+      "Bash(ssh gpu-swarm \"ollama list\")",
+      "Bash(dir /b proof_ablation_runs)",
+      "Bash(python scripts/run_proof_ablation_v2.py:*)",
+      "Bash(dir:*)",
+      "Bash(mkdir:*)",
+      "Bash(cat:*)",
+      "Bash(python -m py_compile:*)",
+      "Bash(python paradigm_factory/bundle_factory.py:*)",
+      "Bash(python paradigm_factory/local_bundle_generator.py:*)",
+      "Bash(python:*)",
+      "WebFetch(domain:prepedu.com)",
+      "Bash(scp:*)",
+      "Bash(pip install:*)",
+      "Bash(pip show:*)",
+      "Bash(git init:*)",
+      "Bash(git add:*)",
+      "Bash(git tag:*)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nAdd killer enhancement pipeline with rewrite rules\n\nComponents:\n- killer_rewrite_rules_v1.yaml: Declarative rules for augmentation\n- enhance_killers.py: Deterministic rule application\n\nActions supported:\n- quarantine: Block bad items \\(never silently regenerate\\)\n- regenerate_query: Mark for query regeneration from sense page\n- add_minimal_pairs: Generate query variants with cue injection\n- flag_for_review: Mark for manual inspection\n\nFeatures:\n- Priority-based rule ordering\n- Full audit trail \\(original + rule + timestamp\\)\n- Separate outputs \\(enhanced, quarantined, flagged\\)\n\n🤖 Generated with [Claude Code]\\(https://claude.com/claude-code\\)\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nAdd tier4 killer exporter for curriculum injection\n\nExtracts hardest failures \\(4-5% very negative cases\\) as first-class\ndataset slice for controlled training injection.\n\nTier4 criteria:\n- Margin < -0.15 \\(very wrong\\)\n- Severity > 1.8 \\(high impact\\)  \n- Rank > 10 \\(completely lost\\)\n\nCurriculum config:\n- Fixed quota per batch \\(not random sampling\\)\n- Higher loss weight \\(2x\\)\n- Shuffle per epoch\n- Not drowned by easy majority\n\n🤖 Generated with [Claude Code]\\(https://claude.com/claude-code\\)\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(cd:*)"
+    ]
+  }
+}
